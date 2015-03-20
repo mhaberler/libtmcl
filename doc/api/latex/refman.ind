@@ -1,0 +1,766 @@
+\begin{theindex}
+
+  \item {address}
+    \subitem {TMCLDeviceStruct}, \hyperpage{35}
+  \item {Axis Parameters}, \hyperpage{28}
+
+  \indexspace
+
+  \item {bank}
+    \subitem {TMCLDeviceStruct}, \hyperpage{35}
+  \item {bus}
+    \subitem {TMCLDeviceStruct}, \hyperpage{35}
+
+  \indexspace
+
+  \item {checksum}
+    \subitem {TMCLReplyStruct}, \hyperpage{40}
+  \item {command}
+    \subitem {TMCLCommandStruct}, \hyperpage{33}
+    \subitem {TMCLReplyStruct}, \hyperpage{40}
+  \item {convenience.h}
+    \subitem {tmcl\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}, 
+		\hyperpage{44}
+    \subitem {tmcl\_\discretionary {-}{}{}deactivate\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}, 
+		\hyperpage{44}
+    \subitem {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}current\_\discretionary {-}{}{}speed}, 
+		\hyperpage{45}
+    \subitem {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}status}, 
+		\hyperpage{45}
+    \subitem {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}, 
+		\hyperpage{45}
+    \subitem {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}max\_\discretionary {-}{}{}current}, 
+		\hyperpage{45}
+    \subitem {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}max\_\discretionary {-}{}{}standby\_\discretionary {-}{}{}current}, 
+		\hyperpage{46}
+    \subitem {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}microsteps}, 
+		\hyperpage{46}
+    \subitem {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}speed}, 
+		\hyperpage{46}
+    \subitem {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}position}, 
+		\hyperpage{46}
+    \subitem {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}speed}, 
+		\hyperpage{46}
+    \subitem {tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}coord}, 
+		\hyperpage{47}
+    \subitem {tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}abs}, 
+		\hyperpage{47}
+    \subitem {tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}rel}, 
+		\hyperpage{47}
+    \subitem {tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}start}, 
+		\hyperpage{47}
+    \subitem {tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}status}, 
+		\hyperpage{47}
+    \subitem {tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}stop}, 
+		\hyperpage{47}
+    \subitem {tmcl\_\discretionary {-}{}{}rol}, \hyperpage{47}
+    \subitem {tmcl\_\discretionary {-}{}{}ror}, \hyperpage{48}
+    \subitem {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}max\_\discretionary {-}{}{}current}, 
+		\hyperpage{48}
+    \subitem {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}max\_\discretionary {-}{}{}standby\_\discretionary {-}{}{}current}, 
+		\hyperpage{48}
+    \subitem {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}microsteps}, 
+		\hyperpage{48}
+    \subitem {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}no\_\discretionary {-}{}{}ref\_\discretionary {-}{}{}switch}, 
+		\hyperpage{48}
+    \subitem {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}speed}, 
+		\hyperpage{49}
+    \subitem {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}speed}, 
+		\hyperpage{49}
+    \subitem {tmcl\_\discretionary {-}{}{}stop}, \hyperpage{49}
+  \item {CTLFuncs}
+    \subitem {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}ASCII}, 
+		\hyperpage{25}
+    \subitem {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}DLM\_\discretionary {-}{}{}QUIT}, 
+		\hyperpage{25}
+    \subitem {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}DLM\_\discretionary {-}{}{}START}, 
+		\hyperpage{25}
+    \subitem {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}FACTORY}, 
+		\hyperpage{25}
+    \subitem {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}FW\_\discretionary {-}{}{}VER}, 
+		\hyperpage{26}
+    \subitem {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}READMEM}, 
+		\hyperpage{26}
+    \subitem {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}RST}, 
+		\hyperpage{26}
+    \subitem {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}RUN}, 
+		\hyperpage{26}
+    \subitem {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STATUS}, 
+		\hyperpage{26}
+    \subitem {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STEP}, 
+		\hyperpage{26}
+    \subitem {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STOP}, 
+		\hyperpage{26}
+
+  \indexspace
+
+  \item {handle}
+    \subitem {TMCLInterfaceStruct}, \hyperpage{37}
+
+  \indexspace
+
+  \item {interface.h}
+    \subitem {tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}interface}, 
+		\hyperpage{51}
+    \subitem {tmcl\_\discretionary {-}{}{}deinit\_\discretionary {-}{}{}interface}, 
+		\hyperpage{51}
+    \subitem {tmcl\_\discretionary {-}{}{}init\_\discretionary {-}{}{}interface}, 
+		\hyperpage{51}
+    \subitem {tmcl\_\discretionary {-}{}{}interface\_\discretionary {-}{}{}set\_\discretionary {-}{}{}timeout}, 
+		\hyperpage{52}
+    \subitem {tmcl\_\discretionary {-}{}{}interface\_\discretionary {-}{}{}set\_\discretionary {-}{}{}timewait}, 
+		\hyperpage{52}
+    \subitem {tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}funcPtr}, 
+		\hyperpage{51}
+    \subitem {tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}interface}, 
+		\hyperpage{52}
+    \subitem {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}close\_\discretionary {-}{}{}data}, 
+		\hyperpage{52}
+    \subitem {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}open\_\discretionary {-}{}{}data}, 
+		\hyperpage{52}
+    \subitem {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}read\_\discretionary {-}{}{}data}, 
+		\hyperpage{52}
+    \subitem {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}write\_\discretionary {-}{}{}data}, 
+		\hyperpage{52}
+    \subitem {TMCLInterface}, \hyperpage{51}
+
+  \indexspace
+
+  \item {Misc defines}, \hyperpage{13}
+  \item {model}
+    \subitem {TMCLDeviceStruct}, \hyperpage{35}
+  \item {module\_\discretionary {-}{}{}address}
+    \subitem {TMCLReplyStruct}, \hyperpage{40}
+  \item {Motion commands.}, \hyperpage{22}
+  \item {MotionComm}
+    \subitem {TMCL\_\discretionary {-}{}{}MST}, \hyperpage{22}
+    \subitem {TMCL\_\discretionary {-}{}{}MVP}, \hyperpage{22}
+    \subitem {TMCL\_\discretionary {-}{}{}RFS}, \hyperpage{22}
+    \subitem {TMCL\_\discretionary {-}{}{}ROL}, \hyperpage{22}
+    \subitem {TMCL\_\discretionary {-}{}{}ROR}, \hyperpage{22}
+  \item {motor.h}
+    \subitem {tmcl\_\discretionary {-}{}{}deinit\_\discretionary {-}{}{}motor}, 
+		\hyperpage{55}
+    \subitem {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}, 
+		\hyperpage{55}
+    \subitem {tmcl\_\discretionary {-}{}{}init\_\discretionary {-}{}{}motor}, 
+		\hyperpage{55}
+    \subitem {tmcl\_\discretionary {-}{}{}send\_\discretionary {-}{}{}command}, 
+		\hyperpage{56}
+    \subitem {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}, 
+		\hyperpage{56}
+    \subitem {tmcl\_\discretionary {-}{}{}store\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}, 
+		\hyperpage{56}
+    \subitem {tmcl\_\discretionary {-}{}{}update\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}, 
+		\hyperpage{57}
+    \subitem {TMCLMotor}, \hyperpage{55}
+
+  \indexspace
+
+  \item {num\_\discretionary {-}{}{}refswitches}
+    \subitem {TMCLDeviceStruct}, \hyperpage{35}
+
+  \indexspace
+
+  \item {parameter}
+    \subitem {TMCLDeviceStruct}, \hyperpage{36}
+  \item {Parameter commands.}, \hyperpage{23}
+  \item {ParComm}
+    \subitem {TMCL\_\discretionary {-}{}{}GAP}, \hyperpage{23}
+    \subitem {TMCL\_\discretionary {-}{}{}GGP}, \hyperpage{23}
+    \subitem {TMCL\_\discretionary {-}{}{}RSAP}, \hyperpage{23}
+    \subitem {TMCL\_\discretionary {-}{}{}RSGP}, \hyperpage{23}
+    \subitem {TMCL\_\discretionary {-}{}{}SAP}, \hyperpage{23}
+    \subitem {TMCL\_\discretionary {-}{}{}SGP}, \hyperpage{24}
+    \subitem {TMCL\_\discretionary {-}{}{}STAP}, \hyperpage{24}
+    \subitem {TMCL\_\discretionary {-}{}{}STGP}, \hyperpage{24}
+
+  \indexspace
+
+  \item {Read-\/Only Parameters}, \hyperpage{32}
+  \item {Read-\/Write Parameters}, \hyperpage{29}
+  \item {reply\_\discretionary {-}{}{}address}
+    \subitem {TMCLReplyStruct}, \hyperpage{40}
+  \item {ROParam}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}SPEED}, 
+		\hyperpage{32}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}L}, 
+		\hyperpage{32}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}R}, 
+		\hyperpage{32}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}POS\_\discretionary {-}{}{}REACHED}, 
+		\hyperpage{32}
+  \item {rsXXX.h}
+    \subitem {tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}rsXXX}, 
+		\hyperpage{58}
+    \subitem {tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}rsXXX}, 
+		\hyperpage{59}
+    \subitem {tmcl\_\discretionary {-}{}{}poll\_\discretionary {-}{}{}rsXXX}, 
+		\hyperpage{59}
+    \subitem {tmcl\_\discretionary {-}{}{}write\_\discretionary {-}{}{}rsXXX}, 
+		\hyperpage{59}
+  \item {RWParam}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}ABS\_\discretionary {-}{}{}CURRENT}, 
+		\hyperpage{29}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}POS}, 
+		\hyperpage{29}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}DISABLE\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}L}, 
+		\hyperpage{29}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}DISABLE\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}R}, 
+		\hyperpage{29}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}ACCEL}, 
+		\hyperpage{30}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}HIGH\_\discretionary {-}{}{}ACCEL}, 
+		\hyperpage{30}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}LOW\_\discretionary {-}{}{}ACCEL}, 
+		\hyperpage{30}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}REST}, 
+		\hyperpage{30}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}POS\_\discretionary {-}{}{}SPEED}, 
+		\hyperpage{30}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MICROSTEPS}, 
+		\hyperpage{30}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}MODE}, 
+		\hyperpage{30}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}SPEED}, 
+		\hyperpage{30}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}SW\_\discretionary {-}{}{}SPEED}, 
+		\hyperpage{31}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}SR\_\discretionary {-}{}{}PRESC}, 
+		\hyperpage{31}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}STBY\_\discretionary {-}{}{}CURRENT}, 
+		\hyperpage{31}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}TARGET\_\discretionary {-}{}{}POS}, 
+		\hyperpage{31}
+    \subitem {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}TARGET\_\discretionary {-}{}{}SPEED}, 
+		\hyperpage{31}
+
+  \indexspace
+
+  \item {src/tmcl/convenience.h}, \hyperpage{43}
+  \item {src/tmcl/interface.h}, \hyperpage{50}
+  \item {src/tmcl/motor.h}, \hyperpage{54}
+  \item {src/tmcl/rsXXX.h}, \hyperpage{58}
+  \item {src/tmcl/tmcl.h}, \hyperpage{60}
+  \item {src/tmcl/tmcldefs.c}, \hyperpage{61}
+  \item {src/tmcl/tmcldefs.h}, \hyperpage{64}
+  \item {status}
+    \subitem {TMCLReplyStruct}, \hyperpage{40}
+  \item {Status Codes.}, \hyperpage{15}
+  \item {StatusCodes}
+    \subitem {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}COMMAND\_\discretionary {-}{}{}NA}, 
+		\hyperpage{15}
+    \subitem {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}EEPROM\_\discretionary {-}{}{}LOCKED}, 
+		\hyperpage{15}
+    \subitem {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}INVALID\_\discretionary {-}{}{}COMMAND}, 
+		\hyperpage{15}
+    \subitem {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}INVALID\_\discretionary {-}{}{}VALUE}, 
+		\hyperpage{15}
+    \subitem {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}LOADED\_\discretionary {-}{}{}EEPROM}, 
+		\hyperpage{15}
+    \subitem {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}SUCCESS}, 
+		\hyperpage{15}
+    \subitem {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}WRONG\_\discretionary {-}{}{}CHECKSUM}, 
+		\hyperpage{16}
+    \subitem {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}WRONG\_\discretionary {-}{}{}TYPE}, 
+		\hyperpage{16}
+
+  \indexspace
+
+  \item {timeout\_\discretionary {-}{}{}msec}
+    \subitem {TMCLInterfaceStruct}, \hyperpage{37}
+  \item {timeout\_\discretionary {-}{}{}sec}
+    \subitem {TMCLInterfaceStruct}, \hyperpage{37}
+  \item {timewait\_\discretionary {-}{}{}msec}
+    \subitem {TMCLInterfaceStruct}, \hyperpage{37}
+  \item {timewait\_\discretionary {-}{}{}sec}
+    \subitem {TMCLInterfaceStruct}, \hyperpage{38}
+  \item {TMCL commands.}, \hyperpage{17}
+  \item {TMCL Control Functions}, \hyperpage{25}
+  \item {TMCL operation type codes.}, \hyperpage{27}
+  \item {TMCL\_\-CAN}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCL\_\-IIC}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCL\_\-NONE}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCL\_\-RSXXX}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCL\_\discretionary {-}{}{}AAP}
+    \subitem {TMCLComm}, \hyperpage{18}
+  \item {tmcl\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}
+    \subitem {convenience.h}, \hyperpage{44}
+  \item {TMCL\_\discretionary {-}{}{}AGP}
+    \subitem {TMCLComm}, \hyperpage{18}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}ABS\_\discretionary {-}{}{}CURRENT}
+    \subitem {RWParam}, \hyperpage{29}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}POS}
+    \subitem {RWParam}, \hyperpage{29}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}SPEED}
+    \subitem {ROParam}, \hyperpage{32}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}DISABLE\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}L}
+    \subitem {RWParam}, \hyperpage{29}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}DISABLE\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}R}
+    \subitem {RWParam}, \hyperpage{29}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}L}
+    \subitem {ROParam}, \hyperpage{32}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}R}
+    \subitem {ROParam}, \hyperpage{32}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}ACCEL}
+    \subitem {RWParam}, \hyperpage{30}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}HIGH\_\discretionary {-}{}{}ACCEL}
+    \subitem {RWParam}, \hyperpage{30}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}LOW\_\discretionary {-}{}{}ACCEL}
+    \subitem {RWParam}, \hyperpage{30}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}REST}
+    \subitem {RWParam}, \hyperpage{30}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}POS\_\discretionary {-}{}{}SPEED}
+    \subitem {RWParam}, \hyperpage{30}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MICROSTEPS}
+    \subitem {RWParam}, \hyperpage{30}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}POS\_\discretionary {-}{}{}REACHED}
+    \subitem {ROParam}, \hyperpage{32}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}MODE}
+    \subitem {RWParam}, \hyperpage{30}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}SPEED}
+    \subitem {RWParam}, \hyperpage{30}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}SW\_\discretionary {-}{}{}SPEED}
+    \subitem {RWParam}, \hyperpage{31}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}SR\_\discretionary {-}{}{}PRESC}
+    \subitem {RWParam}, \hyperpage{31}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}STBY\_\discretionary {-}{}{}CURRENT}
+    \subitem {RWParam}, \hyperpage{31}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}TARGET\_\discretionary {-}{}{}POS}
+    \subitem {RWParam}, \hyperpage{31}
+  \item {TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}TARGET\_\discretionary {-}{}{}SPEED}
+    \subitem {RWParam}, \hyperpage{31}
+  \item {tmcl\_\discretionary {-}{}{}busses}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCL\_\discretionary {-}{}{}CALC}
+    \subitem {TMCLComm}, \hyperpage{18}
+  \item {TMCL\_\discretionary {-}{}{}CALCX}
+    \subitem {TMCLComm}, \hyperpage{18}
+  \item {TMCL\_\discretionary {-}{}{}CCO}
+    \subitem {TMCLComm}, \hyperpage{18}
+  \item {tmcl\_\discretionary {-}{}{}checksum}
+    \subitem {tmcldefs.c}, \hyperpage{61}
+    \subitem {tmcldefs.h}, \hyperpage{69}
+  \item {TMCL\_\discretionary {-}{}{}CLE}
+    \subitem {TMCLComm}, \hyperpage{18}
+  \item {tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}interface}
+    \subitem {interface.h}, \hyperpage{51}
+  \item {tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}rsXXX}
+    \subitem {rsXXX.h}, \hyperpage{58}
+  \item {tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}void}
+    \subitem {TMCLInterfaceStruct}, \hyperpage{38}
+  \item {TMCL\_\discretionary {-}{}{}COMP}
+    \subitem {TMCLComm}, \hyperpage{18}
+  \item {TMCL\_\discretionary {-}{}{}CSUB}
+    \subitem {TMCLComm}, \hyperpage{18}
+  \item {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}ASCII}
+    \subitem {CTLFuncs}, \hyperpage{25}
+  \item {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}DLM\_\discretionary {-}{}{}QUIT}
+    \subitem {CTLFuncs}, \hyperpage{25}
+  \item {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}DLM\_\discretionary {-}{}{}START}
+    \subitem {CTLFuncs}, \hyperpage{25}
+  \item {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}FACTORY}
+    \subitem {CTLFuncs}, \hyperpage{25}
+  \item {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}FW\_\discretionary {-}{}{}VER}
+    \subitem {CTLFuncs}, \hyperpage{26}
+  \item {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}READMEM}
+    \subitem {CTLFuncs}, \hyperpage{26}
+  \item {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}RST}
+    \subitem {CTLFuncs}, \hyperpage{26}
+  \item {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}RUN}
+    \subitem {CTLFuncs}, \hyperpage{26}
+  \item {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STATUS}
+    \subitem {CTLFuncs}, \hyperpage{26}
+  \item {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STEP}
+    \subitem {CTLFuncs}, \hyperpage{26}
+  \item {TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STOP}
+    \subitem {CTLFuncs}, \hyperpage{26}
+  \item {tmcl\_\discretionary {-}{}{}datagram}
+    \subitem {tmcldefs.c}, \hyperpage{62}
+    \subitem {tmcldefs.h}, \hyperpage{69}
+  \item {tmcl\_\discretionary {-}{}{}deactivate\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}
+    \subitem {convenience.h}, \hyperpage{44}
+  \item {tmcl\_\discretionary {-}{}{}deinit}
+    \subitem {tmcldefs.c}, \hyperpage{62}
+    \subitem {tmcldefs.h}, \hyperpage{69}
+  \item {tmcl\_\discretionary {-}{}{}deinit\_\discretionary {-}{}{}interface}
+    \subitem {interface.h}, \hyperpage{51}
+  \item {tmcl\_\discretionary {-}{}{}deinit\_\discretionary {-}{}{}motor}
+    \subitem {motor.h}, \hyperpage{55}
+  \item {tmcl\_\discretionary {-}{}{}dgram2reply}
+    \subitem {tmcldefs.c}, \hyperpage{62}
+    \subitem {tmcldefs.h}, \hyperpage{69}
+  \item {TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}CAN}
+    \subitem {TMCLMisc}, \hyperpage{13}
+  \item {TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}IIC}
+    \subitem {TMCLMisc}, \hyperpage{13}
+  \item {TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}RSXXX}
+    \subitem {TMCLMisc}, \hyperpage{13}
+  \item {TMCL\_\discretionary {-}{}{}GAP}
+    \subitem {ParComm}, \hyperpage{23}
+  \item {TMCL\_\discretionary {-}{}{}GCO}
+    \subitem {TMCLComm}, \hyperpage{19}
+  \item {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}
+    \subitem {motor.h}, \hyperpage{55}
+  \item {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}current\_\discretionary {-}{}{}speed}
+    \subitem {convenience.h}, \hyperpage{45}
+  \item {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}status}
+    \subitem {convenience.h}, \hyperpage{45}
+  \item {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}
+    \subitem {convenience.h}, \hyperpage{45}
+  \item {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}max\_\discretionary {-}{}{}current}
+    \subitem {convenience.h}, \hyperpage{45}
+  \item {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}max\_\discretionary {-}{}{}standby\_\discretionary {-}{}{}current}
+    \subitem {convenience.h}, \hyperpage{46}
+  \item {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}microsteps}
+    \subitem {convenience.h}, \hyperpage{46}
+  \item {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}speed}
+    \subitem {convenience.h}, \hyperpage{46}
+  \item {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}position}
+    \subitem {convenience.h}, \hyperpage{46}
+  \item {tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}speed}
+    \subitem {convenience.h}, \hyperpage{46}
+  \item {TMCL\_\discretionary {-}{}{}GGP}
+    \subitem {ParComm}, \hyperpage{23}
+  \item {TMCL\_\discretionary {-}{}{}GIO}
+    \subitem {TMCLComm}, \hyperpage{19}
+  \item {tmcl\_\discretionary {-}{}{}init}
+    \subitem {tmcldefs.c}, \hyperpage{62}
+    \subitem {tmcldefs.h}, \hyperpage{70}
+  \item {tmcl\_\discretionary {-}{}{}init\_\discretionary {-}{}{}interface}
+    \subitem {interface.h}, \hyperpage{51}
+  \item {tmcl\_\discretionary {-}{}{}init\_\discretionary {-}{}{}motor}
+    \subitem {motor.h}, \hyperpage{55}
+  \item {tmcl\_\discretionary {-}{}{}interface\_\discretionary {-}{}{}set\_\discretionary {-}{}{}timeout}
+    \subitem {interface.h}, \hyperpage{52}
+  \item {tmcl\_\discretionary {-}{}{}interface\_\discretionary {-}{}{}set\_\discretionary {-}{}{}timewait}
+    \subitem {interface.h}, \hyperpage{52}
+  \item {TMCL\_\discretionary {-}{}{}JA}
+    \subitem {TMCLComm}, \hyperpage{19}
+  \item {TMCL\_\discretionary {-}{}{}JC}
+    \subitem {TMCLComm}, \hyperpage{19}
+  \item {TMCL\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE}
+    \subitem {TMCLMisc}, \hyperpage{13}
+  \item {tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}coord}
+    \subitem {convenience.h}, \hyperpage{47}
+  \item {tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}abs}
+    \subitem {convenience.h}, \hyperpage{47}
+  \item {tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}rel}
+    \subitem {convenience.h}, \hyperpage{47}
+  \item {TMCL\_\discretionary {-}{}{}MST}
+    \subitem {MotionComm}, \hyperpage{22}
+  \item {TMCL\_\discretionary {-}{}{}MVP}
+    \subitem {MotionComm}, \hyperpage{22}
+  \item {TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}ABS}
+    \subitem {TMCLComm}, \hyperpage{19}
+  \item {TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}COORD}
+    \subitem {TMCLComm}, \hyperpage{19}
+  \item {TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}REL}
+    \subitem {TMCLComm}, \hyperpage{19}
+  \item {tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}funcPtr}
+    \subitem {interface.h}, \hyperpage{51}
+  \item {tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}interface}
+    \subitem {interface.h}, \hyperpage{52}
+  \item {tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}rsXXX}
+    \subitem {rsXXX.h}, \hyperpage{59}
+  \item {tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}void}
+    \subitem {TMCLInterfaceStruct}, \hyperpage{38}
+  \item {tmcl\_\discretionary {-}{}{}poll\_\discretionary {-}{}{}rsXXX}
+    \subitem {rsXXX.h}, \hyperpage{59}
+  \item {tmcl\_\discretionary {-}{}{}read\_\discretionary {-}{}{}void}
+    \subitem {TMCLInterfaceStruct}, \hyperpage{38}
+  \item {tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}start}
+    \subitem {convenience.h}, \hyperpage{47}
+  \item {tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}status}
+    \subitem {convenience.h}, \hyperpage{47}
+  \item {tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}stop}
+    \subitem {convenience.h}, \hyperpage{47}
+  \item {TMCL\_\discretionary {-}{}{}RFS}
+    \subitem {MotionComm}, \hyperpage{22}
+  \item {TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}START}
+    \subitem {TMCLComm}, \hyperpage{19}
+  \item {TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}STATUS}
+    \subitem {TMCLComm}, \hyperpage{19}
+  \item {TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}STOP}
+    \subitem {TMCLComm}, \hyperpage{20}
+  \item {TMCL\_\discretionary {-}{}{}ROL}
+    \subitem {MotionComm}, \hyperpage{22}
+  \item {tmcl\_\discretionary {-}{}{}rol}
+    \subitem {convenience.h}, \hyperpage{47}
+  \item {TMCL\_\discretionary {-}{}{}ROR}
+    \subitem {MotionComm}, \hyperpage{22}
+  \item {tmcl\_\discretionary {-}{}{}ror}
+    \subitem {convenience.h}, \hyperpage{48}
+  \item {TMCL\_\discretionary {-}{}{}RSAP}
+    \subitem {ParComm}, \hyperpage{23}
+  \item {TMCL\_\discretionary {-}{}{}RSGP}
+    \subitem {ParComm}, \hyperpage{23}
+  \item {TMCL\_\discretionary {-}{}{}RSUB}
+    \subitem {TMCLComm}, \hyperpage{20}
+  \item {TMCL\_\discretionary {-}{}{}SAC}
+    \subitem {TMCLComm}, \hyperpage{20}
+  \item {TMCL\_\discretionary {-}{}{}SAP}
+    \subitem {ParComm}, \hyperpage{23}
+  \item {TMCL\_\discretionary {-}{}{}SCO}
+    \subitem {TMCLComm}, \hyperpage{20}
+  \item {tmcl\_\discretionary {-}{}{}send\_\discretionary {-}{}{}command}
+    \subitem {motor.h}, \hyperpage{56}
+  \item {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}
+    \subitem {motor.h}, \hyperpage{56}
+  \item {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}close\_\discretionary {-}{}{}data}
+    \subitem {interface.h}, \hyperpage{52}
+  \item {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}max\_\discretionary {-}{}{}current}
+    \subitem {convenience.h}, \hyperpage{48}
+  \item {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}max\_\discretionary {-}{}{}standby\_\discretionary {-}{}{}current}
+    \subitem {convenience.h}, \hyperpage{48}
+  \item {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}microsteps}
+    \subitem {convenience.h}, \hyperpage{48}
+  \item {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}no\_\discretionary {-}{}{}ref\_\discretionary {-}{}{}switch}
+    \subitem {convenience.h}, \hyperpage{48}
+  \item {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}open\_\discretionary {-}{}{}data}
+    \subitem {interface.h}, \hyperpage{52}
+  \item {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}speed}
+    \subitem {convenience.h}, \hyperpage{49}
+  \item {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}read\_\discretionary {-}{}{}data}
+    \subitem {interface.h}, \hyperpage{52}
+  \item {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}speed}
+    \subitem {convenience.h}, \hyperpage{49}
+  \item {tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}write\_\discretionary {-}{}{}data}
+    \subitem {interface.h}, \hyperpage{52}
+  \item {TMCL\_\discretionary {-}{}{}SGP}
+    \subitem {ParComm}, \hyperpage{24}
+  \item {TMCL\_\discretionary {-}{}{}SIO}
+    \subitem {TMCLComm}, \hyperpage{20}
+  \item {TMCL\_\discretionary {-}{}{}STAP}
+    \subitem {ParComm}, \hyperpage{24}
+  \item {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}COMMAND\_\discretionary {-}{}{}NA}
+    \subitem {StatusCodes}, \hyperpage{15}
+  \item {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}EEPROM\_\discretionary {-}{}{}LOCKED}
+    \subitem {StatusCodes}, \hyperpage{15}
+  \item {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}INVALID\_\discretionary {-}{}{}COMMAND}
+    \subitem {StatusCodes}, \hyperpage{15}
+  \item {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}INVALID\_\discretionary {-}{}{}VALUE}
+    \subitem {StatusCodes}, \hyperpage{15}
+  \item {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}LOADED\_\discretionary {-}{}{}EEPROM}
+    \subitem {StatusCodes}, \hyperpage{15}
+  \item {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}SUCCESS}
+    \subitem {StatusCodes}, \hyperpage{15}
+  \item {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}WRONG\_\discretionary {-}{}{}CHECKSUM}
+    \subitem {StatusCodes}, \hyperpage{16}
+  \item {TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}WRONG\_\discretionary {-}{}{}TYPE}
+    \subitem {StatusCodes}, \hyperpage{16}
+  \item {TMCL\_\discretionary {-}{}{}STGP}
+    \subitem {ParComm}, \hyperpage{24}
+  \item {TMCL\_\discretionary {-}{}{}STOP}
+    \subitem {TMCLComm}, \hyperpage{20}
+  \item {tmcl\_\discretionary {-}{}{}stop}
+    \subitem {convenience.h}, \hyperpage{49}
+  \item {tmcl\_\discretionary {-}{}{}store\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}
+    \subitem {motor.h}, \hyperpage{56}
+  \item {TMCL\_\discretionary {-}{}{}UF0}
+    \subitem {TMCLComm}, \hyperpage{20}
+  \item {TMCL\_\discretionary {-}{}{}UF1}
+    \subitem {TMCLComm}, \hyperpage{20}
+  \item {TMCL\_\discretionary {-}{}{}UF2}
+    \subitem {TMCLComm}, \hyperpage{20}
+  \item {TMCL\_\discretionary {-}{}{}UF3}
+    \subitem {TMCLComm}, \hyperpage{21}
+  \item {TMCL\_\discretionary {-}{}{}UF4}
+    \subitem {TMCLComm}, \hyperpage{21}
+  \item {TMCL\_\discretionary {-}{}{}UF5}
+    \subitem {TMCLComm}, \hyperpage{21}
+  \item {TMCL\_\discretionary {-}{}{}UF6}
+    \subitem {TMCLComm}, \hyperpage{21}
+  \item {TMCL\_\discretionary {-}{}{}UF7}
+    \subitem {TMCLComm}, \hyperpage{21}
+  \item {tmcl\_\discretionary {-}{}{}update\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}
+    \subitem {motor.h}, \hyperpage{57}
+  \item {tmcl\_\discretionary {-}{}{}valid\_\discretionary {-}{}{}checksum}
+    \subitem {tmcldefs.c}, \hyperpage{63}
+    \subitem {tmcldefs.h}, \hyperpage{70}
+  \item {TMCL\_\discretionary {-}{}{}VERSION}
+    \subitem {TMCLMisc}, \hyperpage{13}
+  \item {TMCL\_\discretionary {-}{}{}WAIT}
+    \subitem {TMCLComm}, \hyperpage{21}
+  \item {tmcl\_\discretionary {-}{}{}write\_\discretionary {-}{}{}rsXXX}
+    \subitem {rsXXX.h}, \hyperpage{59}
+  \item {tmcl\_\discretionary {-}{}{}write\_\discretionary {-}{}{}void}
+    \subitem {TMCLInterfaceStruct}, \hyperpage{38}
+  \item {TMCLBusType}
+    \subitem {tmcldefs.h}, \hyperpage{67}
+  \item {TMCLComm}
+    \subitem {TMCL\_\discretionary {-}{}{}AAP}, \hyperpage{18}
+    \subitem {TMCL\_\discretionary {-}{}{}AGP}, \hyperpage{18}
+    \subitem {TMCL\_\discretionary {-}{}{}CALC}, \hyperpage{18}
+    \subitem {TMCL\_\discretionary {-}{}{}CALCX}, \hyperpage{18}
+    \subitem {TMCL\_\discretionary {-}{}{}CCO}, \hyperpage{18}
+    \subitem {TMCL\_\discretionary {-}{}{}CLE}, \hyperpage{18}
+    \subitem {TMCL\_\discretionary {-}{}{}COMP}, \hyperpage{18}
+    \subitem {TMCL\_\discretionary {-}{}{}CSUB}, \hyperpage{18}
+    \subitem {TMCL\_\discretionary {-}{}{}GCO}, \hyperpage{19}
+    \subitem {TMCL\_\discretionary {-}{}{}GIO}, \hyperpage{19}
+    \subitem {TMCL\_\discretionary {-}{}{}JA}, \hyperpage{19}
+    \subitem {TMCL\_\discretionary {-}{}{}JC}, \hyperpage{19}
+    \subitem {TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}ABS}, 
+		\hyperpage{19}
+    \subitem {TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}COORD}, 
+		\hyperpage{19}
+    \subitem {TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}REL}, 
+		\hyperpage{19}
+    \subitem {TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}START}, 
+		\hyperpage{19}
+    \subitem {TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}STATUS}, 
+		\hyperpage{19}
+    \subitem {TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}STOP}, 
+		\hyperpage{20}
+    \subitem {TMCL\_\discretionary {-}{}{}RSUB}, \hyperpage{20}
+    \subitem {TMCL\_\discretionary {-}{}{}SAC}, \hyperpage{20}
+    \subitem {TMCL\_\discretionary {-}{}{}SCO}, \hyperpage{20}
+    \subitem {TMCL\_\discretionary {-}{}{}SIO}, \hyperpage{20}
+    \subitem {TMCL\_\discretionary {-}{}{}STOP}, \hyperpage{20}
+    \subitem {TMCL\_\discretionary {-}{}{}UF0}, \hyperpage{20}
+    \subitem {TMCL\_\discretionary {-}{}{}UF1}, \hyperpage{20}
+    \subitem {TMCL\_\discretionary {-}{}{}UF2}, \hyperpage{20}
+    \subitem {TMCL\_\discretionary {-}{}{}UF3}, \hyperpage{21}
+    \subitem {TMCL\_\discretionary {-}{}{}UF4}, \hyperpage{21}
+    \subitem {TMCL\_\discretionary {-}{}{}UF5}, \hyperpage{21}
+    \subitem {TMCL\_\discretionary {-}{}{}UF6}, \hyperpage{21}
+    \subitem {TMCL\_\discretionary {-}{}{}UF7}, \hyperpage{21}
+    \subitem {TMCL\_\discretionary {-}{}{}WAIT}, \hyperpage{21}
+  \item {TMCLCommand}
+    \subitem {tmcldefs.h}, \hyperpage{67}
+  \item {TMCLCommandStruct}, \hyperpage{33}
+    \subitem {command}, \hyperpage{33}
+    \subitem {type}, \hyperpage{33}
+    \subitem {value}, \hyperpage{33}
+  \item {tmcldefs.c}
+    \subitem {tmcl\_\discretionary {-}{}{}checksum}, \hyperpage{61}
+    \subitem {tmcl\_\discretionary {-}{}{}datagram}, \hyperpage{62}
+    \subitem {tmcl\_\discretionary {-}{}{}deinit}, \hyperpage{62}
+    \subitem {tmcl\_\discretionary {-}{}{}dgram2reply}, \hyperpage{62}
+    \subitem {tmcl\_\discretionary {-}{}{}init}, \hyperpage{62}
+    \subitem {tmcl\_\discretionary {-}{}{}valid\_\discretionary {-}{}{}checksum}, 
+		\hyperpage{63}
+  \item {tmcldefs.h}
+    \subitem {TMCL\_\-CAN}, \hyperpage{68}
+    \subitem {TMCL\_\-IIC}, \hyperpage{68}
+    \subitem {TMCL\_\-NONE}, \hyperpage{68}
+    \subitem {TMCL\_\-RSXXX}, \hyperpage{68}
+    \subitem {tmcl\_\discretionary {-}{}{}busses}, \hyperpage{68}
+    \subitem {tmcl\_\discretionary {-}{}{}checksum}, \hyperpage{69}
+    \subitem {tmcl\_\discretionary {-}{}{}datagram}, \hyperpage{69}
+    \subitem {tmcl\_\discretionary {-}{}{}deinit}, \hyperpage{69}
+    \subitem {tmcl\_\discretionary {-}{}{}dgram2reply}, \hyperpage{69}
+    \subitem {tmcl\_\discretionary {-}{}{}init}, \hyperpage{70}
+    \subitem {tmcl\_\discretionary {-}{}{}valid\_\discretionary {-}{}{}checksum}, 
+		\hyperpage{70}
+    \subitem {TMCLBusType}, \hyperpage{67}
+    \subitem {TMCLCommand}, \hyperpage{67}
+    \subitem {TMCLDevice}, \hyperpage{67}
+    \subitem {TMCLModel}, \hyperpage{67}
+    \subitem {TMCLModelEnum}, \hyperpage{68}
+    \subitem {TMCLParameter}, \hyperpage{67}
+    \subitem {TMCLReply}, \hyperpage{67}
+    \subitem {TMCM100}, \hyperpage{68}
+    \subitem {TMCM109}, \hyperpage{68}
+    \subitem {TMCM110}, \hyperpage{68}
+    \subitem {TMCM11x}, \hyperpage{68}
+    \subitem {TMCM300}, \hyperpage{68}
+    \subitem {TMCM301}, \hyperpage{68}
+    \subitem {TMCM302}, \hyperpage{68}
+    \subitem {TMCM303}, \hyperpage{68}
+    \subitem {TMCM310}, \hyperpage{68}
+    \subitem {TMCM610}, \hyperpage{68}
+    \subitem {TMCM611}, \hyperpage{68}
+    \subitem {TMCM612}, \hyperpage{68}
+  \item {TMCLDevice}
+    \subitem {tmcldefs.h}, \hyperpage{67}
+  \item {TMCLDeviceStruct}, \hyperpage{35}
+    \subitem {address}, \hyperpage{35}
+    \subitem {bank}, \hyperpage{35}
+    \subitem {bus}, \hyperpage{35}
+    \subitem {model}, \hyperpage{35}
+    \subitem {num\_\discretionary {-}{}{}refswitches}, \hyperpage{35}
+    \subitem {parameter}, \hyperpage{36}
+  \item {TMCLInterface}
+    \subitem {interface.h}, \hyperpage{51}
+  \item {TMCLInterfaceStruct}, \hyperpage{37}
+    \subitem {handle}, \hyperpage{37}
+    \subitem {timeout\_\discretionary {-}{}{}msec}, \hyperpage{37}
+    \subitem {timeout\_\discretionary {-}{}{}sec}, \hyperpage{37}
+    \subitem {timewait\_\discretionary {-}{}{}msec}, \hyperpage{37}
+    \subitem {timewait\_\discretionary {-}{}{}sec}, \hyperpage{38}
+    \subitem {tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}void}, 
+		\hyperpage{38}
+    \subitem {tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}void}, 
+		\hyperpage{38}
+    \subitem {tmcl\_\discretionary {-}{}{}read\_\discretionary {-}{}{}void}, 
+		\hyperpage{38}
+    \subitem {tmcl\_\discretionary {-}{}{}write\_\discretionary {-}{}{}void}, 
+		\hyperpage{38}
+  \item {TMCLMisc}
+    \subitem {TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}CAN}, 
+		\hyperpage{13}
+    \subitem {TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}IIC}, 
+		\hyperpage{13}
+    \subitem {TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}RSXXX}, 
+		\hyperpage{13}
+    \subitem {TMCL\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE}, 
+		\hyperpage{13}
+    \subitem {TMCL\_\discretionary {-}{}{}VERSION}, \hyperpage{13}
+  \item {TMCLModel}
+    \subitem {tmcldefs.h}, \hyperpage{67}
+  \item {TMCLModelEnum}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCLMotor}
+    \subitem {motor.h}, \hyperpage{55}
+  \item {TMCLMotorStruct}, \hyperpage{39}
+  \item {TMCLParameter}
+    \subitem {tmcldefs.h}, \hyperpage{67}
+  \item {TMCLReply}
+    \subitem {tmcldefs.h}, \hyperpage{67}
+  \item {TMCLReplyStruct}, \hyperpage{40}
+    \subitem {checksum}, \hyperpage{40}
+    \subitem {command}, \hyperpage{40}
+    \subitem {module\_\discretionary {-}{}{}address}, \hyperpage{40}
+    \subitem {reply\_\discretionary {-}{}{}address}, \hyperpage{40}
+    \subitem {status}, \hyperpage{40}
+    \subitem {value}, \hyperpage{41}
+  \item {TMCM100}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCM109}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCM110}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCM11x}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCM300}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCM301}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCM302}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCM303}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCM310}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCM610}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCM611}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {TMCM612}
+    \subitem {tmcldefs.h}, \hyperpage{68}
+  \item {type}
+    \subitem {TMCLCommandStruct}, \hyperpage{33}
+
+  \indexspace
+
+  \item {value}
+    \subitem {TMCLCommandStruct}, \hyperpage{33}
+    \subitem {TMCLReplyStruct}, \hyperpage{41}
+
+\end{theindex}

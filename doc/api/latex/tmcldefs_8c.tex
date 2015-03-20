@@ -1,0 +1,123 @@
+\hypertarget{tmcldefs_8c}{
+\section{src/tmcl/tmcldefs.c File Reference}
+\label{tmcldefs_8c}\index{src/tmcl/tmcldefs.c@{src/tmcl/tmcldefs.c}}
+}
+{\ttfamily \#include $<$assert.h$>$}\par
+{\ttfamily \#include \char`\"{}tmcldefs.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}motor.h\char`\"{}}\par
+{\ttfamily \#include \char`\"{}debug.h\char`\"{}}\par
+Include dependency graph for tmcldefs.c:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=136pt]{tmcldefs_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{tmcldefs_8c_a27ed85719d320cef5cef2b90868bbb9c}{tmcl\_\-init} (\hyperlink{structTMCLDeviceStruct}{TMCLDevice} $\ast$device)
+\item 
+void \hyperlink{tmcldefs_8c_ad20a3fa13e8e47d01b384ff9658fdf33}{tmcl\_\-deinit} (\hyperlink{structTMCLDeviceStruct}{TMCLDevice} $\ast$device)
+\item 
+uint8\_\-t \hyperlink{tmcldefs_8c_a5920c3af8a37f1de4af706aeeadff94a}{tmcl\_\-checksum} (uint8\_\-t $\ast$commands, int length)
+\item 
+int \hyperlink{tmcldefs_8c_a2e979701c691c92a81b197fe775a9294}{tmcl\_\-datagram} (uint8\_\-t $\ast$datagram, \hyperlink{structTMCLDeviceStruct}{TMCLDevice} device, uint8\_\-t command, uint8\_\-t type, uint32\_\-t value)
+\item 
+int \hyperlink{tmcldefs_8c_a371acd071416d76bde976505cc49ad25}{tmcl\_\-valid\_\-checksum} (\hyperlink{structTMCLReplyStruct}{TMCLReply} reply)
+\item 
+int \hyperlink{tmcldefs_8c_a5b33e3430cd2cd2c99dbdc71f49737a8}{tmcl\_\-dgram2reply} (\hyperlink{structTMCLReplyStruct}{TMCLReply} $\ast$reply, uint8\_\-t $\ast$datagram, int length)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Internal functions 
+
+Definition in file \hyperlink{tmcldefs_8c_source}{tmcldefs.c}.
+
+\subsection{Function Documentation}
+\hypertarget{tmcldefs_8c_a5920c3af8a37f1de4af706aeeadff94a}{
+\index{tmcldefs.c@{tmcldefs.c}!tmcl\_\-checksum@{tmcl\_\-checksum}}
+\index{tmcl\_\-checksum@{tmcl\_\-checksum}!tmcldefs.c@{tmcldefs.c}}
+\subsubsection[{tmcl\_\-checksum}]{\setlength{\rightskip}{0pt plus 5cm}uint8\_\-t tmcl\_\-checksum (uint8\_\-t $\ast$ {\em commands}, \/  int {\em length})}}
+\label{tmcldefs_8c_a5920c3af8a37f1de4af706aeeadff94a}
+
+\begin{DoxyParams}{Parameters}
+\item[{\em commands}]Buffer containing the datagram \item[{\em length}]length of datagram \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Checksum 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{group__TMCLMisc_ga7d2c47709a2fef9913f9c4000d68c814}{TMCL\_\-DGRAM\_\-SIZE\_\-CAN}, \hyperlink{group__TMCLMisc_ga893fbfdcd1c9af739173be6476ad1696}{TMCL\_\-DGRAM\_\-SIZE\_\-RSXXX}, \hyperlink{group__TMCLMisc_gac361bd7186e0b9243b2a8d6dbd465660}{TMCL\_\-DGRAM\_\-SIZE\_\-IIC} 
+\end{DoxySeeAlso}
+
+
+Definition at line 61 of file tmcldefs.c.\hypertarget{tmcldefs_8c_a2e979701c691c92a81b197fe775a9294}{
+\index{tmcldefs.c@{tmcldefs.c}!tmcl\_\-datagram@{tmcl\_\-datagram}}
+\index{tmcl\_\-datagram@{tmcl\_\-datagram}!tmcldefs.c@{tmcldefs.c}}
+\subsubsection[{tmcl\_\-datagram}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-datagram (uint8\_\-t $\ast$ {\em datagram}, \/  {\bf TMCLDevice} {\em device}, \/  uint8\_\-t {\em command}, \/  uint8\_\-t {\em type}, \/  uint32\_\-t {\em value})}}
+\label{tmcldefs_8c_a2e979701c691c92a81b197fe775a9294}
+
+\begin{DoxyParams}{Parameters}
+\item[{\em datagram}]Buffer to store the datagram \item[{\em device}]The device for which the datagram is intended \item[{\em command}]The \hyperlink{group__TMCLComm}{command} \item[{\em type}]Type \item[{\em value}]Value \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Length of datagram 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{group__TMCLComm}{TMCL Commands} 
+\end{DoxySeeAlso}
+
+
+Definition at line 82 of file tmcldefs.c.\hypertarget{tmcldefs_8c_ad20a3fa13e8e47d01b384ff9658fdf33}{
+\index{tmcldefs.c@{tmcldefs.c}!tmcl\_\-deinit@{tmcl\_\-deinit}}
+\index{tmcl\_\-deinit@{tmcl\_\-deinit}!tmcldefs.c@{tmcldefs.c}}
+\subsubsection[{tmcl\_\-deinit}]{\setlength{\rightskip}{0pt plus 5cm}void tmcl\_\-deinit ({\bf TMCLDevice} $\ast$ {\em device})}}
+\label{tmcldefs_8c_ad20a3fa13e8e47d01b384ff9658fdf33}
+\begin{Desc}
+\item[\hyperlink{todo__todo000003}{Todo}]Document this. \end{Desc}
+
+
+Definition at line 48 of file tmcldefs.c.\hypertarget{tmcldefs_8c_a5b33e3430cd2cd2c99dbdc71f49737a8}{
+\index{tmcldefs.c@{tmcldefs.c}!tmcl\_\-dgram2reply@{tmcl\_\-dgram2reply}}
+\index{tmcl\_\-dgram2reply@{tmcl\_\-dgram2reply}!tmcldefs.c@{tmcldefs.c}}
+\subsubsection[{tmcl\_\-dgram2reply}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-dgram2reply ({\bf TMCLReply} $\ast$ {\em reply}, \/  uint8\_\-t $\ast$ {\em datagram}, \/  int {\em length})}}
+\label{tmcldefs_8c_a5b33e3430cd2cd2c99dbdc71f49737a8}
+
+\begin{DoxyParams}{Parameters}
+\item[{\em reply}]tmcl\_\-reply structure to store the data \item[{\em datagram}]The datagram received from the module \item[{\em length}]Lengh of the datagram \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0 on success
+\item -\/1 undefined length 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 172 of file tmcldefs.c.\hypertarget{tmcldefs_8c_a27ed85719d320cef5cef2b90868bbb9c}{
+\index{tmcldefs.c@{tmcldefs.c}!tmcl\_\-init@{tmcl\_\-init}}
+\index{tmcl\_\-init@{tmcl\_\-init}!tmcldefs.c@{tmcldefs.c}}
+\subsubsection[{tmcl\_\-init}]{\setlength{\rightskip}{0pt plus 5cm}void tmcl\_\-init ({\bf TMCLDevice} $\ast$ {\em device})}}
+\label{tmcldefs_8c_a27ed85719d320cef5cef2b90868bbb9c}
+\begin{Desc}
+\item[\hyperlink{todo__todo000002}{Todo}]Document this. \end{Desc}
+
+
+Definition at line 35 of file tmcldefs.c.\hypertarget{tmcldefs_8c_a371acd071416d76bde976505cc49ad25}{
+\index{tmcldefs.c@{tmcldefs.c}!tmcl\_\-valid\_\-checksum@{tmcl\_\-valid\_\-checksum}}
+\index{tmcl\_\-valid\_\-checksum@{tmcl\_\-valid\_\-checksum}!tmcldefs.c@{tmcldefs.c}}
+\subsubsection[{tmcl\_\-valid\_\-checksum}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-valid\_\-checksum ({\bf TMCLReply} {\em reply})}}
+\label{tmcldefs_8c_a371acd071416d76bde976505cc49ad25}
+
+\begin{DoxyParams}{Parameters}
+\item[{\em reply}]The reply of the module \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 1 on good checksum
+\item 0 on bad checksum 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 138 of file tmcldefs.c.

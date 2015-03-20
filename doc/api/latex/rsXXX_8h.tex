@@ -1,0 +1,103 @@
+\hypertarget{rsXXX_8h}{
+\section{src/tmcl/rsXXX.h File Reference}
+\label{rsXXX_8h}\index{src/tmcl/rsXXX.h@{src/tmcl/rsXXX.h}}
+}
+{\ttfamily \#include $<$tmcl/tmcldefs.h$>$}\par
+{\ttfamily \#include $<$tmcl/interface.h$>$}\par
+Include dependency graph for rsXXX.h:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=83pt]{rsXXX_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=126pt]{rsXXX_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{rsXXX_8h_a3d01e21594c18d248fa6a7ad769c0769}{tmcl\_\-open\_\-rsXXX} (\hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$iface, const char $\ast$filename, void $\ast$pointer)
+\item 
+int \hyperlink{rsXXX_8h_a0ac132ac213a306a829db1f98ea6517b}{tmcl\_\-close\_\-rsXXX} (\hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$iface, void $\ast$pointer)
+\item 
+int \hyperlink{rsXXX_8h_a29d4db3ce6b3756743a51d3b1ccb49d1}{tmcl\_\-write\_\-rsXXX} (\hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$iface, const void $\ast$buf, int length, void $\ast$pointer)
+\item 
+int \hyperlink{rsXXX_8h_aa8017d8e9d05727a7d6958865061c087}{tmcl\_\-poll\_\-rsXXX} (\hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$iface, char $\ast$buffer, void $\ast$pointer)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Communication function for RS232 and RS485 interfaces
+
+Normally there should not be any need to call these directly. 
+
+Definition in file \hyperlink{rsXXX_8h_source}{rsXXX.h}.
+
+\subsection{Function Documentation}
+\hypertarget{rsXXX_8h_a0ac132ac213a306a829db1f98ea6517b}{
+\index{rsXXX.h@{rsXXX.h}!tmcl\_\-close\_\-rsXXX@{tmcl\_\-close\_\-rsXXX}}
+\index{tmcl\_\-close\_\-rsXXX@{tmcl\_\-close\_\-rsXXX}!rsXXX.h@{rsXXX.h}}
+\subsubsection[{tmcl\_\-close\_\-rsXXX}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-close\_\-rsXXX ({\bf TMCLInterface} $\ast$ {\em iface}, \/  void $\ast$ {\em pointer})}}
+\label{rsXXX_8h_a0ac132ac213a306a829db1f98ea6517b}
+Closes the RSXXX port
+
+\begin{DoxyItemize}
+\item {\ttfamily pointer:} NOT USED!\end{DoxyItemize}
+Returns:
+\begin{DoxyItemize}
+\item 0 on success
+\item -\/1 on failure 
+\end{DoxyItemize}
+
+Definition at line 143 of file rsXXX.c.\hypertarget{rsXXX_8h_a3d01e21594c18d248fa6a7ad769c0769}{
+\index{rsXXX.h@{rsXXX.h}!tmcl\_\-open\_\-rsXXX@{tmcl\_\-open\_\-rsXXX}}
+\index{tmcl\_\-open\_\-rsXXX@{tmcl\_\-open\_\-rsXXX}!rsXXX.h@{rsXXX.h}}
+\subsubsection[{tmcl\_\-open\_\-rsXXX}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-open\_\-rsXXX ({\bf TMCLInterface} $\ast$ {\em iface}, \/  const char $\ast$ {\em filename}, \/  void $\ast$ {\em pointer})}}
+\label{rsXXX_8h_a3d01e21594c18d248fa6a7ad769c0769}
+Opens the RSXXX port
+
+\begin{DoxyItemize}
+\item {\ttfamily filename:} Device node of RSXXX port \item {\ttfamily pointer:} NOT USED!\end{DoxyItemize}
+Returns:
+\begin{DoxyItemize}
+\item File descriptor of RSXXX port on success
+\item -\/1 on failure 
+\end{DoxyItemize}
+
+Definition at line 128 of file rsXXX.c.\hypertarget{rsXXX_8h_aa8017d8e9d05727a7d6958865061c087}{
+\index{rsXXX.h@{rsXXX.h}!tmcl\_\-poll\_\-rsXXX@{tmcl\_\-poll\_\-rsXXX}}
+\index{tmcl\_\-poll\_\-rsXXX@{tmcl\_\-poll\_\-rsXXX}!rsXXX.h@{rsXXX.h}}
+\subsubsection[{tmcl\_\-poll\_\-rsXXX}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-poll\_\-rsXXX ({\bf TMCLInterface} $\ast$ {\em iface}, \/  char $\ast$ {\em buffer}, \/  void $\ast$ {\em pointer})}}
+\label{rsXXX_8h_aa8017d8e9d05727a7d6958865061c087}
+Waits for data from the RSXXX port.
+
+\begin{DoxyItemize}
+\item {\ttfamily buffer:} Buffer to store received data \item {\ttfamily pointer:} NOT USED! RETURNS
+\begin{DoxyItemize}
+\item $>$0: length of data read (in bytes)
+\item -\/1 on failure
+\item -\/2 on wrong length of read data 
+\end{DoxyItemize}\end{DoxyItemize}
+
+
+Definition at line 170 of file rsXXX.c.\hypertarget{rsXXX_8h_a29d4db3ce6b3756743a51d3b1ccb49d1}{
+\index{rsXXX.h@{rsXXX.h}!tmcl\_\-write\_\-rsXXX@{tmcl\_\-write\_\-rsXXX}}
+\index{tmcl\_\-write\_\-rsXXX@{tmcl\_\-write\_\-rsXXX}!rsXXX.h@{rsXXX.h}}
+\subsubsection[{tmcl\_\-write\_\-rsXXX}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-write\_\-rsXXX ({\bf TMCLInterface} $\ast$ {\em iface}, \/  const void $\ast$ {\em buf}, \/  int {\em length}, \/  void $\ast$ {\em pointer})}}
+\label{rsXXX_8h_a29d4db3ce6b3756743a51d3b1ccb49d1}
+Writes to RSXXX port
+
+\begin{DoxyItemize}
+\item {\ttfamily buf:} buffer of data to be written \item {\ttfamily length:} length of data buffer \item {\ttfamily pointer:} NOT USED!\end{DoxyItemize}
+Returns:
+\begin{DoxyItemize}
+\item 0 on success
+\item -\/1 on failure 
+\end{DoxyItemize}
+
+Definition at line 154 of file rsXXX.c.

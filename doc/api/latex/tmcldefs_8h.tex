@@ -1,0 +1,530 @@
+\hypertarget{tmcldefs_8h}{
+\section{src/tmcl/tmcldefs.h File Reference}
+\label{tmcldefs_8h}\index{src/tmcl/tmcldefs.h@{src/tmcl/tmcldefs.h}}
+}
+{\ttfamily \#include $<$inttypes.h$>$}\par
+Include dependency graph for tmcldefs.h:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=72pt]{tmcldefs_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=420pt]{tmcldefs_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structTMCLDeviceStruct}{TMCLDeviceStruct}
+\item 
+struct \hyperlink{structTMCLReplyStruct}{TMCLReplyStruct}
+\item 
+struct \hyperlink{structTMCLCommandStruct}{TMCLCommandStruct}
+\end{DoxyCompactItemize}
+\subsection*{Defines}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{tmcldefs_8h_ac5c6df1cce89a8dcd6bd81837eb4934a}{
+\#define {\bfseries \_\-\_\-TMCL\_\-TMCLDEFS\_\-H\_\-}~1}
+\label{tmcldefs_8h_ac5c6df1cce89a8dcd6bd81837eb4934a}
+
+\item 
+\#define \hyperlink{group__TMCLMisc_ga420f7d4b6299372763e4ac6ca6d4919a}{TMCL\_\-VERSION}~3.27
+\item 
+\#define \hyperlink{group__TMCLMisc_ga7d2c47709a2fef9913f9c4000d68c814}{TMCL\_\-DGRAM\_\-SIZE\_\-CAN}~7
+\item 
+\#define \hyperlink{group__TMCLMisc_gac361bd7186e0b9243b2a8d6dbd465660}{TMCL\_\-DGRAM\_\-SIZE\_\-IIC}~8
+\item 
+\#define \hyperlink{group__TMCLMisc_ga893fbfdcd1c9af739173be6476ad1696}{TMCL\_\-DGRAM\_\-SIZE\_\-RSXXX}~9
+\item 
+\#define \hyperlink{group__TMCLMisc_gad1cf3cae816b86b67bb50098b690a010}{TMCL\_\-MAX\_\-DGRAM\_\-SIZE}~TMCL\_\-DGRAM\_\-SIZE\_\-RSXXX
+\item 
+\hypertarget{tmcldefs_8h_aae669e3d19a319c69330de57574c24b9}{
+\#define {\bfseries TMCL\_\-MAX\_\-PAR\_\-NO}~211}
+\label{tmcldefs_8h_aae669e3d19a319c69330de57574c24b9}
+
+\item 
+\#define \hyperlink{group__StatusCodes_gae8f0d829c003e2daf2b4d659f10fb365}{TMCL\_\-STATUS\_\-SUCCESS}~100
+\item 
+\#define \hyperlink{group__StatusCodes_gae781af2133cc40ed37e50627769f75f3}{TMCL\_\-STATUS\_\-LOADED\_\-EEPROM}~101
+\item 
+\#define \hyperlink{group__StatusCodes_gaf588b372da14d242fc4ecb4e144b5085}{TMCL\_\-STATUS\_\-WRONG\_\-CHECKSUM}~1
+\item 
+\#define \hyperlink{group__StatusCodes_ga61d064f4c9f910aeb110a92489664d48}{TMCL\_\-STATUS\_\-INVALID\_\-COMMAND}~2
+\item 
+\#define \hyperlink{group__StatusCodes_ga9fffa59df78430367ff93cabf36f72c6}{TMCL\_\-STATUS\_\-WRONG\_\-TYPE}~3
+\item 
+\#define \hyperlink{group__StatusCodes_ga0d34bdc73a05adf2c2bc7e6038fb6c64}{TMCL\_\-STATUS\_\-INVALID\_\-VALUE}~4
+\item 
+\#define \hyperlink{group__StatusCodes_gab3c467b9ae2a256a4d62dd4e7e1922af}{TMCL\_\-STATUS\_\-EEPROM\_\-LOCKED}~5
+\item 
+\#define \hyperlink{group__StatusCodes_gade3c304cd225d35cad340c7fdff3a801}{TMCL\_\-STATUS\_\-COMMAND\_\-NA}~6
+\item 
+\#define \hyperlink{group__MotionComm_gae60969d45c586023c9bd2db9498cc508}{TMCL\_\-ROR}~1
+\item 
+\#define \hyperlink{group__MotionComm_ga90f30df41b6fa29a3e94c909e655af94}{TMCL\_\-ROL}~2
+\item 
+\#define \hyperlink{group__MotionComm_ga94462741a6a5efcf6b175294cb9b6ecf}{TMCL\_\-MST}~3
+\item 
+\#define \hyperlink{group__MotionComm_ga109d51fee8df715b9e18b6c49b785757}{TMCL\_\-MVP}~4
+\item 
+\#define \hyperlink{group__MotionComm_ga316ddf99f164783c8488c48ce9346c21}{TMCL\_\-RFS}~13
+\item 
+\#define \hyperlink{group__ParComm_ga9d041a48b17f51e16e6219d3cfe5a2ca}{TMCL\_\-SAP}~5
+\item 
+\#define \hyperlink{group__ParComm_gaeac28ca289b13b735506291521646a4a}{TMCL\_\-GAP}~6
+\item 
+\#define \hyperlink{group__ParComm_ga22d01b4d2941ab2a2881f17975424f41}{TMCL\_\-STAP}~7
+\item 
+\#define \hyperlink{group__ParComm_gab338e76ee77e5f122d1694c728beb5e3}{TMCL\_\-RSAP}~8
+\item 
+\#define \hyperlink{group__ParComm_ga12919729038b159bb1f9b275c9c8f5bc}{TMCL\_\-SGP}~9
+\item 
+\#define \hyperlink{group__ParComm_ga4bf884d087a29a85073718bbd0d4f928}{TMCL\_\-GGP}~10
+\item 
+\#define \hyperlink{group__ParComm_ga209b905332339e2b52a7166f46ef2db9}{TMCL\_\-STGP}~11
+\item 
+\#define \hyperlink{group__ParComm_ga21517120fb13310ef4416fd370fa91b6}{TMCL\_\-RSGP}~12
+\item 
+\#define \hyperlink{group__TMCLComm_gac92473e5d6624712eb0c6e3b96e72556}{TMCL\_\-SIO}~14
+\item 
+\#define \hyperlink{group__TMCLComm_gaf8c91f7e3398565e620f87695e2ac8aa}{TMCL\_\-GIO}~15
+\item 
+\#define \hyperlink{group__TMCLComm_gaaca5ca8ff4397dde2a1d974a08dfc97d}{TMCL\_\-CALC}~19
+\item 
+\#define \hyperlink{group__TMCLComm_gab3445bd6ed45c31f3ed3f4db49914bbd}{TMCL\_\-COMP}~20
+\item 
+\#define \hyperlink{group__TMCLComm_gae98b22b798475ff3262efec2168b98a1}{TMCL\_\-JC}~21
+\item 
+\#define \hyperlink{group__TMCLComm_ga7516bcd7048ea0be08c282cfb65232dc}{TMCL\_\-JA}~22
+\item 
+\#define \hyperlink{group__TMCLComm_ga42c0ac92b2357e8833d3294b36f3ce03}{TMCL\_\-CSUB}~23
+\item 
+\#define \hyperlink{group__TMCLComm_gab5dbf5f5909e2c59d70ddf48dd6d68fe}{TMCL\_\-RSUB}~24
+\item 
+\#define \hyperlink{group__TMCLComm_ga3c134dcd5083b786adf60d3240cdee87}{TMCL\_\-WAIT}~27
+\item 
+\#define \hyperlink{group__TMCLComm_ga85496061c9785e9cc81068564f72d11a}{TMCL\_\-STOP}~28
+\item 
+\#define \hyperlink{group__TMCLComm_gaa5bb837c0debc7de9548dcd55f233cda}{TMCL\_\-SAC}~29
+\item 
+\#define \hyperlink{group__TMCLComm_ga98541d48d1c0ae966624414f02869164}{TMCL\_\-SCO}~30
+\item 
+\#define \hyperlink{group__TMCLComm_gadfdbd63f01a0e7148e6ad2ac5c7aa3f1}{TMCL\_\-GCO}~31
+\item 
+\#define \hyperlink{group__TMCLComm_ga55f02944bc20337ded009ae3a22a2e19}{TMCL\_\-CCO}~32
+\item 
+\#define \hyperlink{group__TMCLComm_gad58eac496f0281febc26c7302e0f7236}{TMCL\_\-CALCX}~33
+\item 
+\#define \hyperlink{group__TMCLComm_gadda3b3b029a3c196e05bc3fbb6e9f4c0}{TMCL\_\-AAP}~34
+\item 
+\#define \hyperlink{group__TMCLComm_gae139fce6d594db73457f09527562468c}{TMCL\_\-AGP}~35
+\item 
+\#define \hyperlink{group__TMCLComm_gadf8bf4f9343f77c0787ab0f131fbc92a}{TMCL\_\-CLE}~36
+\item 
+\#define \hyperlink{group__TMCLComm_ga452f379acd2362b3694cc2332a2ad4c0}{TMCL\_\-UF0}~64
+\item 
+\#define \hyperlink{group__TMCLComm_ga04c7b2800e3c01ac91161f7f680ecea0}{TMCL\_\-UF1}~65
+\item 
+\#define \hyperlink{group__TMCLComm_ga91dd885d4a0e3d69623d4323ca1d64df}{TMCL\_\-UF2}~66
+\item 
+\#define \hyperlink{group__TMCLComm_gae6e8731e90f75bc9b1218560f3640926}{TMCL\_\-UF3}~67
+\item 
+\#define \hyperlink{group__TMCLComm_ga24ceb335f6461de5fb3c2bd27cbb7823}{TMCL\_\-UF4}~68
+\item 
+\#define \hyperlink{group__TMCLComm_ga76c1ecb8e0999fac3d42b5ae4e8cc076}{TMCL\_\-UF5}~69
+\item 
+\#define \hyperlink{group__TMCLComm_gab5c21ab342d5fd4f5df3f5a0b286ccd1}{TMCL\_\-UF6}~70
+\item 
+\#define \hyperlink{group__TMCLComm_gaf16a383aac035a9bcf695ecd66ca8df2}{TMCL\_\-UF7}~71
+\item 
+\#define \hyperlink{group__CTLFuncs_gaa9e1148b7664ea0b5a78f845332b4fd7}{TMCL\_\-CTL\_\-STOP}~128
+\item 
+\#define \hyperlink{group__CTLFuncs_ga22166cf0f91912ea37048297d8030247}{TMCL\_\-CTL\_\-RUN}~129
+\item 
+\#define \hyperlink{group__CTLFuncs_ga0ffb8262b5b83a477e839844789fe986}{TMCL\_\-CTL\_\-STEP}~130
+\item 
+\#define \hyperlink{group__CTLFuncs_ga433f27b92ba499465f7eab488fbd3cea}{TMCL\_\-CTL\_\-RST}~131
+\item 
+\#define \hyperlink{group__CTLFuncs_gab0ffec97bdd896d0d98eacf2c80ac946}{TMCL\_\-CTL\_\-DLM\_\-START}~132
+\item 
+\#define \hyperlink{group__CTLFuncs_gaff3c81037366905174f34c8406f058c7}{TMCL\_\-CTL\_\-DLM\_\-QUIT}~133
+\item 
+\#define \hyperlink{group__CTLFuncs_ga9d883e9bae5236c285877f884bb8a613}{TMCL\_\-CTL\_\-READMEM}~134
+\item 
+\#define \hyperlink{group__CTLFuncs_gaf8364761b483fed9c95abaedffcf0ec2}{TMCL\_\-CTL\_\-STATUS}~135
+\item 
+\#define \hyperlink{group__CTLFuncs_gaac0228cc9a707b904b510de74a7fb505}{TMCL\_\-CTL\_\-FW\_\-VER}~136
+\item 
+\#define \hyperlink{group__CTLFuncs_gab41e9c01de441b30b228801e51243895}{TMCL\_\-CTL\_\-FACTORY}~137
+\item 
+\#define \hyperlink{group__CTLFuncs_ga36f62eadca8ba64c832ac6120f5a372a}{TMCL\_\-CTL\_\-ASCII}~139
+\item 
+\#define \hyperlink{group__TMCLComm_gafb1f96d5d46a081eaafdf4d8172e5417}{TMCL\_\-MVP\_\-ABS}~0
+\item 
+\#define \hyperlink{group__TMCLComm_gabb48ea6fc019299ba3081da7be7a1cdb}{TMCL\_\-MVP\_\-REL}~1
+\item 
+\#define \hyperlink{group__TMCLComm_gab1bd55bf2087a0fa580a7ed196b731b2}{TMCL\_\-MVP\_\-COORD}~2
+\item 
+\#define \hyperlink{group__TMCLComm_ga8ecbfcad4ab934cc6b3b4c90f07a5ba6}{TMCL\_\-RFS\_\-START}~0
+\item 
+\#define \hyperlink{group__TMCLComm_gadad6e89adaf4b2c93c8afd785b3aeb29}{TMCL\_\-RFS\_\-STOP}~1
+\item 
+\#define \hyperlink{group__TMCLComm_gadc8231e2815a936cb84f36f75da3ca02}{TMCL\_\-RFS\_\-STATUS}~2
+\item 
+\#define \hyperlink{group__RWParam_ga87dfb3db656c898683ae4a5dd80e789a}{TMCL\_\-AP\_\-TARGET\_\-POS}~0
+\item 
+\#define \hyperlink{group__RWParam_ga46ffdf772b16b88c99f5b48893b3f710}{TMCL\_\-AP\_\-CURR\_\-POS}~1
+\item 
+\#define \hyperlink{group__RWParam_ga9f34f155a65163069922f5f20c4c63b5}{TMCL\_\-AP\_\-TARGET\_\-SPEED}~2
+\item 
+\#define \hyperlink{group__RWParam_gafeecf0d7ec4c89beea4eb6e5dd3d5326}{TMCL\_\-AP\_\-MAX\_\-POS\_\-SPEED}~4
+\item 
+\#define \hyperlink{group__RWParam_ga5f18e570598b33d3d77b0d0894d81dc7}{TMCL\_\-AP\_\-MAX\_\-ACCEL}~5
+\item 
+\#define \hyperlink{group__RWParam_gaaf8d5010f2cf9799b5321358b5f5fb35}{TMCL\_\-AP\_\-ABS\_\-CURRENT}~6
+\item 
+\#define \hyperlink{group__RWParam_ga7e4a74f86decbbced917fb7825aef450}{TMCL\_\-AP\_\-STBY\_\-CURRENT}~7
+\item 
+\#define \hyperlink{group__RWParam_ga126f3a0bebd82760451aeadab91d6e06}{TMCL\_\-AP\_\-DISABLE\_\-LIMIT\_\-R}~12
+\item 
+\#define \hyperlink{group__RWParam_ga36067071d35368d2a1b03ddfae1d4eb9}{TMCL\_\-AP\_\-DISABLE\_\-LIMIT\_\-L}~13
+\item 
+\#define \hyperlink{group__RWParam_gab96353fcd1f433ef38ea445f812d2616}{TMCL\_\-AP\_\-SR\_\-PRESC}~14
+\item 
+\#define \hyperlink{group__RWParam_gaaf9500c37e13a506bcebb07378bb559c}{TMCL\_\-AP\_\-MICROSTEPS}~140
+\item 
+\#define \hyperlink{group__RWParam_ga6c4829576ea5ead497c9fd6bc564ecf0}{TMCL\_\-AP\_\-MAX\_\-CURR\_\-REST}~143
+\item 
+\#define \hyperlink{group__RWParam_gad989938d2101b5e000d5f41ca1d2a522}{TMCL\_\-AP\_\-MAX\_\-CURR\_\-LOW\_\-ACCEL}~144
+\item 
+\#define \hyperlink{group__RWParam_ga1a3faf0da53cb9d7cc2a84cc326ccc4a}{TMCL\_\-AP\_\-MAX\_\-CURR\_\-HIGH\_\-ACCEL}~145
+\item 
+\#define \hyperlink{group__RWParam_gaf504e536f23e990387a1b4421fcc49e4}{TMCL\_\-AP\_\-RFS\_\-MODE}~193
+\item 
+\#define \hyperlink{group__RWParam_ga4c6ebda674b3ce393db587761c169515}{TMCL\_\-AP\_\-RFS\_\-SPEED}~194
+\item 
+\#define \hyperlink{group__RWParam_ga31404aaf7195272cd4a6ef150d6ea421}{TMCL\_\-AP\_\-RFS\_\-SW\_\-SPEED}~195
+\item 
+\#define \hyperlink{group__ROParam_ga3473b35e8f38849da91e101a751b474d}{TMCL\_\-AP\_\-CURR\_\-SPEED}~3
+\item 
+\#define \hyperlink{group__ROParam_ga8340c6753a1858eae01d9a7a0f1ea221}{TMCL\_\-AP\_\-POS\_\-REACHED}~8
+\item 
+\#define \hyperlink{group__ROParam_ga389a6e3b6ba6e1bc1ad719f055bf139f}{TMCL\_\-AP\_\-LIMIT\_\-R}~9
+\item 
+\#define \hyperlink{group__ROParam_ga4751b3398d03d02e756d6b564a735b51}{TMCL\_\-AP\_\-LIMIT\_\-L}~10
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef int32\_\-t \hyperlink{tmcldefs_8h_a1c27da9ad00f668a659641ec0b94b9ce}{TMCLParameter}
+\item 
+\hypertarget{tmcldefs_8h_af6bebda82514db085eba2fb6711976cc}{
+typedef \hyperlink{tmcldefs_8h_a1c27da9ad00f668a659641ec0b94b9ce}{TMCLParameter} {\bfseries TMCLParameters} \mbox{[}TMCL\_\-MAX\_\-PAR\_\-NO+1\mbox{]}}
+\label{tmcldefs_8h_af6bebda82514db085eba2fb6711976cc}
+
+\item 
+typedef enum \hyperlink{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918e}{tmcl\_\-busses} \hyperlink{tmcldefs_8h_ad26e4e286a55d7c739fd473d8cdd882e}{TMCLBusType}
+\item 
+typedef enum \hyperlink{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9a}{TMCLModelEnum} \hyperlink{tmcldefs_8h_a35c090090de43d9850d0f573f7d29e45}{TMCLModel}
+\item 
+typedef struct \hyperlink{structTMCLDeviceStruct}{TMCLDeviceStruct} \hyperlink{tmcldefs_8h_adf97b172ea75c2fd91bf4ab98f65ffea}{TMCLDevice}
+\item 
+typedef struct \hyperlink{structTMCLReplyStruct}{TMCLReplyStruct} \hyperlink{tmcldefs_8h_ac5261105efa5a31da90627f0cb2153d2}{TMCLReply}
+\item 
+typedef struct \hyperlink{structTMCLCommandStruct}{TMCLCommandStruct} \hyperlink{tmcldefs_8h_a61ff3e5938eeb8d7a5b41fcba8f7c914}{TMCLCommand}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918e}{tmcl\_\-busses} \{ \hyperlink{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918eaf9dbccd234fb0d6fa5cc9e228e3219fd}{TMCL\_\-CAN}, 
+\hyperlink{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918eaeebe71669361b77c7409940d04d22cc5}{TMCL\_\-RSXXX}, 
+\hyperlink{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918ea27b661ff5f5dd238584fb2765764c314}{TMCL\_\-IIC}, 
+\hyperlink{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918eae1c14eefd4ba053ee83ed080d85c8971}{TMCL\_\-NONE}
+ \}
+\item 
+enum \hyperlink{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9a}{TMCLModelEnum} \{ \par
+\hyperlink{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aacf81076a68a2e93d0d78e11c3c241a65}{TMCM300}, 
+\hyperlink{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa8e6b450903c9e2cae2e5eb99e3e74467}{TMCM301}, 
+\hyperlink{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa8bdcff6dcfcf488fc958ca47ecfd19cb}{TMCM302}, 
+\hyperlink{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa31f54f81317e016a8f3596d0e81b0396}{TMCM303}, 
+\par
+\hyperlink{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aace134b21b8249de1085743749015c3d3}{TMCM310}, 
+\hyperlink{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa387914281e7a40ff81cf1906ae4b938b}{TMCM11x}, 
+\hyperlink{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aaba0fcc6b784d4e85e25095b304373869}{TMCM109}, 
+\hyperlink{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aafdf19449aaf1bf2abcac9ee1e58a3207}{TMCM110}, 
+\par
+\hyperlink{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa9a54f297ca02c20ceabebc926a90d5ae}{TMCM100}, 
+\hyperlink{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa4d0773732a828d83cc129067791f65a4}{TMCM610}, 
+\hyperlink{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa04fd42d7ff7fcaea62ef4ce5b068f490}{TMCM611}, 
+\hyperlink{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa7cfc6fad718d6e52e83c608c794953cb}{TMCM612}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{tmcldefs_8h_a4843aec6363ff7b374b5fe190e17fe6e}{tmcl\_\-init} (\hyperlink{structTMCLDeviceStruct}{TMCLDevice} $\ast$)
+\item 
+void \hyperlink{tmcldefs_8h_a59f577127efc6cc200f6212a19b75f62}{tmcl\_\-deinit} (\hyperlink{structTMCLDeviceStruct}{TMCLDevice} $\ast$)
+\item 
+uint8\_\-t \hyperlink{tmcldefs_8h_aa22a7985c0afc7af2f169f47be7aa3d1}{tmcl\_\-checksum} (uint8\_\-t $\ast$, int)
+\item 
+int \hyperlink{tmcldefs_8h_a8ae83ae40ca930afde6db90ea0b9cb5c}{tmcl\_\-datagram} (uint8\_\-t $\ast$, \hyperlink{structTMCLDeviceStruct}{TMCLDevice}, uint8\_\-t, uint8\_\-t, uint32\_\-t)
+\item 
+int \hyperlink{tmcldefs_8h_a36bab56c5448f75e81543f5e1d5855dc}{tmcl\_\-valid\_\-checksum} (\hyperlink{structTMCLReplyStruct}{TMCLReply})
+\item 
+int \hyperlink{tmcldefs_8h_a946609ef74e832b772d1047f5cd809d0}{tmcl\_\-dgram2reply} (\hyperlink{structTMCLReplyStruct}{TMCLReply} $\ast$, uint8\_\-t $\ast$, int)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Definitions for TMCLlib 
+
+Definition in file \hyperlink{tmcldefs_8h_source}{tmcldefs.h}.
+
+\subsection{Typedef Documentation}
+\hypertarget{tmcldefs_8h_ad26e4e286a55d7c739fd473d8cdd882e}{
+\index{tmcldefs.h@{tmcldefs.h}!TMCLBusType@{TMCLBusType}}
+\index{TMCLBusType@{TMCLBusType}!tmcldefs.h@{tmcldefs.h}}
+\subsubsection[{TMCLBusType}]{\setlength{\rightskip}{0pt plus 5cm}typedef enum {\bf tmcl\_\-busses}  {\bf TMCLBusType}}}
+\label{tmcldefs_8h_ad26e4e286a55d7c739fd473d8cdd882e}
+Supported busses and interfaces. \hypertarget{tmcldefs_8h_a61ff3e5938eeb8d7a5b41fcba8f7c914}{
+\index{tmcldefs.h@{tmcldefs.h}!TMCLCommand@{TMCLCommand}}
+\index{TMCLCommand@{TMCLCommand}!tmcldefs.h@{tmcldefs.h}}
+\subsubsection[{TMCLCommand}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf TMCLCommandStruct}  {\bf TMCLCommand}}}
+\label{tmcldefs_8h_a61ff3e5938eeb8d7a5b41fcba8f7c914}
+Structure containing a TMCL command and related data.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{group__TMCLComm}{TMCL commands.} 
+\end{DoxySeeAlso}
+\hypertarget{tmcldefs_8h_adf97b172ea75c2fd91bf4ab98f65ffea}{
+\index{tmcldefs.h@{tmcldefs.h}!TMCLDevice@{TMCLDevice}}
+\index{TMCLDevice@{TMCLDevice}!tmcldefs.h@{tmcldefs.h}}
+\subsubsection[{TMCLDevice}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf TMCLDeviceStruct}  {\bf TMCLDevice}}}
+\label{tmcldefs_8h_adf97b172ea75c2fd91bf4ab98f65ffea}
+Information of the TMCL module.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{tmcldefs_8h_ad26e4e286a55d7c739fd473d8cdd882e}{TMCLBusType} 
+\end{DoxySeeAlso}
+\hypertarget{tmcldefs_8h_a35c090090de43d9850d0f573f7d29e45}{
+\index{tmcldefs.h@{tmcldefs.h}!TMCLModel@{TMCLModel}}
+\index{TMCLModel@{TMCLModel}!tmcldefs.h@{tmcldefs.h}}
+\subsubsection[{TMCLModel}]{\setlength{\rightskip}{0pt plus 5cm}typedef enum {\bf TMCLModelEnum}  {\bf TMCLModel}}}
+\label{tmcldefs_8h_a35c090090de43d9850d0f573f7d29e45}
+Supported TMCL Device Models \hypertarget{tmcldefs_8h_a1c27da9ad00f668a659641ec0b94b9ce}{
+\index{tmcldefs.h@{tmcldefs.h}!TMCLParameter@{TMCLParameter}}
+\index{TMCLParameter@{TMCLParameter}!tmcldefs.h@{tmcldefs.h}}
+\subsubsection[{TMCLParameter}]{\setlength{\rightskip}{0pt plus 5cm}typedef int32\_\-t {\bf TMCLParameter}}}
+\label{tmcldefs_8h_a1c27da9ad00f668a659641ec0b94b9ce}
+Extended Parameters Storage space for parameter of a device 
+
+Definition at line 225 of file tmcldefs.h.\hypertarget{tmcldefs_8h_ac5261105efa5a31da90627f0cb2153d2}{
+\index{tmcldefs.h@{tmcldefs.h}!TMCLReply@{TMCLReply}}
+\index{TMCLReply@{TMCLReply}!tmcldefs.h@{tmcldefs.h}}
+\subsubsection[{TMCLReply}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf TMCLReplyStruct}  {\bf TMCLReply}}}
+\label{tmcldefs_8h_ac5261105efa5a31da90627f0cb2153d2}
+Structure for holding the reply of a module.
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{group__StatusCodes}{Status Codes.}, \hyperlink{group__TMCLComm}{TMCL commands.} 
+\end{DoxySeeAlso}
+
+
+\subsection{Enumeration Type Documentation}
+\hypertarget{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918e}{
+\index{tmcldefs.h@{tmcldefs.h}!tmcl\_\-busses@{tmcl\_\-busses}}
+\index{tmcl\_\-busses@{tmcl\_\-busses}!tmcldefs.h@{tmcldefs.h}}
+\subsubsection[{tmcl\_\-busses}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf tmcl\_\-busses}}}
+\label{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918e}
+Supported busses and interfaces. \begin{Desc}
+\item[Enumerator: ]\par
+\begin{description}
+\index{TMCL\_\-CAN@{TMCL\_\-CAN}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCL\_\-CAN@{TMCL\_\-CAN}}\item[{\em 
+\hypertarget{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918eaf9dbccd234fb0d6fa5cc9e228e3219fd}{
+TMCL\_\-CAN}
+\label{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918eaf9dbccd234fb0d6fa5cc9e228e3219fd}
+}]CAN bus (currently unsupported) \index{TMCL\_\-RSXXX@{TMCL\_\-RSXXX}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCL\_\-RSXXX@{TMCL\_\-RSXXX}}\item[{\em 
+\hypertarget{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918eaeebe71669361b77c7409940d04d22cc5}{
+TMCL\_\-RSXXX}
+\label{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918eaeebe71669361b77c7409940d04d22cc5}
+}]RS232/RS485 interface \index{TMCL\_\-IIC@{TMCL\_\-IIC}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCL\_\-IIC@{TMCL\_\-IIC}}\item[{\em 
+\hypertarget{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918ea27b661ff5f5dd238584fb2765764c314}{
+TMCL\_\-IIC}
+\label{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918ea27b661ff5f5dd238584fb2765764c314}
+}]IIC interface (currently unsupported) \index{TMCL\_\-NONE@{TMCL\_\-NONE}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCL\_\-NONE@{TMCL\_\-NONE}}\item[{\em 
+\hypertarget{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918eae1c14eefd4ba053ee83ed080d85c8971}{
+TMCL\_\-NONE}
+\label{tmcldefs_8h_a3c0af0cc3f62b9e4a1daea7839da918eae1c14eefd4ba053ee83ed080d85c8971}
+}]Marker for uninitialized interface \end{description}
+\end{Desc}
+
+
+
+Definition at line 237 of file tmcldefs.h.\hypertarget{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9a}{
+\index{tmcldefs.h@{tmcldefs.h}!TMCLModelEnum@{TMCLModelEnum}}
+\index{TMCLModelEnum@{TMCLModelEnum}!tmcldefs.h@{tmcldefs.h}}
+\subsubsection[{TMCLModelEnum}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf TMCLModelEnum}}}
+\label{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9a}
+Supported TMCL Device Models \begin{Desc}
+\item[Enumerator: ]\par
+\begin{description}
+\index{TMCM300@{TMCM300}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCM300@{TMCM300}}\item[{\em 
+\hypertarget{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aacf81076a68a2e93d0d78e11c3c241a65}{
+TMCM300}
+\label{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aacf81076a68a2e93d0d78e11c3c241a65}
+}]TMCM-\/300 \index{TMCM301@{TMCM301}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCM301@{TMCM301}}\item[{\em 
+\hypertarget{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa8e6b450903c9e2cae2e5eb99e3e74467}{
+TMCM301}
+\label{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa8e6b450903c9e2cae2e5eb99e3e74467}
+}]TMCM-\/301 \index{TMCM302@{TMCM302}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCM302@{TMCM302}}\item[{\em 
+\hypertarget{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa8bdcff6dcfcf488fc958ca47ecfd19cb}{
+TMCM302}
+\label{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa8bdcff6dcfcf488fc958ca47ecfd19cb}
+}]TMCM-\/302 \index{TMCM303@{TMCM303}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCM303@{TMCM303}}\item[{\em 
+\hypertarget{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa31f54f81317e016a8f3596d0e81b0396}{
+TMCM303}
+\label{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa31f54f81317e016a8f3596d0e81b0396}
+}]TMCM-\/303 \index{TMCM310@{TMCM310}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCM310@{TMCM310}}\item[{\em 
+\hypertarget{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aace134b21b8249de1085743749015c3d3}{
+TMCM310}
+\label{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aace134b21b8249de1085743749015c3d3}
+}]TMCM-\/310 \index{TMCM11x@{TMCM11x}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCM11x@{TMCM11x}}\item[{\em 
+\hypertarget{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa387914281e7a40ff81cf1906ae4b938b}{
+TMCM11x}
+\label{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa387914281e7a40ff81cf1906ae4b938b}
+}]TMCM-\/11x, except TMCL-\/110 \index{TMCM109@{TMCM109}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCM109@{TMCM109}}\item[{\em 
+\hypertarget{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aaba0fcc6b784d4e85e25095b304373869}{
+TMCM109}
+\label{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aaba0fcc6b784d4e85e25095b304373869}
+}]TMCM-\/109 \index{TMCM110@{TMCM110}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCM110@{TMCM110}}\item[{\em 
+\hypertarget{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aafdf19449aaf1bf2abcac9ee1e58a3207}{
+TMCM110}
+\label{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aafdf19449aaf1bf2abcac9ee1e58a3207}
+}]TMCM-\/110 \index{TMCM100@{TMCM100}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCM100@{TMCM100}}\item[{\em 
+\hypertarget{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa9a54f297ca02c20ceabebc926a90d5ae}{
+TMCM100}
+\label{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa9a54f297ca02c20ceabebc926a90d5ae}
+}]TMCM-\/100 \index{TMCM610@{TMCM610}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCM610@{TMCM610}}\item[{\em 
+\hypertarget{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa4d0773732a828d83cc129067791f65a4}{
+TMCM610}
+\label{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa4d0773732a828d83cc129067791f65a4}
+}]TMCM-\/610 \index{TMCM611@{TMCM611}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCM611@{TMCM611}}\item[{\em 
+\hypertarget{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa04fd42d7ff7fcaea62ef4ce5b068f490}{
+TMCM611}
+\label{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa04fd42d7ff7fcaea62ef4ce5b068f490}
+}]TMCM-\/611 \index{TMCM612@{TMCM612}!tmcldefs.h@{tmcldefs.h}}\index{tmcldefs.h@{tmcldefs.h}!TMCM612@{TMCM612}}\item[{\em 
+\hypertarget{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa7cfc6fad718d6e52e83c608c794953cb}{
+TMCM612}
+\label{tmcldefs_8h_a5b6ac18c2401b554e24fe3313eda6e9aa7cfc6fad718d6e52e83c608c794953cb}
+}]TMCM-\/612 \end{description}
+\end{Desc}
+
+
+
+Definition at line 248 of file tmcldefs.h.
+
+\subsection{Function Documentation}
+\hypertarget{tmcldefs_8h_aa22a7985c0afc7af2f169f47be7aa3d1}{
+\index{tmcldefs.h@{tmcldefs.h}!tmcl\_\-checksum@{tmcl\_\-checksum}}
+\index{tmcl\_\-checksum@{tmcl\_\-checksum}!tmcldefs.h@{tmcldefs.h}}
+\subsubsection[{tmcl\_\-checksum}]{\setlength{\rightskip}{0pt plus 5cm}uint8\_\-t tmcl\_\-checksum (uint8\_\-t $\ast$ {\em commands}, \/  int {\em length})}}
+\label{tmcldefs_8h_aa22a7985c0afc7af2f169f47be7aa3d1}
+Calculate the checksum for a datagram
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em commands}]Buffer containing the datagram \item[{\em length}]length of datagram \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Checksum 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{group__TMCLMisc_ga7d2c47709a2fef9913f9c4000d68c814}{TMCL\_\-DGRAM\_\-SIZE\_\-CAN}, \hyperlink{group__TMCLMisc_ga893fbfdcd1c9af739173be6476ad1696}{TMCL\_\-DGRAM\_\-SIZE\_\-RSXXX}, \hyperlink{group__TMCLMisc_gac361bd7186e0b9243b2a8d6dbd465660}{TMCL\_\-DGRAM\_\-SIZE\_\-IIC} 
+\end{DoxySeeAlso}
+
+
+Definition at line 61 of file tmcldefs.c.\hypertarget{tmcldefs_8h_a8ae83ae40ca930afde6db90ea0b9cb5c}{
+\index{tmcldefs.h@{tmcldefs.h}!tmcl\_\-datagram@{tmcl\_\-datagram}}
+\index{tmcl\_\-datagram@{tmcl\_\-datagram}!tmcldefs.h@{tmcldefs.h}}
+\subsubsection[{tmcl\_\-datagram}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-datagram (uint8\_\-t $\ast$ {\em datagram}, \/  {\bf TMCLDevice} {\em device}, \/  uint8\_\-t {\em command}, \/  uint8\_\-t {\em type}, \/  uint32\_\-t {\em value})}}
+\label{tmcldefs_8h_a8ae83ae40ca930afde6db90ea0b9cb5c}
+Build a datagram for sending to the device.
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em datagram}]Buffer to store the datagram \item[{\em device}]The device for which the datagram is intended \item[{\em command}]The \hyperlink{group__TMCLComm}{command} \item[{\em type}]Type \item[{\em value}]Value \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Length of datagram 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{group__TMCLComm}{TMCL Commands} 
+\end{DoxySeeAlso}
+
+
+Definition at line 82 of file tmcldefs.c.\hypertarget{tmcldefs_8h_a59f577127efc6cc200f6212a19b75f62}{
+\index{tmcldefs.h@{tmcldefs.h}!tmcl\_\-deinit@{tmcl\_\-deinit}}
+\index{tmcl\_\-deinit@{tmcl\_\-deinit}!tmcldefs.h@{tmcldefs.h}}
+\subsubsection[{tmcl\_\-deinit}]{\setlength{\rightskip}{0pt plus 5cm}void tmcl\_\-deinit ({\bf TMCLDevice} $\ast$ {\em device})}}
+\label{tmcldefs_8h_a59f577127efc6cc200f6212a19b75f62}
+Deinitialize TMCLDevice data structure
+
+\begin{Desc}
+\item[\hyperlink{todo__todo000003}{Todo}]Document this. \end{Desc}
+
+
+Definition at line 48 of file tmcldefs.c.\hypertarget{tmcldefs_8h_a946609ef74e832b772d1047f5cd809d0}{
+\index{tmcldefs.h@{tmcldefs.h}!tmcl\_\-dgram2reply@{tmcl\_\-dgram2reply}}
+\index{tmcl\_\-dgram2reply@{tmcl\_\-dgram2reply}!tmcldefs.h@{tmcldefs.h}}
+\subsubsection[{tmcl\_\-dgram2reply}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-dgram2reply ({\bf TMCLReply} $\ast$ {\em reply}, \/  uint8\_\-t $\ast$ {\em datagram}, \/  int {\em length})}}
+\label{tmcldefs_8h_a946609ef74e832b772d1047f5cd809d0}
+Convert a datagram received from a module to a tmcl\_\-reply struct.
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em reply}]tmcl\_\-reply structure to store the data \item[{\em datagram}]The datagram received from the module \item[{\em length}]Lengh of the datagram \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0 on success
+\item -\/1 undefined length 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 172 of file tmcldefs.c.\hypertarget{tmcldefs_8h_a4843aec6363ff7b374b5fe190e17fe6e}{
+\index{tmcldefs.h@{tmcldefs.h}!tmcl\_\-init@{tmcl\_\-init}}
+\index{tmcl\_\-init@{tmcl\_\-init}!tmcldefs.h@{tmcldefs.h}}
+\subsubsection[{tmcl\_\-init}]{\setlength{\rightskip}{0pt plus 5cm}void tmcl\_\-init ({\bf TMCLDevice} $\ast$ {\em device})}}
+\label{tmcldefs_8h_a4843aec6363ff7b374b5fe190e17fe6e}
+Initialize TMCLDevice data structure
+
+\begin{Desc}
+\item[\hyperlink{todo__todo000002}{Todo}]Document this. \end{Desc}
+
+
+Definition at line 35 of file tmcldefs.c.\hypertarget{tmcldefs_8h_a36bab56c5448f75e81543f5e1d5855dc}{
+\index{tmcldefs.h@{tmcldefs.h}!tmcl\_\-valid\_\-checksum@{tmcl\_\-valid\_\-checksum}}
+\index{tmcl\_\-valid\_\-checksum@{tmcl\_\-valid\_\-checksum}!tmcldefs.h@{tmcldefs.h}}
+\subsubsection[{tmcl\_\-valid\_\-checksum}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-valid\_\-checksum ({\bf TMCLReply} {\em reply})}}
+\label{tmcldefs_8h_a36bab56c5448f75e81543f5e1d5855dc}
+Check the checksum of a \hyperlink{tmcldefs_8h_ac5261105efa5a31da90627f0cb2153d2}{TMCL reply}
+
+
+\begin{DoxyParams}{Parameters}
+\item[{\em reply}]The reply of the module \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 1 on good checksum
+\item 0 on bad checksum 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 138 of file tmcldefs.c.

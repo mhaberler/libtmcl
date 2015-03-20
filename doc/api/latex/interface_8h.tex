@@ -1,0 +1,195 @@
+\hypertarget{interface_8h}{
+\section{src/tmcl/interface.h File Reference}
+\label{interface_8h}\index{src/tmcl/interface.h@{src/tmcl/interface.h}}
+}
+{\ttfamily \#include $<$tmcl/tmcldefs.h$>$}\par
+Include dependency graph for interface.h:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=72pt]{interface_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=394pt]{interface_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structTMCLInterfaceStruct}{TMCLInterfaceStruct}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef int($\ast$ \hyperlink{interface_8h_a1f8f6db177582534470f015805447f32}{tmcl\_\-open\_\-funcPtr} )(struct \hyperlink{structTMCLInterfaceStruct}{TMCLInterfaceStruct} $\ast$iface, const char $\ast$ifacename, void $\ast$)
+\item 
+\hypertarget{interface_8h_a9e7227a8c5d13beb62425dc812ffa50d}{
+typedef int($\ast$ {\bfseries tmcl\_\-close\_\-funcPtr} )(struct \hyperlink{structTMCLInterfaceStruct}{TMCLInterfaceStruct} $\ast$iface, void $\ast$)}
+\label{interface_8h_a9e7227a8c5d13beb62425dc812ffa50d}
+
+\item 
+\hypertarget{interface_8h_a4e986ad65eb977300f1a85a10667877a}{
+typedef int($\ast$ {\bfseries tmcl\_\-write\_\-funcPtr} )(struct \hyperlink{structTMCLInterfaceStruct}{TMCLInterfaceStruct} $\ast$iface, const void $\ast$buffer, int length, void $\ast$)}
+\label{interface_8h_a4e986ad65eb977300f1a85a10667877a}
+
+\item 
+\hypertarget{interface_8h_a1f18ca4d75f24fb75ae4415f025cc7f7}{
+typedef int($\ast$ {\bfseries tmcl\_\-read\_\-funcPtr} )(struct \hyperlink{structTMCLInterfaceStruct}{TMCLInterfaceStruct} $\ast$iface, char $\ast$buffer, void $\ast$)}
+\label{interface_8h_a1f18ca4d75f24fb75ae4415f025cc7f7}
+
+\item 
+typedef struct \hyperlink{structTMCLInterfaceStruct}{TMCLInterfaceStruct} \hyperlink{interface_8h_a02607838b81b4bec6053a0781186c20d}{TMCLInterface}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{interface_8h_a6234d4f85bda5c0132fdecde69565ef4}{tmcl\_\-init\_\-interface} (\hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$$\ast$iface, \hyperlink{tmcldefs_8h_ad26e4e286a55d7c739fd473d8cdd882e}{TMCLBusType} bus, \hyperlink{interface_8h_a1f8f6db177582534470f015805447f32}{tmcl\_\-open\_\-funcPtr} open, tmcl\_\-close\_\-funcPtr close, tmcl\_\-read\_\-funcPtr read, tmcl\_\-write\_\-funcPtr write)
+\item 
+void \hyperlink{interface_8h_a4cf02ca59d140317d11d965e6ae95e26}{tmcl\_\-set\_\-open\_\-data} (\hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$iface, void $\ast$func\_\-pointer)
+\item 
+void \hyperlink{interface_8h_a928addfc26628720283c4710165e279e}{tmcl\_\-set\_\-close\_\-data} (\hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$iface, void $\ast$func\_\-pointer)
+\item 
+void \hyperlink{interface_8h_a2ab1e5dc50c5cf71d9e3524b0854f077}{tmcl\_\-set\_\-read\_\-data} (\hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$iface, void $\ast$func\_\-pointer)
+\item 
+void \hyperlink{interface_8h_a971ed663d2191ec0503be6e098de4d33}{tmcl\_\-set\_\-write\_\-data} (\hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$iface, void $\ast$func\_\-pointer)
+\item 
+void \hyperlink{interface_8h_a382b00c7bcc1c135272e7d4d14e493b8}{tmcl\_\-deinit\_\-interface} (\hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$$\ast$iface)
+\item 
+int \hyperlink{interface_8h_a319f1f4969ffd9faebe4fef0c49d31bb}{tmcl\_\-open\_\-interface} (\hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$iface, const char $\ast$filename)
+\item 
+int \hyperlink{interface_8h_ab78b0151f64fbbeae0567e8db9d39487}{tmcl\_\-close\_\-interface} (\hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$iface)
+\item 
+void \hyperlink{interface_8h_a8e317645c487f3c5c1ef8365c2e1733d}{tmcl\_\-interface\_\-set\_\-timeout} (\hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$iface, unsigned int sec, unsigned int msec)
+\item 
+void \hyperlink{interface_8h_af99259a37abb7f9d89847dcec8321254}{tmcl\_\-interface\_\-set\_\-timewait} (\hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$iface, unsigned int sec, unsigned int msec)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Functions, structures, etc. to access the interface of the controller board 
+
+Definition in file \hyperlink{interface_8h_source}{interface.h}.
+
+\subsection{Typedef Documentation}
+\hypertarget{interface_8h_a1f8f6db177582534470f015805447f32}{
+\index{interface.h@{interface.h}!tmcl\_\-open\_\-funcPtr@{tmcl\_\-open\_\-funcPtr}}
+\index{tmcl\_\-open\_\-funcPtr@{tmcl\_\-open\_\-funcPtr}!interface.h@{interface.h}}
+\subsubsection[{tmcl\_\-open\_\-funcPtr}]{\setlength{\rightskip}{0pt plus 5cm}typedef int($\ast$ {\bf tmcl\_\-open\_\-funcPtr})(struct {\bf TMCLInterfaceStruct} $\ast$iface, const char $\ast$ifacename, void $\ast$)}}
+\label{interface_8h_a1f8f6db177582534470f015805447f32}
+Function pointers for open/close and read/write interface communication functions 
+
+Definition at line 30 of file interface.h.\hypertarget{interface_8h_a02607838b81b4bec6053a0781186c20d}{
+\index{interface.h@{interface.h}!TMCLInterface@{TMCLInterface}}
+\index{TMCLInterface@{TMCLInterface}!interface.h@{interface.h}}
+\subsubsection[{TMCLInterface}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf TMCLInterfaceStruct}  {\bf TMCLInterface}}}
+\label{interface_8h_a02607838b81b4bec6053a0781186c20d}
+Struct to store information about the controller interface 
+
+\subsection{Function Documentation}
+\hypertarget{interface_8h_ab78b0151f64fbbeae0567e8db9d39487}{
+\index{interface.h@{interface.h}!tmcl\_\-close\_\-interface@{tmcl\_\-close\_\-interface}}
+\index{tmcl\_\-close\_\-interface@{tmcl\_\-close\_\-interface}!interface.h@{interface.h}}
+\subsubsection[{tmcl\_\-close\_\-interface}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-close\_\-interface ({\bf TMCLInterface} $\ast$ {\em iface})}}
+\label{interface_8h_ab78b0151f64fbbeae0567e8db9d39487}
+Close interface $\ast$
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0 on success
+\item -\/1 on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 130 of file interface.c.\hypertarget{interface_8h_a382b00c7bcc1c135272e7d4d14e493b8}{
+\index{interface.h@{interface.h}!tmcl\_\-deinit\_\-interface@{tmcl\_\-deinit\_\-interface}}
+\index{tmcl\_\-deinit\_\-interface@{tmcl\_\-deinit\_\-interface}!interface.h@{interface.h}}
+\subsubsection[{tmcl\_\-deinit\_\-interface}]{\setlength{\rightskip}{0pt plus 5cm}void tmcl\_\-deinit\_\-interface ({\bf TMCLInterface} $\ast$$\ast$ {\em iface})}}
+\label{interface_8h_a382b00c7bcc1c135272e7d4d14e493b8}
+Deinitialize interface 
+
+Definition at line 107 of file interface.c.\hypertarget{interface_8h_a6234d4f85bda5c0132fdecde69565ef4}{
+\index{interface.h@{interface.h}!tmcl\_\-init\_\-interface@{tmcl\_\-init\_\-interface}}
+\index{tmcl\_\-init\_\-interface@{tmcl\_\-init\_\-interface}!interface.h@{interface.h}}
+\subsubsection[{tmcl\_\-init\_\-interface}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-init\_\-interface ({\bf TMCLInterface} $\ast$$\ast$ {\em iface}, \/  {\bf TMCLBusType} {\em bus}, \/  {\bf tmcl\_\-open\_\-funcPtr} {\em open}, \/  tmcl\_\-close\_\-funcPtr {\em close}, \/  tmcl\_\-read\_\-funcPtr {\em read}, \/  tmcl\_\-write\_\-funcPtr {\em write})}}
+\label{interface_8h_a6234d4f85bda5c0132fdecde69565ef4}
+Initialize TMCLInterface struct
+
+Custom open/close/read/write functions may be given here. Use {\ttfamily NULL} to use the builtin functions.
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0 on success
+\item -\/1 on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 39 of file interface.c.\hypertarget{interface_8h_a8e317645c487f3c5c1ef8365c2e1733d}{
+\index{interface.h@{interface.h}!tmcl\_\-interface\_\-set\_\-timeout@{tmcl\_\-interface\_\-set\_\-timeout}}
+\index{tmcl\_\-interface\_\-set\_\-timeout@{tmcl\_\-interface\_\-set\_\-timeout}!interface.h@{interface.h}}
+\subsubsection[{tmcl\_\-interface\_\-set\_\-timeout}]{\setlength{\rightskip}{0pt plus 5cm}void tmcl\_\-interface\_\-set\_\-timeout ({\bf TMCLInterface} $\ast$ {\em iface}, \/  unsigned int {\em sec}, \/  unsigned int {\em msec})}}
+\label{interface_8h_a8e317645c487f3c5c1ef8365c2e1733d}
+Adjust timout for interface communication 
+
+Definition at line 143 of file interface.c.\hypertarget{interface_8h_af99259a37abb7f9d89847dcec8321254}{
+\index{interface.h@{interface.h}!tmcl\_\-interface\_\-set\_\-timewait@{tmcl\_\-interface\_\-set\_\-timewait}}
+\index{tmcl\_\-interface\_\-set\_\-timewait@{tmcl\_\-interface\_\-set\_\-timewait}!interface.h@{interface.h}}
+\subsubsection[{tmcl\_\-interface\_\-set\_\-timewait}]{\setlength{\rightskip}{0pt plus 5cm}void tmcl\_\-interface\_\-set\_\-timewait ({\bf TMCLInterface} $\ast$ {\em iface}, \/  unsigned int {\em sec}, \/  unsigned int {\em msec})}}
+\label{interface_8h_af99259a37abb7f9d89847dcec8321254}
+Adjust how long to wait for reply from motor controller 
+
+Definition at line 151 of file interface.c.\hypertarget{interface_8h_a319f1f4969ffd9faebe4fef0c49d31bb}{
+\index{interface.h@{interface.h}!tmcl\_\-open\_\-interface@{tmcl\_\-open\_\-interface}}
+\index{tmcl\_\-open\_\-interface@{tmcl\_\-open\_\-interface}!interface.h@{interface.h}}
+\subsubsection[{tmcl\_\-open\_\-interface}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-open\_\-interface ({\bf TMCLInterface} $\ast$ {\em iface}, \/  const char $\ast$ {\em filename})}}
+\label{interface_8h_a319f1f4969ffd9faebe4fef0c49d31bb}
+Open interface $\ast$
+
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em iface}]TMCLInterface struct \item[\mbox{$\leftarrow$} {\em filename}]filename of interface device (for RSXXX)\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0 on success
+\item -\/1 on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 113 of file interface.c.\hypertarget{interface_8h_a928addfc26628720283c4710165e279e}{
+\index{interface.h@{interface.h}!tmcl\_\-set\_\-close\_\-data@{tmcl\_\-set\_\-close\_\-data}}
+\index{tmcl\_\-set\_\-close\_\-data@{tmcl\_\-set\_\-close\_\-data}!interface.h@{interface.h}}
+\subsubsection[{tmcl\_\-set\_\-close\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}void tmcl\_\-set\_\-close\_\-data ({\bf TMCLInterface} $\ast$ {\em iface}, \/  void $\ast$ {\em func\_\-pointer})}}
+\label{interface_8h_a928addfc26628720283c4710165e279e}
+Set custom close function for interface 
+
+Definition at line 95 of file interface.c.\hypertarget{interface_8h_a4cf02ca59d140317d11d965e6ae95e26}{
+\index{interface.h@{interface.h}!tmcl\_\-set\_\-open\_\-data@{tmcl\_\-set\_\-open\_\-data}}
+\index{tmcl\_\-set\_\-open\_\-data@{tmcl\_\-set\_\-open\_\-data}!interface.h@{interface.h}}
+\subsubsection[{tmcl\_\-set\_\-open\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}void tmcl\_\-set\_\-open\_\-data ({\bf TMCLInterface} $\ast$ {\em iface}, \/  void $\ast$ {\em func\_\-pointer})}}
+\label{interface_8h_a4cf02ca59d140317d11d965e6ae95e26}
+Set custom open function for interface 
+
+Definition at line 91 of file interface.c.\hypertarget{interface_8h_a2ab1e5dc50c5cf71d9e3524b0854f077}{
+\index{interface.h@{interface.h}!tmcl\_\-set\_\-read\_\-data@{tmcl\_\-set\_\-read\_\-data}}
+\index{tmcl\_\-set\_\-read\_\-data@{tmcl\_\-set\_\-read\_\-data}!interface.h@{interface.h}}
+\subsubsection[{tmcl\_\-set\_\-read\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}void tmcl\_\-set\_\-read\_\-data ({\bf TMCLInterface} $\ast$ {\em iface}, \/  void $\ast$ {\em func\_\-pointer})}}
+\label{interface_8h_a2ab1e5dc50c5cf71d9e3524b0854f077}
+Set custom read function for interface 
+
+Definition at line 99 of file interface.c.\hypertarget{interface_8h_a971ed663d2191ec0503be6e098de4d33}{
+\index{interface.h@{interface.h}!tmcl\_\-set\_\-write\_\-data@{tmcl\_\-set\_\-write\_\-data}}
+\index{tmcl\_\-set\_\-write\_\-data@{tmcl\_\-set\_\-write\_\-data}!interface.h@{interface.h}}
+\subsubsection[{tmcl\_\-set\_\-write\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}void tmcl\_\-set\_\-write\_\-data ({\bf TMCLInterface} $\ast$ {\em iface}, \/  void $\ast$ {\em func\_\-pointer})}}
+\label{interface_8h_a971ed663d2191ec0503be6e098de4d33}
+Set custom write function for interface 
+
+Definition at line 103 of file interface.c.

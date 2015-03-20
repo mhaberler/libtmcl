@@ -1,0 +1,422 @@
+\indexentry{Misc defines@{Misc defines}|hyperpage}{13}
+\indexentry{TMCLMisc@{TMCLMisc}!TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}CAN@{TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}CAN}|hyperpage}{13}
+\indexentry{TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}CAN@{TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}CAN}!TMCLMisc@{TMCLMisc}|hyperpage}{13}
+\indexentry{TMCLMisc@{TMCLMisc}!TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}IIC@{TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}IIC}|hyperpage}{13}
+\indexentry{TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}IIC@{TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}IIC}!TMCLMisc@{TMCLMisc}|hyperpage}{13}
+\indexentry{TMCLMisc@{TMCLMisc}!TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}RSXXX@{TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}RSXXX}|hyperpage}{13}
+\indexentry{TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}RSXXX@{TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}RSXXX}!TMCLMisc@{TMCLMisc}|hyperpage}{13}
+\indexentry{TMCLMisc@{TMCLMisc}!TMCL\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE@{TMCL\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE}|hyperpage}{13}
+\indexentry{TMCL\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE@{TMCL\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE}!TMCLMisc@{TMCLMisc}|hyperpage}{13}
+\indexentry{TMCLMisc@{TMCLMisc}!TMCL\_\discretionary {-}{}{}VERSION@{TMCL\_\discretionary {-}{}{}VERSION}|hyperpage}{13}
+\indexentry{TMCL\_\discretionary {-}{}{}VERSION@{TMCL\_\discretionary {-}{}{}VERSION}!TMCLMisc@{TMCLMisc}|hyperpage}{13}
+\indexentry{Status Codes.@{Status Codes.}|hyperpage}{15}
+\indexentry{StatusCodes@{StatusCodes}!TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}COMMAND\_\discretionary {-}{}{}NA@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}COMMAND\_\discretionary {-}{}{}NA}|hyperpage}{15}
+\indexentry{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}COMMAND\_\discretionary {-}{}{}NA@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}COMMAND\_\discretionary {-}{}{}NA}!StatusCodes@{StatusCodes}|hyperpage}{15}
+\indexentry{StatusCodes@{StatusCodes}!TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}EEPROM\_\discretionary {-}{}{}LOCKED@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}EEPROM\_\discretionary {-}{}{}LOCKED}|hyperpage}{15}
+\indexentry{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}EEPROM\_\discretionary {-}{}{}LOCKED@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}EEPROM\_\discretionary {-}{}{}LOCKED}!StatusCodes@{StatusCodes}|hyperpage}{15}
+\indexentry{StatusCodes@{StatusCodes}!TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}INVALID\_\discretionary {-}{}{}COMMAND@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}INVALID\_\discretionary {-}{}{}COMMAND}|hyperpage}{15}
+\indexentry{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}INVALID\_\discretionary {-}{}{}COMMAND@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}INVALID\_\discretionary {-}{}{}COMMAND}!StatusCodes@{StatusCodes}|hyperpage}{15}
+\indexentry{StatusCodes@{StatusCodes}!TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}INVALID\_\discretionary {-}{}{}VALUE@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}INVALID\_\discretionary {-}{}{}VALUE}|hyperpage}{15}
+\indexentry{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}INVALID\_\discretionary {-}{}{}VALUE@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}INVALID\_\discretionary {-}{}{}VALUE}!StatusCodes@{StatusCodes}|hyperpage}{15}
+\indexentry{StatusCodes@{StatusCodes}!TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}LOADED\_\discretionary {-}{}{}EEPROM@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}LOADED\_\discretionary {-}{}{}EEPROM}|hyperpage}{15}
+\indexentry{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}LOADED\_\discretionary {-}{}{}EEPROM@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}LOADED\_\discretionary {-}{}{}EEPROM}!StatusCodes@{StatusCodes}|hyperpage}{15}
+\indexentry{StatusCodes@{StatusCodes}!TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}SUCCESS@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}SUCCESS}|hyperpage}{15}
+\indexentry{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}SUCCESS@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}SUCCESS}!StatusCodes@{StatusCodes}|hyperpage}{15}
+\indexentry{StatusCodes@{StatusCodes}!TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}WRONG\_\discretionary {-}{}{}CHECKSUM@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}WRONG\_\discretionary {-}{}{}CHECKSUM}|hyperpage}{16}
+\indexentry{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}WRONG\_\discretionary {-}{}{}CHECKSUM@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}WRONG\_\discretionary {-}{}{}CHECKSUM}!StatusCodes@{StatusCodes}|hyperpage}{16}
+\indexentry{StatusCodes@{StatusCodes}!TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}WRONG\_\discretionary {-}{}{}TYPE@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}WRONG\_\discretionary {-}{}{}TYPE}|hyperpage}{16}
+\indexentry{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}WRONG\_\discretionary {-}{}{}TYPE@{TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}WRONG\_\discretionary {-}{}{}TYPE}!StatusCodes@{StatusCodes}|hyperpage}{16}
+\indexentry{TMCL commands.@{TMCL commands.}|hyperpage}{17}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}AAP@{TMCL\_\discretionary {-}{}{}AAP}|hyperpage}{18}
+\indexentry{TMCL\_\discretionary {-}{}{}AAP@{TMCL\_\discretionary {-}{}{}AAP}!TMCLComm@{TMCLComm}|hyperpage}{18}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}AGP@{TMCL\_\discretionary {-}{}{}AGP}|hyperpage}{18}
+\indexentry{TMCL\_\discretionary {-}{}{}AGP@{TMCL\_\discretionary {-}{}{}AGP}!TMCLComm@{TMCLComm}|hyperpage}{18}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}CALC@{TMCL\_\discretionary {-}{}{}CALC}|hyperpage}{18}
+\indexentry{TMCL\_\discretionary {-}{}{}CALC@{TMCL\_\discretionary {-}{}{}CALC}!TMCLComm@{TMCLComm}|hyperpage}{18}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}CALCX@{TMCL\_\discretionary {-}{}{}CALCX}|hyperpage}{18}
+\indexentry{TMCL\_\discretionary {-}{}{}CALCX@{TMCL\_\discretionary {-}{}{}CALCX}!TMCLComm@{TMCLComm}|hyperpage}{18}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}CCO@{TMCL\_\discretionary {-}{}{}CCO}|hyperpage}{18}
+\indexentry{TMCL\_\discretionary {-}{}{}CCO@{TMCL\_\discretionary {-}{}{}CCO}!TMCLComm@{TMCLComm}|hyperpage}{18}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}CLE@{TMCL\_\discretionary {-}{}{}CLE}|hyperpage}{18}
+\indexentry{TMCL\_\discretionary {-}{}{}CLE@{TMCL\_\discretionary {-}{}{}CLE}!TMCLComm@{TMCLComm}|hyperpage}{18}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}COMP@{TMCL\_\discretionary {-}{}{}COMP}|hyperpage}{18}
+\indexentry{TMCL\_\discretionary {-}{}{}COMP@{TMCL\_\discretionary {-}{}{}COMP}!TMCLComm@{TMCLComm}|hyperpage}{18}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}CSUB@{TMCL\_\discretionary {-}{}{}CSUB}|hyperpage}{18}
+\indexentry{TMCL\_\discretionary {-}{}{}CSUB@{TMCL\_\discretionary {-}{}{}CSUB}!TMCLComm@{TMCLComm}|hyperpage}{18}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}GCO@{TMCL\_\discretionary {-}{}{}GCO}|hyperpage}{19}
+\indexentry{TMCL\_\discretionary {-}{}{}GCO@{TMCL\_\discretionary {-}{}{}GCO}!TMCLComm@{TMCLComm}|hyperpage}{19}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}GIO@{TMCL\_\discretionary {-}{}{}GIO}|hyperpage}{19}
+\indexentry{TMCL\_\discretionary {-}{}{}GIO@{TMCL\_\discretionary {-}{}{}GIO}!TMCLComm@{TMCLComm}|hyperpage}{19}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}JA@{TMCL\_\discretionary {-}{}{}JA}|hyperpage}{19}
+\indexentry{TMCL\_\discretionary {-}{}{}JA@{TMCL\_\discretionary {-}{}{}JA}!TMCLComm@{TMCLComm}|hyperpage}{19}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}JC@{TMCL\_\discretionary {-}{}{}JC}|hyperpage}{19}
+\indexentry{TMCL\_\discretionary {-}{}{}JC@{TMCL\_\discretionary {-}{}{}JC}!TMCLComm@{TMCLComm}|hyperpage}{19}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}ABS@{TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}ABS}|hyperpage}{19}
+\indexentry{TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}ABS@{TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}ABS}!TMCLComm@{TMCLComm}|hyperpage}{19}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}COORD@{TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}COORD}|hyperpage}{19}
+\indexentry{TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}COORD@{TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}COORD}!TMCLComm@{TMCLComm}|hyperpage}{19}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}REL@{TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}REL}|hyperpage}{19}
+\indexentry{TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}REL@{TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}REL}!TMCLComm@{TMCLComm}|hyperpage}{19}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}START@{TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}START}|hyperpage}{19}
+\indexentry{TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}START@{TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}START}!TMCLComm@{TMCLComm}|hyperpage}{19}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}STATUS@{TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}STATUS}|hyperpage}{19}
+\indexentry{TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}STATUS@{TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}STATUS}!TMCLComm@{TMCLComm}|hyperpage}{19}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}STOP@{TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}STOP}|hyperpage}{20}
+\indexentry{TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}STOP@{TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}STOP}!TMCLComm@{TMCLComm}|hyperpage}{20}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}RSUB@{TMCL\_\discretionary {-}{}{}RSUB}|hyperpage}{20}
+\indexentry{TMCL\_\discretionary {-}{}{}RSUB@{TMCL\_\discretionary {-}{}{}RSUB}!TMCLComm@{TMCLComm}|hyperpage}{20}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}SAC@{TMCL\_\discretionary {-}{}{}SAC}|hyperpage}{20}
+\indexentry{TMCL\_\discretionary {-}{}{}SAC@{TMCL\_\discretionary {-}{}{}SAC}!TMCLComm@{TMCLComm}|hyperpage}{20}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}SCO@{TMCL\_\discretionary {-}{}{}SCO}|hyperpage}{20}
+\indexentry{TMCL\_\discretionary {-}{}{}SCO@{TMCL\_\discretionary {-}{}{}SCO}!TMCLComm@{TMCLComm}|hyperpage}{20}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}SIO@{TMCL\_\discretionary {-}{}{}SIO}|hyperpage}{20}
+\indexentry{TMCL\_\discretionary {-}{}{}SIO@{TMCL\_\discretionary {-}{}{}SIO}!TMCLComm@{TMCLComm}|hyperpage}{20}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}STOP@{TMCL\_\discretionary {-}{}{}STOP}|hyperpage}{20}
+\indexentry{TMCL\_\discretionary {-}{}{}STOP@{TMCL\_\discretionary {-}{}{}STOP}!TMCLComm@{TMCLComm}|hyperpage}{20}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}UF0@{TMCL\_\discretionary {-}{}{}UF0}|hyperpage}{20}
+\indexentry{TMCL\_\discretionary {-}{}{}UF0@{TMCL\_\discretionary {-}{}{}UF0}!TMCLComm@{TMCLComm}|hyperpage}{20}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}UF1@{TMCL\_\discretionary {-}{}{}UF1}|hyperpage}{20}
+\indexentry{TMCL\_\discretionary {-}{}{}UF1@{TMCL\_\discretionary {-}{}{}UF1}!TMCLComm@{TMCLComm}|hyperpage}{20}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}UF2@{TMCL\_\discretionary {-}{}{}UF2}|hyperpage}{20}
+\indexentry{TMCL\_\discretionary {-}{}{}UF2@{TMCL\_\discretionary {-}{}{}UF2}!TMCLComm@{TMCLComm}|hyperpage}{20}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}UF3@{TMCL\_\discretionary {-}{}{}UF3}|hyperpage}{21}
+\indexentry{TMCL\_\discretionary {-}{}{}UF3@{TMCL\_\discretionary {-}{}{}UF3}!TMCLComm@{TMCLComm}|hyperpage}{21}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}UF4@{TMCL\_\discretionary {-}{}{}UF4}|hyperpage}{21}
+\indexentry{TMCL\_\discretionary {-}{}{}UF4@{TMCL\_\discretionary {-}{}{}UF4}!TMCLComm@{TMCLComm}|hyperpage}{21}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}UF5@{TMCL\_\discretionary {-}{}{}UF5}|hyperpage}{21}
+\indexentry{TMCL\_\discretionary {-}{}{}UF5@{TMCL\_\discretionary {-}{}{}UF5}!TMCLComm@{TMCLComm}|hyperpage}{21}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}UF6@{TMCL\_\discretionary {-}{}{}UF6}|hyperpage}{21}
+\indexentry{TMCL\_\discretionary {-}{}{}UF6@{TMCL\_\discretionary {-}{}{}UF6}!TMCLComm@{TMCLComm}|hyperpage}{21}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}UF7@{TMCL\_\discretionary {-}{}{}UF7}|hyperpage}{21}
+\indexentry{TMCL\_\discretionary {-}{}{}UF7@{TMCL\_\discretionary {-}{}{}UF7}!TMCLComm@{TMCLComm}|hyperpage}{21}
+\indexentry{TMCLComm@{TMCLComm}!TMCL\_\discretionary {-}{}{}WAIT@{TMCL\_\discretionary {-}{}{}WAIT}|hyperpage}{21}
+\indexentry{TMCL\_\discretionary {-}{}{}WAIT@{TMCL\_\discretionary {-}{}{}WAIT}!TMCLComm@{TMCLComm}|hyperpage}{21}
+\indexentry{Motion commands.@{Motion commands.}|hyperpage}{22}
+\indexentry{MotionComm@{MotionComm}!TMCL\_\discretionary {-}{}{}MST@{TMCL\_\discretionary {-}{}{}MST}|hyperpage}{22}
+\indexentry{TMCL\_\discretionary {-}{}{}MST@{TMCL\_\discretionary {-}{}{}MST}!MotionComm@{MotionComm}|hyperpage}{22}
+\indexentry{MotionComm@{MotionComm}!TMCL\_\discretionary {-}{}{}MVP@{TMCL\_\discretionary {-}{}{}MVP}|hyperpage}{22}
+\indexentry{TMCL\_\discretionary {-}{}{}MVP@{TMCL\_\discretionary {-}{}{}MVP}!MotionComm@{MotionComm}|hyperpage}{22}
+\indexentry{MotionComm@{MotionComm}!TMCL\_\discretionary {-}{}{}RFS@{TMCL\_\discretionary {-}{}{}RFS}|hyperpage}{22}
+\indexentry{TMCL\_\discretionary {-}{}{}RFS@{TMCL\_\discretionary {-}{}{}RFS}!MotionComm@{MotionComm}|hyperpage}{22}
+\indexentry{MotionComm@{MotionComm}!TMCL\_\discretionary {-}{}{}ROL@{TMCL\_\discretionary {-}{}{}ROL}|hyperpage}{22}
+\indexentry{TMCL\_\discretionary {-}{}{}ROL@{TMCL\_\discretionary {-}{}{}ROL}!MotionComm@{MotionComm}|hyperpage}{22}
+\indexentry{MotionComm@{MotionComm}!TMCL\_\discretionary {-}{}{}ROR@{TMCL\_\discretionary {-}{}{}ROR}|hyperpage}{22}
+\indexentry{TMCL\_\discretionary {-}{}{}ROR@{TMCL\_\discretionary {-}{}{}ROR}!MotionComm@{MotionComm}|hyperpage}{22}
+\indexentry{Parameter commands.@{Parameter commands.}|hyperpage}{23}
+\indexentry{ParComm@{ParComm}!TMCL\_\discretionary {-}{}{}GAP@{TMCL\_\discretionary {-}{}{}GAP}|hyperpage}{23}
+\indexentry{TMCL\_\discretionary {-}{}{}GAP@{TMCL\_\discretionary {-}{}{}GAP}!ParComm@{ParComm}|hyperpage}{23}
+\indexentry{ParComm@{ParComm}!TMCL\_\discretionary {-}{}{}GGP@{TMCL\_\discretionary {-}{}{}GGP}|hyperpage}{23}
+\indexentry{TMCL\_\discretionary {-}{}{}GGP@{TMCL\_\discretionary {-}{}{}GGP}!ParComm@{ParComm}|hyperpage}{23}
+\indexentry{ParComm@{ParComm}!TMCL\_\discretionary {-}{}{}RSAP@{TMCL\_\discretionary {-}{}{}RSAP}|hyperpage}{23}
+\indexentry{TMCL\_\discretionary {-}{}{}RSAP@{TMCL\_\discretionary {-}{}{}RSAP}!ParComm@{ParComm}|hyperpage}{23}
+\indexentry{ParComm@{ParComm}!TMCL\_\discretionary {-}{}{}RSGP@{TMCL\_\discretionary {-}{}{}RSGP}|hyperpage}{23}
+\indexentry{TMCL\_\discretionary {-}{}{}RSGP@{TMCL\_\discretionary {-}{}{}RSGP}!ParComm@{ParComm}|hyperpage}{23}
+\indexentry{ParComm@{ParComm}!TMCL\_\discretionary {-}{}{}SAP@{TMCL\_\discretionary {-}{}{}SAP}|hyperpage}{23}
+\indexentry{TMCL\_\discretionary {-}{}{}SAP@{TMCL\_\discretionary {-}{}{}SAP}!ParComm@{ParComm}|hyperpage}{23}
+\indexentry{ParComm@{ParComm}!TMCL\_\discretionary {-}{}{}SGP@{TMCL\_\discretionary {-}{}{}SGP}|hyperpage}{24}
+\indexentry{TMCL\_\discretionary {-}{}{}SGP@{TMCL\_\discretionary {-}{}{}SGP}!ParComm@{ParComm}|hyperpage}{24}
+\indexentry{ParComm@{ParComm}!TMCL\_\discretionary {-}{}{}STAP@{TMCL\_\discretionary {-}{}{}STAP}|hyperpage}{24}
+\indexentry{TMCL\_\discretionary {-}{}{}STAP@{TMCL\_\discretionary {-}{}{}STAP}!ParComm@{ParComm}|hyperpage}{24}
+\indexentry{ParComm@{ParComm}!TMCL\_\discretionary {-}{}{}STGP@{TMCL\_\discretionary {-}{}{}STGP}|hyperpage}{24}
+\indexentry{TMCL\_\discretionary {-}{}{}STGP@{TMCL\_\discretionary {-}{}{}STGP}!ParComm@{ParComm}|hyperpage}{24}
+\indexentry{TMCL Control Functions@{TMCL Control Functions}|hyperpage}{25}
+\indexentry{CTLFuncs@{CTLFuncs}!TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}ASCII@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}ASCII}|hyperpage}{25}
+\indexentry{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}ASCII@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}ASCII}!CTLFuncs@{CTLFuncs}|hyperpage}{25}
+\indexentry{CTLFuncs@{CTLFuncs}!TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}DLM\_\discretionary {-}{}{}QUIT@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}DLM\_\discretionary {-}{}{}QUIT}|hyperpage}{25}
+\indexentry{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}DLM\_\discretionary {-}{}{}QUIT@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}DLM\_\discretionary {-}{}{}QUIT}!CTLFuncs@{CTLFuncs}|hyperpage}{25}
+\indexentry{CTLFuncs@{CTLFuncs}!TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}DLM\_\discretionary {-}{}{}START@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}DLM\_\discretionary {-}{}{}START}|hyperpage}{25}
+\indexentry{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}DLM\_\discretionary {-}{}{}START@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}DLM\_\discretionary {-}{}{}START}!CTLFuncs@{CTLFuncs}|hyperpage}{25}
+\indexentry{CTLFuncs@{CTLFuncs}!TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}FACTORY@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}FACTORY}|hyperpage}{25}
+\indexentry{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}FACTORY@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}FACTORY}!CTLFuncs@{CTLFuncs}|hyperpage}{25}
+\indexentry{CTLFuncs@{CTLFuncs}!TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}FW\_\discretionary {-}{}{}VER@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}FW\_\discretionary {-}{}{}VER}|hyperpage}{26}
+\indexentry{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}FW\_\discretionary {-}{}{}VER@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}FW\_\discretionary {-}{}{}VER}!CTLFuncs@{CTLFuncs}|hyperpage}{26}
+\indexentry{CTLFuncs@{CTLFuncs}!TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}READMEM@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}READMEM}|hyperpage}{26}
+\indexentry{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}READMEM@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}READMEM}!CTLFuncs@{CTLFuncs}|hyperpage}{26}
+\indexentry{CTLFuncs@{CTLFuncs}!TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}RST@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}RST}|hyperpage}{26}
+\indexentry{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}RST@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}RST}!CTLFuncs@{CTLFuncs}|hyperpage}{26}
+\indexentry{CTLFuncs@{CTLFuncs}!TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}RUN@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}RUN}|hyperpage}{26}
+\indexentry{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}RUN@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}RUN}!CTLFuncs@{CTLFuncs}|hyperpage}{26}
+\indexentry{CTLFuncs@{CTLFuncs}!TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STATUS@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STATUS}|hyperpage}{26}
+\indexentry{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STATUS@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STATUS}!CTLFuncs@{CTLFuncs}|hyperpage}{26}
+\indexentry{CTLFuncs@{CTLFuncs}!TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STEP@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STEP}|hyperpage}{26}
+\indexentry{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STEP@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STEP}!CTLFuncs@{CTLFuncs}|hyperpage}{26}
+\indexentry{CTLFuncs@{CTLFuncs}!TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STOP@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STOP}|hyperpage}{26}
+\indexentry{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STOP@{TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STOP}!CTLFuncs@{CTLFuncs}|hyperpage}{26}
+\indexentry{TMCL operation type codes.@{TMCL operation type codes.}|hyperpage}{27}
+\indexentry{Axis Parameters@{Axis Parameters}|hyperpage}{28}
+\indexentry{Read-\/Write Parameters@{Read-\/Write Parameters}|hyperpage}{29}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}ABS\_\discretionary {-}{}{}CURRENT@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}ABS\_\discretionary {-}{}{}CURRENT}|hyperpage}{29}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}ABS\_\discretionary {-}{}{}CURRENT@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}ABS\_\discretionary {-}{}{}CURRENT}!RWParam@{RWParam}|hyperpage}{29}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}POS@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}POS}|hyperpage}{29}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}POS@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}POS}!RWParam@{RWParam}|hyperpage}{29}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}DISABLE\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}L@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}DISABLE\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}L}|hyperpage}{29}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}DISABLE\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}L@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}DISABLE\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}L}!RWParam@{RWParam}|hyperpage}{29}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}DISABLE\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}R@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}DISABLE\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}R}|hyperpage}{29}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}DISABLE\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}R@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}DISABLE\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}R}!RWParam@{RWParam}|hyperpage}{29}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}ACCEL@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}ACCEL}|hyperpage}{30}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}ACCEL@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}ACCEL}!RWParam@{RWParam}|hyperpage}{30}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}HIGH\_\discretionary {-}{}{}ACCEL@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}HIGH\_\discretionary {-}{}{}ACCEL}|hyperpage}{30}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}HIGH\_\discretionary {-}{}{}ACCEL@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}HIGH\_\discretionary {-}{}{}ACCEL}!RWParam@{RWParam}|hyperpage}{30}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}LOW\_\discretionary {-}{}{}ACCEL@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}LOW\_\discretionary {-}{}{}ACCEL}|hyperpage}{30}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}LOW\_\discretionary {-}{}{}ACCEL@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}LOW\_\discretionary {-}{}{}ACCEL}!RWParam@{RWParam}|hyperpage}{30}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}REST@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}REST}|hyperpage}{30}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}REST@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}REST}!RWParam@{RWParam}|hyperpage}{30}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}POS\_\discretionary {-}{}{}SPEED@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}POS\_\discretionary {-}{}{}SPEED}|hyperpage}{30}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}POS\_\discretionary {-}{}{}SPEED@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}POS\_\discretionary {-}{}{}SPEED}!RWParam@{RWParam}|hyperpage}{30}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MICROSTEPS@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MICROSTEPS}|hyperpage}{30}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MICROSTEPS@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MICROSTEPS}!RWParam@{RWParam}|hyperpage}{30}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}MODE@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}MODE}|hyperpage}{30}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}MODE@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}MODE}!RWParam@{RWParam}|hyperpage}{30}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}SPEED@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}SPEED}|hyperpage}{30}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}SPEED@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}SPEED}!RWParam@{RWParam}|hyperpage}{30}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}SW\_\discretionary {-}{}{}SPEED@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}SW\_\discretionary {-}{}{}SPEED}|hyperpage}{31}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}SW\_\discretionary {-}{}{}SPEED@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}SW\_\discretionary {-}{}{}SPEED}!RWParam@{RWParam}|hyperpage}{31}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}SR\_\discretionary {-}{}{}PRESC@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}SR\_\discretionary {-}{}{}PRESC}|hyperpage}{31}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}SR\_\discretionary {-}{}{}PRESC@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}SR\_\discretionary {-}{}{}PRESC}!RWParam@{RWParam}|hyperpage}{31}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}STBY\_\discretionary {-}{}{}CURRENT@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}STBY\_\discretionary {-}{}{}CURRENT}|hyperpage}{31}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}STBY\_\discretionary {-}{}{}CURRENT@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}STBY\_\discretionary {-}{}{}CURRENT}!RWParam@{RWParam}|hyperpage}{31}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}TARGET\_\discretionary {-}{}{}POS@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}TARGET\_\discretionary {-}{}{}POS}|hyperpage}{31}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}TARGET\_\discretionary {-}{}{}POS@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}TARGET\_\discretionary {-}{}{}POS}!RWParam@{RWParam}|hyperpage}{31}
+\indexentry{RWParam@{RWParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}TARGET\_\discretionary {-}{}{}SPEED@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}TARGET\_\discretionary {-}{}{}SPEED}|hyperpage}{31}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}TARGET\_\discretionary {-}{}{}SPEED@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}TARGET\_\discretionary {-}{}{}SPEED}!RWParam@{RWParam}|hyperpage}{31}
+\indexentry{Read-\/Only Parameters@{Read-\/Only Parameters}|hyperpage}{32}
+\indexentry{ROParam@{ROParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}SPEED@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}SPEED}|hyperpage}{32}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}SPEED@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}SPEED}!ROParam@{ROParam}|hyperpage}{32}
+\indexentry{ROParam@{ROParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}L@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}L}|hyperpage}{32}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}L@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}L}!ROParam@{ROParam}|hyperpage}{32}
+\indexentry{ROParam@{ROParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}R@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}R}|hyperpage}{32}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}R@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}R}!ROParam@{ROParam}|hyperpage}{32}
+\indexentry{ROParam@{ROParam}!TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}POS\_\discretionary {-}{}{}REACHED@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}POS\_\discretionary {-}{}{}REACHED}|hyperpage}{32}
+\indexentry{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}POS\_\discretionary {-}{}{}REACHED@{TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}POS\_\discretionary {-}{}{}REACHED}!ROParam@{ROParam}|hyperpage}{32}
+\indexentry{TMCLCommandStruct@{TMCLCommandStruct}|hyperpage}{33}
+\indexentry{TMCLCommandStruct@{TMCLCommandStruct}!command@{command}|hyperpage}{33}
+\indexentry{command@{command}!TMCLCommandStruct@{TMCLCommandStruct}|hyperpage}{33}
+\indexentry{TMCLCommandStruct@{TMCLCommandStruct}!type@{type}|hyperpage}{33}
+\indexentry{type@{type}!TMCLCommandStruct@{TMCLCommandStruct}|hyperpage}{33}
+\indexentry{TMCLCommandStruct@{TMCLCommandStruct}!value@{value}|hyperpage}{33}
+\indexentry{value@{value}!TMCLCommandStruct@{TMCLCommandStruct}|hyperpage}{33}
+\indexentry{TMCLDeviceStruct@{TMCLDeviceStruct}|hyperpage}{35}
+\indexentry{TMCLDeviceStruct@{TMCLDeviceStruct}!address@{address}|hyperpage}{35}
+\indexentry{address@{address}!TMCLDeviceStruct@{TMCLDeviceStruct}|hyperpage}{35}
+\indexentry{TMCLDeviceStruct@{TMCLDeviceStruct}!bank@{bank}|hyperpage}{35}
+\indexentry{bank@{bank}!TMCLDeviceStruct@{TMCLDeviceStruct}|hyperpage}{35}
+\indexentry{TMCLDeviceStruct@{TMCLDeviceStruct}!bus@{bus}|hyperpage}{35}
+\indexentry{bus@{bus}!TMCLDeviceStruct@{TMCLDeviceStruct}|hyperpage}{35}
+\indexentry{TMCLDeviceStruct@{TMCLDeviceStruct}!model@{model}|hyperpage}{35}
+\indexentry{model@{model}!TMCLDeviceStruct@{TMCLDeviceStruct}|hyperpage}{35}
+\indexentry{TMCLDeviceStruct@{TMCLDeviceStruct}!num\_\discretionary {-}{}{}refswitches@{num\_\discretionary {-}{}{}refswitches}|hyperpage}{35}
+\indexentry{num\_\discretionary {-}{}{}refswitches@{num\_\discretionary {-}{}{}refswitches}!TMCLDeviceStruct@{TMCLDeviceStruct}|hyperpage}{35}
+\indexentry{TMCLDeviceStruct@{TMCLDeviceStruct}!parameter@{parameter}|hyperpage}{36}
+\indexentry{parameter@{parameter}!TMCLDeviceStruct@{TMCLDeviceStruct}|hyperpage}{36}
+\indexentry{TMCLInterfaceStruct@{TMCLInterfaceStruct}|hyperpage}{37}
+\indexentry{TMCLInterfaceStruct@{TMCLInterfaceStruct}!handle@{handle}|hyperpage}{37}
+\indexentry{handle@{handle}!TMCLInterfaceStruct@{TMCLInterfaceStruct}|hyperpage}{37}
+\indexentry{TMCLInterfaceStruct@{TMCLInterfaceStruct}!timeout\_\discretionary {-}{}{}msec@{timeout\_\discretionary {-}{}{}msec}|hyperpage}{37}
+\indexentry{timeout\_\discretionary {-}{}{}msec@{timeout\_\discretionary {-}{}{}msec}!TMCLInterfaceStruct@{TMCLInterfaceStruct}|hyperpage}{37}
+\indexentry{TMCLInterfaceStruct@{TMCLInterfaceStruct}!timeout\_\discretionary {-}{}{}sec@{timeout\_\discretionary {-}{}{}sec}|hyperpage}{37}
+\indexentry{timeout\_\discretionary {-}{}{}sec@{timeout\_\discretionary {-}{}{}sec}!TMCLInterfaceStruct@{TMCLInterfaceStruct}|hyperpage}{37}
+\indexentry{TMCLInterfaceStruct@{TMCLInterfaceStruct}!timewait\_\discretionary {-}{}{}msec@{timewait\_\discretionary {-}{}{}msec}|hyperpage}{37}
+\indexentry{timewait\_\discretionary {-}{}{}msec@{timewait\_\discretionary {-}{}{}msec}!TMCLInterfaceStruct@{TMCLInterfaceStruct}|hyperpage}{37}
+\indexentry{TMCLInterfaceStruct@{TMCLInterfaceStruct}!timewait\_\discretionary {-}{}{}sec@{timewait\_\discretionary {-}{}{}sec}|hyperpage}{38}
+\indexentry{timewait\_\discretionary {-}{}{}sec@{timewait\_\discretionary {-}{}{}sec}!TMCLInterfaceStruct@{TMCLInterfaceStruct}|hyperpage}{38}
+\indexentry{TMCLInterfaceStruct@{TMCLInterfaceStruct}!tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}void@{tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}void}|hyperpage}{38}
+\indexentry{tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}void@{tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}void}!TMCLInterfaceStruct@{TMCLInterfaceStruct}|hyperpage}{38}
+\indexentry{TMCLInterfaceStruct@{TMCLInterfaceStruct}!tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}void@{tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}void}|hyperpage}{38}
+\indexentry{tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}void@{tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}void}!TMCLInterfaceStruct@{TMCLInterfaceStruct}|hyperpage}{38}
+\indexentry{TMCLInterfaceStruct@{TMCLInterfaceStruct}!tmcl\_\discretionary {-}{}{}read\_\discretionary {-}{}{}void@{tmcl\_\discretionary {-}{}{}read\_\discretionary {-}{}{}void}|hyperpage}{38}
+\indexentry{tmcl\_\discretionary {-}{}{}read\_\discretionary {-}{}{}void@{tmcl\_\discretionary {-}{}{}read\_\discretionary {-}{}{}void}!TMCLInterfaceStruct@{TMCLInterfaceStruct}|hyperpage}{38}
+\indexentry{TMCLInterfaceStruct@{TMCLInterfaceStruct}!tmcl\_\discretionary {-}{}{}write\_\discretionary {-}{}{}void@{tmcl\_\discretionary {-}{}{}write\_\discretionary {-}{}{}void}|hyperpage}{38}
+\indexentry{tmcl\_\discretionary {-}{}{}write\_\discretionary {-}{}{}void@{tmcl\_\discretionary {-}{}{}write\_\discretionary {-}{}{}void}!TMCLInterfaceStruct@{TMCLInterfaceStruct}|hyperpage}{38}
+\indexentry{TMCLMotorStruct@{TMCLMotorStruct}|hyperpage}{39}
+\indexentry{TMCLReplyStruct@{TMCLReplyStruct}|hyperpage}{40}
+\indexentry{TMCLReplyStruct@{TMCLReplyStruct}!checksum@{checksum}|hyperpage}{40}
+\indexentry{checksum@{checksum}!TMCLReplyStruct@{TMCLReplyStruct}|hyperpage}{40}
+\indexentry{TMCLReplyStruct@{TMCLReplyStruct}!command@{command}|hyperpage}{40}
+\indexentry{command@{command}!TMCLReplyStruct@{TMCLReplyStruct}|hyperpage}{40}
+\indexentry{TMCLReplyStruct@{TMCLReplyStruct}!module\_\discretionary {-}{}{}address@{module\_\discretionary {-}{}{}address}|hyperpage}{40}
+\indexentry{module\_\discretionary {-}{}{}address@{module\_\discretionary {-}{}{}address}!TMCLReplyStruct@{TMCLReplyStruct}|hyperpage}{40}
+\indexentry{TMCLReplyStruct@{TMCLReplyStruct}!reply\_\discretionary {-}{}{}address@{reply\_\discretionary {-}{}{}address}|hyperpage}{40}
+\indexentry{reply\_\discretionary {-}{}{}address@{reply\_\discretionary {-}{}{}address}!TMCLReplyStruct@{TMCLReplyStruct}|hyperpage}{40}
+\indexentry{TMCLReplyStruct@{TMCLReplyStruct}!status@{status}|hyperpage}{40}
+\indexentry{status@{status}!TMCLReplyStruct@{TMCLReplyStruct}|hyperpage}{40}
+\indexentry{TMCLReplyStruct@{TMCLReplyStruct}!value@{value}|hyperpage}{41}
+\indexentry{value@{value}!TMCLReplyStruct@{TMCLReplyStruct}|hyperpage}{41}
+\indexentry{src/tmcl/convenience.h@{src/tmcl/convenience.h}|hyperpage}{43}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch@{tmcl\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}|hyperpage}{44}
+\indexentry{tmcl\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch@{tmcl\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}!convenience.h@{convenience.h}|hyperpage}{44}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}deactivate\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch@{tmcl\_\discretionary {-}{}{}deactivate\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}|hyperpage}{44}
+\indexentry{tmcl\_\discretionary {-}{}{}deactivate\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch@{tmcl\_\discretionary {-}{}{}deactivate\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}!convenience.h@{convenience.h}|hyperpage}{44}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}current\_\discretionary {-}{}{}speed@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}current\_\discretionary {-}{}{}speed}|hyperpage}{45}
+\indexentry{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}current\_\discretionary {-}{}{}speed@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}current\_\discretionary {-}{}{}speed}!convenience.h@{convenience.h}|hyperpage}{45}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}status@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}status}|hyperpage}{45}
+\indexentry{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}status@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}status}!convenience.h@{convenience.h}|hyperpage}{45}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}|hyperpage}{45}
+\indexentry{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}!convenience.h@{convenience.h}|hyperpage}{45}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}max\_\discretionary {-}{}{}current@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}max\_\discretionary {-}{}{}current}|hyperpage}{45}
+\indexentry{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}max\_\discretionary {-}{}{}current@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}max\_\discretionary {-}{}{}current}!convenience.h@{convenience.h}|hyperpage}{45}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}max\_\discretionary {-}{}{}standby\_\discretionary {-}{}{}current@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}max\_\discretionary {-}{}{}standby\_\discretionary {-}{}{}current}|hyperpage}{46}
+\indexentry{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}max\_\discretionary {-}{}{}standby\_\discretionary {-}{}{}current@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}max\_\discretionary {-}{}{}standby\_\discretionary {-}{}{}current}!convenience.h@{convenience.h}|hyperpage}{46}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}microsteps@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}microsteps}|hyperpage}{46}
+\indexentry{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}microsteps@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}microsteps}!convenience.h@{convenience.h}|hyperpage}{46}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}speed@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}speed}|hyperpage}{46}
+\indexentry{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}speed@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}speed}!convenience.h@{convenience.h}|hyperpage}{46}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}position@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}position}|hyperpage}{46}
+\indexentry{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}position@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}position}!convenience.h@{convenience.h}|hyperpage}{46}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}speed@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}speed}|hyperpage}{46}
+\indexentry{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}speed@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}speed}!convenience.h@{convenience.h}|hyperpage}{46}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}coord@{tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}coord}|hyperpage}{47}
+\indexentry{tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}coord@{tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}coord}!convenience.h@{convenience.h}|hyperpage}{47}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}abs@{tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}abs}|hyperpage}{47}
+\indexentry{tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}abs@{tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}abs}!convenience.h@{convenience.h}|hyperpage}{47}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}rel@{tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}rel}|hyperpage}{47}
+\indexentry{tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}rel@{tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}rel}!convenience.h@{convenience.h}|hyperpage}{47}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}start@{tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}start}|hyperpage}{47}
+\indexentry{tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}start@{tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}start}!convenience.h@{convenience.h}|hyperpage}{47}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}status@{tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}status}|hyperpage}{47}
+\indexentry{tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}status@{tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}status}!convenience.h@{convenience.h}|hyperpage}{47}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}stop@{tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}stop}|hyperpage}{47}
+\indexentry{tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}stop@{tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}stop}!convenience.h@{convenience.h}|hyperpage}{47}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}rol@{tmcl\_\discretionary {-}{}{}rol}|hyperpage}{47}
+\indexentry{tmcl\_\discretionary {-}{}{}rol@{tmcl\_\discretionary {-}{}{}rol}!convenience.h@{convenience.h}|hyperpage}{47}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}ror@{tmcl\_\discretionary {-}{}{}ror}|hyperpage}{48}
+\indexentry{tmcl\_\discretionary {-}{}{}ror@{tmcl\_\discretionary {-}{}{}ror}!convenience.h@{convenience.h}|hyperpage}{48}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}max\_\discretionary {-}{}{}current@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}max\_\discretionary {-}{}{}current}|hyperpage}{48}
+\indexentry{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}max\_\discretionary {-}{}{}current@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}max\_\discretionary {-}{}{}current}!convenience.h@{convenience.h}|hyperpage}{48}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}max\_\discretionary {-}{}{}standby\_\discretionary {-}{}{}current@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}max\_\discretionary {-}{}{}standby\_\discretionary {-}{}{}current}|hyperpage}{48}
+\indexentry{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}max\_\discretionary {-}{}{}standby\_\discretionary {-}{}{}current@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}max\_\discretionary {-}{}{}standby\_\discretionary {-}{}{}current}!convenience.h@{convenience.h}|hyperpage}{48}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}microsteps@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}microsteps}|hyperpage}{48}
+\indexentry{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}microsteps@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}microsteps}!convenience.h@{convenience.h}|hyperpage}{48}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}no\_\discretionary {-}{}{}ref\_\discretionary {-}{}{}switch@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}no\_\discretionary {-}{}{}ref\_\discretionary {-}{}{}switch}|hyperpage}{48}
+\indexentry{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}no\_\discretionary {-}{}{}ref\_\discretionary {-}{}{}switch@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}no\_\discretionary {-}{}{}ref\_\discretionary {-}{}{}switch}!convenience.h@{convenience.h}|hyperpage}{48}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}speed@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}speed}|hyperpage}{49}
+\indexentry{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}speed@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}speed}!convenience.h@{convenience.h}|hyperpage}{49}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}speed@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}speed}|hyperpage}{49}
+\indexentry{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}speed@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}speed}!convenience.h@{convenience.h}|hyperpage}{49}
+\indexentry{convenience.h@{convenience.h}!tmcl\_\discretionary {-}{}{}stop@{tmcl\_\discretionary {-}{}{}stop}|hyperpage}{49}
+\indexentry{tmcl\_\discretionary {-}{}{}stop@{tmcl\_\discretionary {-}{}{}stop}!convenience.h@{convenience.h}|hyperpage}{49}
+\indexentry{src/tmcl/interface.h@{src/tmcl/interface.h}|hyperpage}{50}
+\indexentry{interface.h@{interface.h}!tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}funcPtr@{tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}funcPtr}|hyperpage}{51}
+\indexentry{tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}funcPtr@{tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}funcPtr}!interface.h@{interface.h}|hyperpage}{51}
+\indexentry{interface.h@{interface.h}!TMCLInterface@{TMCLInterface}|hyperpage}{51}
+\indexentry{TMCLInterface@{TMCLInterface}!interface.h@{interface.h}|hyperpage}{51}
+\indexentry{interface.h@{interface.h}!tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}interface@{tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}interface}|hyperpage}{51}
+\indexentry{tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}interface@{tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}interface}!interface.h@{interface.h}|hyperpage}{51}
+\indexentry{interface.h@{interface.h}!tmcl\_\discretionary {-}{}{}deinit\_\discretionary {-}{}{}interface@{tmcl\_\discretionary {-}{}{}deinit\_\discretionary {-}{}{}interface}|hyperpage}{51}
+\indexentry{tmcl\_\discretionary {-}{}{}deinit\_\discretionary {-}{}{}interface@{tmcl\_\discretionary {-}{}{}deinit\_\discretionary {-}{}{}interface}!interface.h@{interface.h}|hyperpage}{51}
+\indexentry{interface.h@{interface.h}!tmcl\_\discretionary {-}{}{}init\_\discretionary {-}{}{}interface@{tmcl\_\discretionary {-}{}{}init\_\discretionary {-}{}{}interface}|hyperpage}{51}
+\indexentry{tmcl\_\discretionary {-}{}{}init\_\discretionary {-}{}{}interface@{tmcl\_\discretionary {-}{}{}init\_\discretionary {-}{}{}interface}!interface.h@{interface.h}|hyperpage}{51}
+\indexentry{interface.h@{interface.h}!tmcl\_\discretionary {-}{}{}interface\_\discretionary {-}{}{}set\_\discretionary {-}{}{}timeout@{tmcl\_\discretionary {-}{}{}interface\_\discretionary {-}{}{}set\_\discretionary {-}{}{}timeout}|hyperpage}{52}
+\indexentry{tmcl\_\discretionary {-}{}{}interface\_\discretionary {-}{}{}set\_\discretionary {-}{}{}timeout@{tmcl\_\discretionary {-}{}{}interface\_\discretionary {-}{}{}set\_\discretionary {-}{}{}timeout}!interface.h@{interface.h}|hyperpage}{52}
+\indexentry{interface.h@{interface.h}!tmcl\_\discretionary {-}{}{}interface\_\discretionary {-}{}{}set\_\discretionary {-}{}{}timewait@{tmcl\_\discretionary {-}{}{}interface\_\discretionary {-}{}{}set\_\discretionary {-}{}{}timewait}|hyperpage}{52}
+\indexentry{tmcl\_\discretionary {-}{}{}interface\_\discretionary {-}{}{}set\_\discretionary {-}{}{}timewait@{tmcl\_\discretionary {-}{}{}interface\_\discretionary {-}{}{}set\_\discretionary {-}{}{}timewait}!interface.h@{interface.h}|hyperpage}{52}
+\indexentry{interface.h@{interface.h}!tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}interface@{tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}interface}|hyperpage}{52}
+\indexentry{tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}interface@{tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}interface}!interface.h@{interface.h}|hyperpage}{52}
+\indexentry{interface.h@{interface.h}!tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}close\_\discretionary {-}{}{}data@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}close\_\discretionary {-}{}{}data}|hyperpage}{52}
+\indexentry{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}close\_\discretionary {-}{}{}data@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}close\_\discretionary {-}{}{}data}!interface.h@{interface.h}|hyperpage}{52}
+\indexentry{interface.h@{interface.h}!tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}open\_\discretionary {-}{}{}data@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}open\_\discretionary {-}{}{}data}|hyperpage}{52}
+\indexentry{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}open\_\discretionary {-}{}{}data@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}open\_\discretionary {-}{}{}data}!interface.h@{interface.h}|hyperpage}{52}
+\indexentry{interface.h@{interface.h}!tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}read\_\discretionary {-}{}{}data@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}read\_\discretionary {-}{}{}data}|hyperpage}{52}
+\indexentry{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}read\_\discretionary {-}{}{}data@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}read\_\discretionary {-}{}{}data}!interface.h@{interface.h}|hyperpage}{52}
+\indexentry{interface.h@{interface.h}!tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}write\_\discretionary {-}{}{}data@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}write\_\discretionary {-}{}{}data}|hyperpage}{52}
+\indexentry{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}write\_\discretionary {-}{}{}data@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}write\_\discretionary {-}{}{}data}!interface.h@{interface.h}|hyperpage}{52}
+\indexentry{src/tmcl/motor.h@{src/tmcl/motor.h}|hyperpage}{54}
+\indexentry{motor.h@{motor.h}!TMCLMotor@{TMCLMotor}|hyperpage}{55}
+\indexentry{TMCLMotor@{TMCLMotor}!motor.h@{motor.h}|hyperpage}{55}
+\indexentry{motor.h@{motor.h}!tmcl\_\discretionary {-}{}{}deinit\_\discretionary {-}{}{}motor@{tmcl\_\discretionary {-}{}{}deinit\_\discretionary {-}{}{}motor}|hyperpage}{55}
+\indexentry{tmcl\_\discretionary {-}{}{}deinit\_\discretionary {-}{}{}motor@{tmcl\_\discretionary {-}{}{}deinit\_\discretionary {-}{}{}motor}!motor.h@{motor.h}|hyperpage}{55}
+\indexentry{motor.h@{motor.h}!tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}|hyperpage}{55}
+\indexentry{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter@{tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}!motor.h@{motor.h}|hyperpage}{55}
+\indexentry{motor.h@{motor.h}!tmcl\_\discretionary {-}{}{}init\_\discretionary {-}{}{}motor@{tmcl\_\discretionary {-}{}{}init\_\discretionary {-}{}{}motor}|hyperpage}{55}
+\indexentry{tmcl\_\discretionary {-}{}{}init\_\discretionary {-}{}{}motor@{tmcl\_\discretionary {-}{}{}init\_\discretionary {-}{}{}motor}!motor.h@{motor.h}|hyperpage}{55}
+\indexentry{motor.h@{motor.h}!tmcl\_\discretionary {-}{}{}send\_\discretionary {-}{}{}command@{tmcl\_\discretionary {-}{}{}send\_\discretionary {-}{}{}command}|hyperpage}{56}
+\indexentry{tmcl\_\discretionary {-}{}{}send\_\discretionary {-}{}{}command@{tmcl\_\discretionary {-}{}{}send\_\discretionary {-}{}{}command}!motor.h@{motor.h}|hyperpage}{56}
+\indexentry{motor.h@{motor.h}!tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}|hyperpage}{56}
+\indexentry{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter@{tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}!motor.h@{motor.h}|hyperpage}{56}
+\indexentry{motor.h@{motor.h}!tmcl\_\discretionary {-}{}{}store\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter@{tmcl\_\discretionary {-}{}{}store\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}|hyperpage}{56}
+\indexentry{tmcl\_\discretionary {-}{}{}store\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter@{tmcl\_\discretionary {-}{}{}store\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}!motor.h@{motor.h}|hyperpage}{56}
+\indexentry{motor.h@{motor.h}!tmcl\_\discretionary {-}{}{}update\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter@{tmcl\_\discretionary {-}{}{}update\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}|hyperpage}{57}
+\indexentry{tmcl\_\discretionary {-}{}{}update\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter@{tmcl\_\discretionary {-}{}{}update\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}!motor.h@{motor.h}|hyperpage}{57}
+\indexentry{src/tmcl/rsXXX.h@{src/tmcl/rsXXX.h}|hyperpage}{58}
+\indexentry{rsXXX.h@{rsXXX.h}!tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}rsXXX@{tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}rsXXX}|hyperpage}{58}
+\indexentry{tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}rsXXX@{tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}rsXXX}!rsXXX.h@{rsXXX.h}|hyperpage}{58}
+\indexentry{rsXXX.h@{rsXXX.h}!tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}rsXXX@{tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}rsXXX}|hyperpage}{59}
+\indexentry{tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}rsXXX@{tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}rsXXX}!rsXXX.h@{rsXXX.h}|hyperpage}{59}
+\indexentry{rsXXX.h@{rsXXX.h}!tmcl\_\discretionary {-}{}{}poll\_\discretionary {-}{}{}rsXXX@{tmcl\_\discretionary {-}{}{}poll\_\discretionary {-}{}{}rsXXX}|hyperpage}{59}
+\indexentry{tmcl\_\discretionary {-}{}{}poll\_\discretionary {-}{}{}rsXXX@{tmcl\_\discretionary {-}{}{}poll\_\discretionary {-}{}{}rsXXX}!rsXXX.h@{rsXXX.h}|hyperpage}{59}
+\indexentry{rsXXX.h@{rsXXX.h}!tmcl\_\discretionary {-}{}{}write\_\discretionary {-}{}{}rsXXX@{tmcl\_\discretionary {-}{}{}write\_\discretionary {-}{}{}rsXXX}|hyperpage}{59}
+\indexentry{tmcl\_\discretionary {-}{}{}write\_\discretionary {-}{}{}rsXXX@{tmcl\_\discretionary {-}{}{}write\_\discretionary {-}{}{}rsXXX}!rsXXX.h@{rsXXX.h}|hyperpage}{59}
+\indexentry{src/tmcl/tmcl.h@{src/tmcl/tmcl.h}|hyperpage}{60}
+\indexentry{src/tmcl/tmcldefs.c@{src/tmcl/tmcldefs.c}|hyperpage}{61}
+\indexentry{tmcldefs.c@{tmcldefs.c}!tmcl\_\discretionary {-}{}{}checksum@{tmcl\_\discretionary {-}{}{}checksum}|hyperpage}{61}
+\indexentry{tmcl\_\discretionary {-}{}{}checksum@{tmcl\_\discretionary {-}{}{}checksum}!tmcldefs.c@{tmcldefs.c}|hyperpage}{61}
+\indexentry{tmcldefs.c@{tmcldefs.c}!tmcl\_\discretionary {-}{}{}datagram@{tmcl\_\discretionary {-}{}{}datagram}|hyperpage}{62}
+\indexentry{tmcl\_\discretionary {-}{}{}datagram@{tmcl\_\discretionary {-}{}{}datagram}!tmcldefs.c@{tmcldefs.c}|hyperpage}{62}
+\indexentry{tmcldefs.c@{tmcldefs.c}!tmcl\_\discretionary {-}{}{}deinit@{tmcl\_\discretionary {-}{}{}deinit}|hyperpage}{62}
+\indexentry{tmcl\_\discretionary {-}{}{}deinit@{tmcl\_\discretionary {-}{}{}deinit}!tmcldefs.c@{tmcldefs.c}|hyperpage}{62}
+\indexentry{tmcldefs.c@{tmcldefs.c}!tmcl\_\discretionary {-}{}{}dgram2reply@{tmcl\_\discretionary {-}{}{}dgram2reply}|hyperpage}{62}
+\indexentry{tmcl\_\discretionary {-}{}{}dgram2reply@{tmcl\_\discretionary {-}{}{}dgram2reply}!tmcldefs.c@{tmcldefs.c}|hyperpage}{62}
+\indexentry{tmcldefs.c@{tmcldefs.c}!tmcl\_\discretionary {-}{}{}init@{tmcl\_\discretionary {-}{}{}init}|hyperpage}{62}
+\indexentry{tmcl\_\discretionary {-}{}{}init@{tmcl\_\discretionary {-}{}{}init}!tmcldefs.c@{tmcldefs.c}|hyperpage}{62}
+\indexentry{tmcldefs.c@{tmcldefs.c}!tmcl\_\discretionary {-}{}{}valid\_\discretionary {-}{}{}checksum@{tmcl\_\discretionary {-}{}{}valid\_\discretionary {-}{}{}checksum}|hyperpage}{63}
+\indexentry{tmcl\_\discretionary {-}{}{}valid\_\discretionary {-}{}{}checksum@{tmcl\_\discretionary {-}{}{}valid\_\discretionary {-}{}{}checksum}!tmcldefs.c@{tmcldefs.c}|hyperpage}{63}
+\indexentry{src/tmcl/tmcldefs.h@{src/tmcl/tmcldefs.h}|hyperpage}{64}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCLBusType@{TMCLBusType}|hyperpage}{67}
+\indexentry{TMCLBusType@{TMCLBusType}!tmcldefs.h@{tmcldefs.h}|hyperpage}{67}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCLCommand@{TMCLCommand}|hyperpage}{67}
+\indexentry{TMCLCommand@{TMCLCommand}!tmcldefs.h@{tmcldefs.h}|hyperpage}{67}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCLDevice@{TMCLDevice}|hyperpage}{67}
+\indexentry{TMCLDevice@{TMCLDevice}!tmcldefs.h@{tmcldefs.h}|hyperpage}{67}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCLModel@{TMCLModel}|hyperpage}{67}
+\indexentry{TMCLModel@{TMCLModel}!tmcldefs.h@{tmcldefs.h}|hyperpage}{67}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCLParameter@{TMCLParameter}|hyperpage}{67}
+\indexentry{TMCLParameter@{TMCLParameter}!tmcldefs.h@{tmcldefs.h}|hyperpage}{67}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCLReply@{TMCLReply}|hyperpage}{67}
+\indexentry{TMCLReply@{TMCLReply}!tmcldefs.h@{tmcldefs.h}|hyperpage}{67}
+\indexentry{tmcldefs.h@{tmcldefs.h}!tmcl\_\discretionary {-}{}{}busses@{tmcl\_\discretionary {-}{}{}busses}|hyperpage}{68}
+\indexentry{tmcl\_\discretionary {-}{}{}busses@{tmcl\_\discretionary {-}{}{}busses}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{TMCL\_\-CAN@{TMCL\_\-CAN}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCL\_\-CAN@{TMCL\_\-CAN}|hyperpage}{68}
+\indexentry{TMCL\_\-RSXXX@{TMCL\_\-RSXXX}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCL\_\-RSXXX@{TMCL\_\-RSXXX}|hyperpage}{68}
+\indexentry{TMCL\_\-IIC@{TMCL\_\-IIC}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCL\_\-IIC@{TMCL\_\-IIC}|hyperpage}{68}
+\indexentry{TMCL\_\-NONE@{TMCL\_\-NONE}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCL\_\-NONE@{TMCL\_\-NONE}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCLModelEnum@{TMCLModelEnum}|hyperpage}{68}
+\indexentry{TMCLModelEnum@{TMCLModelEnum}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{TMCM300@{TMCM300}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCM300@{TMCM300}|hyperpage}{68}
+\indexentry{TMCM301@{TMCM301}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCM301@{TMCM301}|hyperpage}{68}
+\indexentry{TMCM302@{TMCM302}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCM302@{TMCM302}|hyperpage}{68}
+\indexentry{TMCM303@{TMCM303}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCM303@{TMCM303}|hyperpage}{68}
+\indexentry{TMCM310@{TMCM310}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCM310@{TMCM310}|hyperpage}{68}
+\indexentry{TMCM11x@{TMCM11x}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCM11x@{TMCM11x}|hyperpage}{68}
+\indexentry{TMCM109@{TMCM109}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCM109@{TMCM109}|hyperpage}{68}
+\indexentry{TMCM110@{TMCM110}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCM110@{TMCM110}|hyperpage}{68}
+\indexentry{TMCM100@{TMCM100}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCM100@{TMCM100}|hyperpage}{68}
+\indexentry{TMCM610@{TMCM610}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCM610@{TMCM610}|hyperpage}{68}
+\indexentry{TMCM611@{TMCM611}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCM611@{TMCM611}|hyperpage}{68}
+\indexentry{TMCM612@{TMCM612}!tmcldefs.h@{tmcldefs.h}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!TMCM612@{TMCM612}|hyperpage}{68}
+\indexentry{tmcldefs.h@{tmcldefs.h}!tmcl\_\discretionary {-}{}{}checksum@{tmcl\_\discretionary {-}{}{}checksum}|hyperpage}{69}
+\indexentry{tmcl\_\discretionary {-}{}{}checksum@{tmcl\_\discretionary {-}{}{}checksum}!tmcldefs.h@{tmcldefs.h}|hyperpage}{69}
+\indexentry{tmcldefs.h@{tmcldefs.h}!tmcl\_\discretionary {-}{}{}datagram@{tmcl\_\discretionary {-}{}{}datagram}|hyperpage}{69}
+\indexentry{tmcl\_\discretionary {-}{}{}datagram@{tmcl\_\discretionary {-}{}{}datagram}!tmcldefs.h@{tmcldefs.h}|hyperpage}{69}
+\indexentry{tmcldefs.h@{tmcldefs.h}!tmcl\_\discretionary {-}{}{}deinit@{tmcl\_\discretionary {-}{}{}deinit}|hyperpage}{69}
+\indexentry{tmcl\_\discretionary {-}{}{}deinit@{tmcl\_\discretionary {-}{}{}deinit}!tmcldefs.h@{tmcldefs.h}|hyperpage}{69}
+\indexentry{tmcldefs.h@{tmcldefs.h}!tmcl\_\discretionary {-}{}{}dgram2reply@{tmcl\_\discretionary {-}{}{}dgram2reply}|hyperpage}{69}
+\indexentry{tmcl\_\discretionary {-}{}{}dgram2reply@{tmcl\_\discretionary {-}{}{}dgram2reply}!tmcldefs.h@{tmcldefs.h}|hyperpage}{69}
+\indexentry{tmcldefs.h@{tmcldefs.h}!tmcl\_\discretionary {-}{}{}init@{tmcl\_\discretionary {-}{}{}init}|hyperpage}{70}
+\indexentry{tmcl\_\discretionary {-}{}{}init@{tmcl\_\discretionary {-}{}{}init}!tmcldefs.h@{tmcldefs.h}|hyperpage}{70}
+\indexentry{tmcldefs.h@{tmcldefs.h}!tmcl\_\discretionary {-}{}{}valid\_\discretionary {-}{}{}checksum@{tmcl\_\discretionary {-}{}{}valid\_\discretionary {-}{}{}checksum}|hyperpage}{70}
+\indexentry{tmcl\_\discretionary {-}{}{}valid\_\discretionary {-}{}{}checksum@{tmcl\_\discretionary {-}{}{}valid\_\discretionary {-}{}{}checksum}!tmcldefs.h@{tmcldefs.h}|hyperpage}{70}

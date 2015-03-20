@@ -1,0 +1,136 @@
+\hypertarget{structTMCLInterfaceStruct}{
+\section{TMCLInterfaceStruct Struct Reference}
+\label{structTMCLInterfaceStruct}\index{TMCLInterfaceStruct@{TMCLInterfaceStruct}}
+}
+
+
+{\ttfamily \#include $<$src/tmcl/interface.h$>$}\subsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+union \{\\
+\>int {\bfseries fd}\\
+\} \hyperlink{structTMCLInterfaceStruct_a32dd1aec6b11ffd4af19f56917a5809a}{handle}\\
+
+\end{tabbing}\item 
+\hypertarget{structTMCLInterfaceStruct_a4f925de555bdc1c95a05345d767fa104}{
+char $\ast$ {\bfseries ifacename}}
+\label{structTMCLInterfaceStruct_a4f925de555bdc1c95a05345d767fa104}
+
+\item 
+\hypertarget{structTMCLInterfaceStruct_ae34c6fdc322e95d6eac964203b6b2ab5}{
+\hyperlink{tmcldefs_8h_ad26e4e286a55d7c739fd473d8cdd882e}{TMCLBusType} {\bfseries bus}}
+\label{structTMCLInterfaceStruct_ae34c6fdc322e95d6eac964203b6b2ab5}
+
+\item 
+\hypertarget{structTMCLInterfaceStruct_a45748d0c9af5e9452a964bffd971d644}{
+\hyperlink{interface_8h_a1f8f6db177582534470f015805447f32}{tmcl\_\-open\_\-funcPtr} {\bfseries \_\-open}}
+\label{structTMCLInterfaceStruct_a45748d0c9af5e9452a964bffd971d644}
+
+\item 
+void $\ast$ \hyperlink{structTMCLInterfaceStruct_af15b6916e8874e2276df5953e3c39781}{tmcl\_\-open\_\-void}
+\item 
+\hypertarget{structTMCLInterfaceStruct_a3b2fe6c508be6bce1b67837641a88555}{
+tmcl\_\-close\_\-funcPtr {\bfseries \_\-close}}
+\label{structTMCLInterfaceStruct_a3b2fe6c508be6bce1b67837641a88555}
+
+\item 
+void $\ast$ \hyperlink{structTMCLInterfaceStruct_a0bb104a6c9e2e8adb097ed7261b008ad}{tmcl\_\-close\_\-void}
+\item 
+\hypertarget{structTMCLInterfaceStruct_a9eea8dbe2219cbc0a35d2ac19684990a}{
+tmcl\_\-write\_\-funcPtr {\bfseries \_\-write}}
+\label{structTMCLInterfaceStruct_a9eea8dbe2219cbc0a35d2ac19684990a}
+
+\item 
+void $\ast$ \hyperlink{structTMCLInterfaceStruct_acfb8740deb4a8a5ce6b7882866a93815}{tmcl\_\-write\_\-void}
+\item 
+\hypertarget{structTMCLInterfaceStruct_a766d5b0b2659e759696912d850026141}{
+tmcl\_\-read\_\-funcPtr {\bfseries \_\-read}}
+\label{structTMCLInterfaceStruct_a766d5b0b2659e759696912d850026141}
+
+\item 
+void $\ast$ \hyperlink{structTMCLInterfaceStruct_abaa02120f923776a8b238d45b6ca68b9}{tmcl\_\-read\_\-void}
+\item 
+unsigned int \hyperlink{structTMCLInterfaceStruct_a6fc25e45d20014501e64c14eb05faadf}{timeout\_\-sec}
+\item 
+unsigned int \hyperlink{structTMCLInterfaceStruct_af4cb989ea551afbad2d6150cb9bbe312}{timeout\_\-msec}
+\item 
+unsigned int \hyperlink{structTMCLInterfaceStruct_a145d56a20944085a1447ca7b58cbfbee}{timewait\_\-sec}
+\item 
+unsigned int \hyperlink{structTMCLInterfaceStruct_abb8e42924a82e082614dee2768229736}{timewait\_\-msec}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Struct to store information about the controller interface 
+
+Definition at line 36 of file interface.h.
+
+\subsection{Field Documentation}
+\hypertarget{structTMCLInterfaceStruct_a32dd1aec6b11ffd4af19f56917a5809a}{
+\index{TMCLInterfaceStruct@{TMCLInterfaceStruct}!handle@{handle}}
+\index{handle@{handle}!TMCLInterfaceStruct@{TMCLInterfaceStruct}}
+\subsubsection[{handle}]{\setlength{\rightskip}{0pt plus 5cm}union \{ ... \}   {\bf TMCLInterfaceStruct::handle}}}
+\label{structTMCLInterfaceStruct_a32dd1aec6b11ffd4af19f56917a5809a}
+handle to access the interface \hypertarget{structTMCLInterfaceStruct_af4cb989ea551afbad2d6150cb9bbe312}{
+\index{TMCLInterfaceStruct@{TMCLInterfaceStruct}!timeout\_\-msec@{timeout\_\-msec}}
+\index{timeout\_\-msec@{timeout\_\-msec}!TMCLInterfaceStruct@{TMCLInterfaceStruct}}
+\subsubsection[{timeout\_\-msec}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf TMCLInterfaceStruct::timeout\_\-msec}}}
+\label{structTMCLInterfaceStruct_af4cb989ea551afbad2d6150cb9bbe312}
+Timeout for reading from device (milliseconds) (Default 0) 
+
+Definition at line 56 of file interface.h.\hypertarget{structTMCLInterfaceStruct_a6fc25e45d20014501e64c14eb05faadf}{
+\index{TMCLInterfaceStruct@{TMCLInterfaceStruct}!timeout\_\-sec@{timeout\_\-sec}}
+\index{timeout\_\-sec@{timeout\_\-sec}!TMCLInterfaceStruct@{TMCLInterfaceStruct}}
+\subsubsection[{timeout\_\-sec}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf TMCLInterfaceStruct::timeout\_\-sec}}}
+\label{structTMCLInterfaceStruct_a6fc25e45d20014501e64c14eb05faadf}
+Timeouts Timeout for reading from device (seconds) (Default 2) 
+
+Definition at line 55 of file interface.h.\hypertarget{structTMCLInterfaceStruct_abb8e42924a82e082614dee2768229736}{
+\index{TMCLInterfaceStruct@{TMCLInterfaceStruct}!timewait\_\-msec@{timewait\_\-msec}}
+\index{timewait\_\-msec@{timewait\_\-msec}!TMCLInterfaceStruct@{TMCLInterfaceStruct}}
+\subsubsection[{timewait\_\-msec}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf TMCLInterfaceStruct::timewait\_\-msec}}}
+\label{structTMCLInterfaceStruct_abb8e42924a82e082614dee2768229736}
+Time to wait for reply of board (milliseconds) (Default 10) 
+
+Definition at line 60 of file interface.h.\hypertarget{structTMCLInterfaceStruct_a145d56a20944085a1447ca7b58cbfbee}{
+\index{TMCLInterfaceStruct@{TMCLInterfaceStruct}!timewait\_\-sec@{timewait\_\-sec}}
+\index{timewait\_\-sec@{timewait\_\-sec}!TMCLInterfaceStruct@{TMCLInterfaceStruct}}
+\subsubsection[{timewait\_\-sec}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int {\bf TMCLInterfaceStruct::timewait\_\-sec}}}
+\label{structTMCLInterfaceStruct_a145d56a20944085a1447ca7b58cbfbee}
+Due to the processing time of the board it may be necessary to wait some microseconds until the reply is ready. Time to wait for reply of board (seconds) (Default 0) 
+
+Definition at line 59 of file interface.h.\hypertarget{structTMCLInterfaceStruct_a0bb104a6c9e2e8adb097ed7261b008ad}{
+\index{TMCLInterfaceStruct@{TMCLInterfaceStruct}!tmcl\_\-close\_\-void@{tmcl\_\-close\_\-void}}
+\index{tmcl\_\-close\_\-void@{tmcl\_\-close\_\-void}!TMCLInterfaceStruct@{TMCLInterfaceStruct}}
+\subsubsection[{tmcl\_\-close\_\-void}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ {\bf TMCLInterfaceStruct::tmcl\_\-close\_\-void}}}
+\label{structTMCLInterfaceStruct_a0bb104a6c9e2e8adb097ed7261b008ad}
+Void pointer store a custom data close function 
+
+Definition at line 48 of file interface.h.\hypertarget{structTMCLInterfaceStruct_af15b6916e8874e2276df5953e3c39781}{
+\index{TMCLInterfaceStruct@{TMCLInterfaceStruct}!tmcl\_\-open\_\-void@{tmcl\_\-open\_\-void}}
+\index{tmcl\_\-open\_\-void@{tmcl\_\-open\_\-void}!TMCLInterfaceStruct@{TMCLInterfaceStruct}}
+\subsubsection[{tmcl\_\-open\_\-void}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ {\bf TMCLInterfaceStruct::tmcl\_\-open\_\-void}}}
+\label{structTMCLInterfaceStruct_af15b6916e8874e2276df5953e3c39781}
+Void pointer store a custom open function 
+
+Definition at line 46 of file interface.h.\hypertarget{structTMCLInterfaceStruct_abaa02120f923776a8b238d45b6ca68b9}{
+\index{TMCLInterfaceStruct@{TMCLInterfaceStruct}!tmcl\_\-read\_\-void@{tmcl\_\-read\_\-void}}
+\index{tmcl\_\-read\_\-void@{tmcl\_\-read\_\-void}!TMCLInterfaceStruct@{TMCLInterfaceStruct}}
+\subsubsection[{tmcl\_\-read\_\-void}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ {\bf TMCLInterfaceStruct::tmcl\_\-read\_\-void}}}
+\label{structTMCLInterfaceStruct_abaa02120f923776a8b238d45b6ca68b9}
+Void pointer store a custom data read function 
+
+Definition at line 52 of file interface.h.\hypertarget{structTMCLInterfaceStruct_acfb8740deb4a8a5ce6b7882866a93815}{
+\index{TMCLInterfaceStruct@{TMCLInterfaceStruct}!tmcl\_\-write\_\-void@{tmcl\_\-write\_\-void}}
+\index{tmcl\_\-write\_\-void@{tmcl\_\-write\_\-void}!TMCLInterfaceStruct@{TMCLInterfaceStruct}}
+\subsubsection[{tmcl\_\-write\_\-void}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ {\bf TMCLInterfaceStruct::tmcl\_\-write\_\-void}}}
+\label{structTMCLInterfaceStruct_acfb8740deb4a8a5ce6b7882866a93815}
+Void pointer store a custom data write function 
+
+Definition at line 50 of file interface.h.
+
+The documentation for this struct was generated from the following file:\begin{DoxyCompactItemize}
+\item 
+src/tmcl/\hyperlink{interface_8h}{interface.h}\end{DoxyCompactItemize}

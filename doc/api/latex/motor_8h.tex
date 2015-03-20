@@ -1,0 +1,204 @@
+\hypertarget{motor_8h}{
+\section{src/tmcl/motor.h File Reference}
+\label{motor_8h}\index{src/tmcl/motor.h@{src/tmcl/motor.h}}
+}
+{\ttfamily \#include $<$tmcl/tmcldefs.h$>$}\par
+{\ttfamily \#include $<$tmcl/interface.h$>$}\par
+Include dependency graph for motor.h:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=82pt]{motor_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{motor_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structTMCLMotorStruct}{TMCLMotorStruct}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structTMCLMotorStruct}{TMCLMotorStruct} \hyperlink{motor_8h_a14d786be976dfa481c05b4b712eca059}{TMCLMotor}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{motor_8h_a54fa9817766cc27bca3f7542ab748cc2}{tmcl\_\-init\_\-motor} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$$\ast$mot, \hyperlink{structTMCLInterfaceStruct}{TMCLInterface} $\ast$iface, \hyperlink{tmcldefs_8h_a35c090090de43d9850d0f573f7d29e45}{TMCLModel} model, uint8\_\-t address, uint8\_\-t bank, \hyperlink{tmcldefs_8h_ad26e4e286a55d7c739fd473d8cdd882e}{TMCLBusType} bus)
+\item 
+void \hyperlink{motor_8h_a925e764d84777a9dc131546dd1b32699}{tmcl\_\-deinit\_\-motor} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$$\ast$mot)
+\item 
+int \hyperlink{motor_8h_a0994799e6eeee41f70093c081bdc7d0a}{tmcl\_\-send\_\-command} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$mot, \hyperlink{structTMCLCommandStruct}{TMCLCommand} tcom, \hyperlink{structTMCLReplyStruct}{TMCLReply} $\ast$reply)
+\item 
+int \hyperlink{motor_8h_ac2cbc887882b38608ea63deb10f684bc}{tmcl\_\-update\_\-axis\_\-parameter} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$mot, int axis\_\-parameter)
+\item 
+int \hyperlink{motor_8h_a55a0a1ad09c44b1386a528b4e74f3962}{tmcl\_\-set\_\-axis\_\-parameter} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$mot, int axis\_\-parameter, int value)
+\item 
+int \hyperlink{motor_8h_acde6e9e540c95467c08ad479ca3627cd}{tmcl\_\-get\_\-axis\_\-parameter} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$mot, int axis\_\-parameter)
+\item 
+int \hyperlink{motor_8h_a943cbb77b0d0bf244742c34211d03c17}{tmcl\_\-store\_\-axis\_\-parameter} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$mot, int axis\_\-parameter)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Motor communication and configuration 
+
+Definition in file \hyperlink{motor_8h_source}{motor.h}.
+
+\subsection{Typedef Documentation}
+\hypertarget{motor_8h_a14d786be976dfa481c05b4b712eca059}{
+\index{motor.h@{motor.h}!TMCLMotor@{TMCLMotor}}
+\index{TMCLMotor@{TMCLMotor}!motor.h@{motor.h}}
+\subsubsection[{TMCLMotor}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf TMCLMotorStruct}
+ {\bf TMCLMotor}}}
+\label{motor_8h_a14d786be976dfa481c05b4b712eca059}
+Motor handler
+
+Stores information about the motor and the interface of the controller board 
+
+\subsection{Function Documentation}
+\hypertarget{motor_8h_a925e764d84777a9dc131546dd1b32699}{
+\index{motor.h@{motor.h}!tmcl\_\-deinit\_\-motor@{tmcl\_\-deinit\_\-motor}}
+\index{tmcl\_\-deinit\_\-motor@{tmcl\_\-deinit\_\-motor}!motor.h@{motor.h}}
+\subsubsection[{tmcl\_\-deinit\_\-motor}]{\setlength{\rightskip}{0pt plus 5cm}void tmcl\_\-deinit\_\-motor ({\bf TMCLMotor} $\ast$$\ast$ {\em mot})}}
+\label{motor_8h_a925e764d84777a9dc131546dd1b32699}
+Deinitialize motor handling structure 
+
+Definition at line 57 of file motor.c.\hypertarget{motor_8h_acde6e9e540c95467c08ad479ca3627cd}{
+\index{motor.h@{motor.h}!tmcl\_\-get\_\-axis\_\-parameter@{tmcl\_\-get\_\-axis\_\-parameter}}
+\index{tmcl\_\-get\_\-axis\_\-parameter@{tmcl\_\-get\_\-axis\_\-parameter}!motor.h@{motor.h}}
+\subsubsection[{tmcl\_\-get\_\-axis\_\-parameter}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-get\_\-axis\_\-parameter ({\bf TMCLMotor} $\ast$ {\em mot}, \/  int {\em axis\_\-parameter})}}
+\label{motor_8h_acde6e9e540c95467c08ad479ca3627cd}
+Get axis parameter from motor struct
+
+This does not read the parameter from the board, but just from the TMCLMotor struct. To update the value in the TMCLMotor struct call \hyperlink{motor_8h_ac2cbc887882b38608ea63deb10f684bc}{tmcl\_\-update\_\-axis\_\-parameter()} before.
+
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em mot}]Motor struct \item[\mbox{$\leftarrow$} {\em axis\_\-parameter}]Parameter to get \end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{group__AxisParam}{Axis Parameters}
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0: on success
+\item -\/1: on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 173 of file motor.c.\hypertarget{motor_8h_a54fa9817766cc27bca3f7542ab748cc2}{
+\index{motor.h@{motor.h}!tmcl\_\-init\_\-motor@{tmcl\_\-init\_\-motor}}
+\index{tmcl\_\-init\_\-motor@{tmcl\_\-init\_\-motor}!motor.h@{motor.h}}
+\subsubsection[{tmcl\_\-init\_\-motor}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-init\_\-motor ({\bf TMCLMotor} $\ast$$\ast$ {\em mot}, \/  {\bf TMCLInterface} $\ast$ {\em iface}, \/  {\bf TMCLModel} {\em model}, \/  uint8\_\-t {\em address}, \/  uint8\_\-t {\em bank}, \/  {\bf TMCLBusType} {\em bus})}}
+\label{motor_8h_a54fa9817766cc27bca3f7542ab748cc2}
+Initialize motor handling structure
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0: on success
+\item -\/1: on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 30 of file motor.c.\hypertarget{motor_8h_a0994799e6eeee41f70093c081bdc7d0a}{
+\index{motor.h@{motor.h}!tmcl\_\-send\_\-command@{tmcl\_\-send\_\-command}}
+\index{tmcl\_\-send\_\-command@{tmcl\_\-send\_\-command}!motor.h@{motor.h}}
+\subsubsection[{tmcl\_\-send\_\-command}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-send\_\-command ({\bf TMCLMotor} $\ast$ {\em mot}, \/  {\bf TMCLCommand} {\em tcom}, \/  {\bf TMCLReply} $\ast$ {\em reply})}}
+\label{motor_8h_a0994799e6eeee41f70093c081bdc7d0a}
+Send command to motor
+
+\begin{DoxySeeAlso}{See also}
+\hyperlink{tmcldefs_8h_a61ff3e5938eeb8d7a5b41fcba8f7c914}{TMCLCommand}
+\end{DoxySeeAlso}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0: on success
+\item -\/1: on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 69 of file motor.c.\hypertarget{motor_8h_a55a0a1ad09c44b1386a528b4e74f3962}{
+\index{motor.h@{motor.h}!tmcl\_\-set\_\-axis\_\-parameter@{tmcl\_\-set\_\-axis\_\-parameter}}
+\index{tmcl\_\-set\_\-axis\_\-parameter@{tmcl\_\-set\_\-axis\_\-parameter}!motor.h@{motor.h}}
+\subsubsection[{tmcl\_\-set\_\-axis\_\-parameter}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-set\_\-axis\_\-parameter ({\bf TMCLMotor} $\ast$ {\em mot}, \/  int {\em axis\_\-parameter}, \/  int {\em value})}}
+\label{motor_8h_a55a0a1ad09c44b1386a528b4e74f3962}
+Set axis parameter in motor controller board
+
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em mot}]Motor struct \item[\mbox{$\leftarrow$} {\em axis\_\-parameter}]Parameter to set \end{DoxyParams}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{group__AxisParam}{Axis Parameters} 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em value}]New value for parameter\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0: on success
+\item -\/1: on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 184 of file motor.c.\hypertarget{motor_8h_a943cbb77b0d0bf244742c34211d03c17}{
+\index{motor.h@{motor.h}!tmcl\_\-store\_\-axis\_\-parameter@{tmcl\_\-store\_\-axis\_\-parameter}}
+\index{tmcl\_\-store\_\-axis\_\-parameter@{tmcl\_\-store\_\-axis\_\-parameter}!motor.h@{motor.h}}
+\subsubsection[{tmcl\_\-store\_\-axis\_\-parameter}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-store\_\-axis\_\-parameter ({\bf TMCLMotor} $\ast$ {\em mot}, \/  int {\em axis\_\-parameter})}}
+\label{motor_8h_a943cbb77b0d0bf244742c34211d03c17}
+Read all available axis parameters from the controller board and store them in the TMCLMotor struct
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0: on success
+\item -\/1: on failure
+\end{DoxyItemize}
+\end{DoxyReturn}
+\begin{Desc}
+\item[\hyperlink{todo__todo000001}{Todo}]: Currently broken and thus not commented \end{Desc}
+Copy axis parameter from RAM to non-\/volatile EEPROM on board
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0: on success
+\item -\/1: on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 213 of file motor.c.\hypertarget{motor_8h_ac2cbc887882b38608ea63deb10f684bc}{
+\index{motor.h@{motor.h}!tmcl\_\-update\_\-axis\_\-parameter@{tmcl\_\-update\_\-axis\_\-parameter}}
+\index{tmcl\_\-update\_\-axis\_\-parameter@{tmcl\_\-update\_\-axis\_\-parameter}!motor.h@{motor.h}}
+\subsubsection[{tmcl\_\-update\_\-axis\_\-parameter}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-update\_\-axis\_\-parameter ({\bf TMCLMotor} $\ast$ {\em mot}, \/  int {\em axis\_\-parameter})}}
+\label{motor_8h_ac2cbc887882b38608ea63deb10f684bc}
+Read axis parameter 'axis\_\-parameter' from the motor and saves it in the 'TMCLMotor' struct
+
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em mot}]Motor struct \item[\mbox{$\leftarrow$} {\em tmcl\_\-parameter}]Parameter to read\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0: on success
+\item -\/1: on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 141 of file motor.c.

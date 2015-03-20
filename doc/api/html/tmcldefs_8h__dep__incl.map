@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" href="$convenience_8c_source.html" title="src/tmcl/convenience.c" alt="" coords="5,237,160,267"/>
+<area shape="rect" href="$interface_8h.html" title="src/tmcl/interface.h" alt="" coords="659,83,792,112"/>
+<area shape="rect" href="$motor_8c_source.html" title="src/tmcl/motor.c" alt="" coords="571,237,685,267"/>
+<area shape="rect" href="$motor_8h.html" title="src/tmcl/motor.h" alt="" coords="469,160,584,189"/>
+<area shape="rect" href="$tmcl_8h.html" title="src/tmcl/tmcl.h" alt="" coords="575,315,681,344"/>
+<area shape="rect" href="$tmcldefs_8c.html" title="src/tmcl/tmcldefs.c" alt="" coords="184,237,317,267"/>
+<area shape="rect" href="$rsXXX_8c_source.html" title="src/tmcl/rsXXX.c" alt="" coords="917,237,1037,267"/>
+<area shape="rect" href="$rsXXX_8h.html" title="src/tmcl/rsXXX.h" alt="" coords="861,160,981,189"/>
+<area shape="rect" href="$interface_8c_source.html" title="src/tmcl/interface.c" alt="" coords="760,237,893,267"/>
+<area shape="rect" href="$convenience_8h.html" title="src/tmcl/convenience.h" alt="" coords="341,237,496,267"/>
+</map>

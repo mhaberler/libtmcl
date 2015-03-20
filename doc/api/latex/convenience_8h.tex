@@ -1,0 +1,421 @@
+\hypertarget{convenience_8h}{
+\section{src/tmcl/convenience.h File Reference}
+\label{convenience_8h}\index{src/tmcl/convenience.h@{src/tmcl/convenience.h}}
+}
+{\ttfamily \#include $<$inttypes.h$>$}\par
+{\ttfamily \#include \char`\"{}motor.h\char`\"{}}\par
+Include dependency graph for convenience.h:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=116pt]{convenience_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=80pt]{convenience_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{convenience_8h_ade9c1b3e4ada816b7bdd76d7fd2e1639}{tmcl\_\-move\_\-to\_\-pos\_\-abs} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, int position)
+\item 
+int \hyperlink{convenience_8h_af1234e508a14ebfb3c2c6c0582fbb9d5}{tmcl\_\-move\_\-to\_\-pos\_\-rel} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, int position)
+\item 
+int \hyperlink{convenience_8h_acde409988cd13a2928523516d1a203f9}{tmcl\_\-move\_\-to\_\-coord} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, int coordinate)
+\item 
+int \hyperlink{convenience_8h_ac3dd7b3737010109df8b3bb800890bb7}{tmcl\_\-stop} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor)
+\item 
+int \hyperlink{convenience_8h_a002fe6b01caeb3a1c4c245e15d96d5f0}{tmcl\_\-refsearch\_\-start} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor)
+\item 
+int \hyperlink{convenience_8h_a5bbc946d3102331d43a010db44120149}{tmcl\_\-refsearch\_\-stop} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor)
+\item 
+int \hyperlink{convenience_8h_acd7a790f78576279e83008880905834e}{tmcl\_\-refsearch\_\-status} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor)
+\item 
+int32\_\-t \hyperlink{convenience_8h_a83b30f371b69aa1bb4062963128c8404}{tmcl\_\-get\_\-position} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor)
+\item 
+int \hyperlink{convenience_8h_a5f7be50971f8ee4a23abb0bfc796a3df}{tmcl\_\-ror} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, int velocity)
+\item 
+int \hyperlink{convenience_8h_ab347aea7a694742e7f9968cb6663dc85}{tmcl\_\-rol} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, int velocity)
+\item 
+int \hyperlink{convenience_8h_a28d15f70ff3338d6b36dd67bc30a0f3d}{tmcl\_\-set\_\-max\_\-current} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, unsigned int percent)
+\item 
+int \hyperlink{convenience_8h_a52529417a99489b11f7bbd647fac8207}{tmcl\_\-get\_\-max\_\-current} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor)
+\item 
+int \hyperlink{convenience_8h_a1079e2a8e9a22a8279ace9befcf0c551}{tmcl\_\-set\_\-max\_\-standby\_\-current} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, unsigned int percent)
+\item 
+int \hyperlink{convenience_8h_ae5c09e7de2fcd863cce97a4c34862ae1}{tmcl\_\-get\_\-max\_\-standby\_\-current} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor)
+\item 
+int \hyperlink{convenience_8h_a9b8738124f99ca6377b6b278e289d6a5}{tmcl\_\-set\_\-microsteps} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, int microsteps)
+\item 
+int \hyperlink{convenience_8h_ab6498b8dabfb0bded2ff12488b86c4fe}{tmcl\_\-get\_\-microsteps} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor)
+\item 
+int \hyperlink{convenience_8h_abfa4f22d0004e1c6a6edae3720cbcd11}{tmcl\_\-activate\_\-limit\_\-switch} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, int limit\_\-switch)
+\item 
+int \hyperlink{convenience_8h_aa64d4c054d237c284db2c76cde9c5070}{tmcl\_\-deactivate\_\-limit\_\-switch} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, int limit\_\-switch)
+\item 
+int \hyperlink{convenience_8h_acb47891de6c40e7054f3ae15e85ab1f8}{tmcl\_\-get\_\-limit\_\-switch} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, int limit\_\-switch)
+\item 
+int \hyperlink{convenience_8h_a2f5d78884d6cc87a6d31abf2932f4d81}{tmcl\_\-set\_\-no\_\-ref\_\-switch} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, int number)
+\item 
+int \hyperlink{convenience_8h_a7c9af10e994fce71bb1055465176f16c}{tmcl\_\-get\_\-current\_\-speed} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor)
+\item 
+int \hyperlink{convenience_8h_abbdc689391aa6017a9accd1aa10eb958}{tmcl\_\-set\_\-refsearch\_\-speed} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, int fraction)
+\item 
+int \hyperlink{convenience_8h_a8c63f30cf717dbed4e0efd63af435574}{tmcl\_\-get\_\-refsearch\_\-speed} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor)
+\item 
+int \hyperlink{convenience_8h_a56398eafa720e79aa9cbd73c309b2757}{tmcl\_\-set\_\-pos\_\-speed} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, int speed)
+\item 
+int \hyperlink{convenience_8h_ae4eb2a19056c163bfe83e91db4847e19}{tmcl\_\-get\_\-pos\_\-speed} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor)
+\item 
+int \hyperlink{convenience_8h_a4099ac9f0bd1101fdd50dc5e97f86953}{tmcl\_\-get\_\-limit\_\-status} (\hyperlink{structTMCLMotorStruct}{TMCLMotor} $\ast$motor, int limit\_\-switch)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Convenience function for regularly used actions 
+
+Definition in file \hyperlink{convenience_8h_source}{convenience.h}.
+
+\subsection{Function Documentation}
+\hypertarget{convenience_8h_abfa4f22d0004e1c6a6edae3720cbcd11}{
+\index{convenience.h@{convenience.h}!tmcl\_\-activate\_\-limit\_\-switch@{tmcl\_\-activate\_\-limit\_\-switch}}
+\index{tmcl\_\-activate\_\-limit\_\-switch@{tmcl\_\-activate\_\-limit\_\-switch}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-activate\_\-limit\_\-switch}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-activate\_\-limit\_\-switch ({\bf TMCLMotor} $\ast$ {\em motor}, \/  int {\em limit\_\-switch})}}
+\label{convenience_8h_abfa4f22d0004e1c6a6edae3720cbcd11}
+Activate limit switch
+
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em limit\_\-switch}]ID of limit switch to activate\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0 on success
+\item -\/1 on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 410 of file convenience.c.\hypertarget{convenience_8h_aa64d4c054d237c284db2c76cde9c5070}{
+\index{convenience.h@{convenience.h}!tmcl\_\-deactivate\_\-limit\_\-switch@{tmcl\_\-deactivate\_\-limit\_\-switch}}
+\index{tmcl\_\-deactivate\_\-limit\_\-switch@{tmcl\_\-deactivate\_\-limit\_\-switch}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-deactivate\_\-limit\_\-switch}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-deactivate\_\-limit\_\-switch ({\bf TMCLMotor} $\ast$ {\em motor}, \/  int {\em limit\_\-switch})}}
+\label{convenience_8h_aa64d4c054d237c284db2c76cde9c5070}
+Deactivate limit switch
+
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em limit\_\-switch}]ID of limit switch to deactivate\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0 on success
+\item -\/1 on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 415 of file convenience.c.\hypertarget{convenience_8h_a7c9af10e994fce71bb1055465176f16c}{
+\index{convenience.h@{convenience.h}!tmcl\_\-get\_\-current\_\-speed@{tmcl\_\-get\_\-current\_\-speed}}
+\index{tmcl\_\-get\_\-current\_\-speed@{tmcl\_\-get\_\-current\_\-speed}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-get\_\-current\_\-speed}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-get\_\-current\_\-speed ({\bf TMCLMotor} $\ast$ {\em motor})}}
+\label{convenience_8h_a7c9af10e994fce71bb1055465176f16c}
+Get current speed of motor
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item $>$=0: current speed of motor
+\item -\/1 on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 482 of file convenience.c.\hypertarget{convenience_8h_a4099ac9f0bd1101fdd50dc5e97f86953}{
+\index{convenience.h@{convenience.h}!tmcl\_\-get\_\-limit\_\-status@{tmcl\_\-get\_\-limit\_\-status}}
+\index{tmcl\_\-get\_\-limit\_\-status@{tmcl\_\-get\_\-limit\_\-status}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-get\_\-limit\_\-status}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-get\_\-limit\_\-status ({\bf TMCLMotor} $\ast$ {\em motor}, \/  int {\em limit\_\-switch})}}
+\label{convenience_8h_a4099ac9f0bd1101fdd50dc5e97f86953}
+Get status of limit switch
+
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em limit\_\-switch}]Limit switch to check 0: left switch, 1: right switch\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0: when limit switch is open
+\item 1: when limit switch is closed
+\item -\/1: on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 504 of file convenience.c.\hypertarget{convenience_8h_acb47891de6c40e7054f3ae15e85ab1f8}{
+\index{convenience.h@{convenience.h}!tmcl\_\-get\_\-limit\_\-switch@{tmcl\_\-get\_\-limit\_\-switch}}
+\index{tmcl\_\-get\_\-limit\_\-switch@{tmcl\_\-get\_\-limit\_\-switch}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-get\_\-limit\_\-switch}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-get\_\-limit\_\-switch ({\bf TMCLMotor} $\ast$ {\em motor}, \/  int {\em limit\_\-switch})}}
+\label{convenience_8h_acb47891de6c40e7054f3ae15e85ab1f8}
+Check if limit switch is active
+
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em limit\_\-switch}]Switch to check\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 1 when {\ttfamily limit\_\-switch} is active
+\item 0 when not active
+\item -\/1 on error 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 384 of file convenience.c.\hypertarget{convenience_8h_a52529417a99489b11f7bbd647fac8207}{
+\index{convenience.h@{convenience.h}!tmcl\_\-get\_\-max\_\-current@{tmcl\_\-get\_\-max\_\-current}}
+\index{tmcl\_\-get\_\-max\_\-current@{tmcl\_\-get\_\-max\_\-current}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-get\_\-max\_\-current}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-get\_\-max\_\-current ({\bf TMCLMotor} $\ast$ {\em motor})}}
+\label{convenience_8h_a52529417a99489b11f7bbd647fac8207}
+Get maximum current
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item current in percent of available full current
+\item -\/1 on error 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 248 of file convenience.c.\hypertarget{convenience_8h_ae5c09e7de2fcd863cce97a4c34862ae1}{
+\index{convenience.h@{convenience.h}!tmcl\_\-get\_\-max\_\-standby\_\-current@{tmcl\_\-get\_\-max\_\-standby\_\-current}}
+\index{tmcl\_\-get\_\-max\_\-standby\_\-current@{tmcl\_\-get\_\-max\_\-standby\_\-current}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-get\_\-max\_\-standby\_\-current}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-get\_\-max\_\-standby\_\-current ({\bf TMCLMotor} $\ast$ {\em motor})}}
+\label{convenience_8h_ae5c09e7de2fcd863cce97a4c34862ae1}
+Get maximum standby current
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item current in percent of available full current
+\item -\/1 on error 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 272 of file convenience.c.\hypertarget{convenience_8h_ab6498b8dabfb0bded2ff12488b86c4fe}{
+\index{convenience.h@{convenience.h}!tmcl\_\-get\_\-microsteps@{tmcl\_\-get\_\-microsteps}}
+\index{tmcl\_\-get\_\-microsteps@{tmcl\_\-get\_\-microsteps}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-get\_\-microsteps}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-get\_\-microsteps ({\bf TMCLMotor} $\ast$ {\em motor})}}
+\label{convenience_8h_ab6498b8dabfb0bded2ff12488b86c4fe}
+Get used microsteps
+
+\begin{DoxyNote}{Note}
+not for TMCM100 model
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item microsteps: 0 (full step mode), 1 (half step mode), 2, 4, 8, 16, 32, 64 microsteps
+\item -\/1 on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 320 of file convenience.c.\hypertarget{convenience_8h_ae4eb2a19056c163bfe83e91db4847e19}{
+\index{convenience.h@{convenience.h}!tmcl\_\-get\_\-pos\_\-speed@{tmcl\_\-get\_\-pos\_\-speed}}
+\index{tmcl\_\-get\_\-pos\_\-speed@{tmcl\_\-get\_\-pos\_\-speed}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-get\_\-pos\_\-speed}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-get\_\-pos\_\-speed ({\bf TMCLMotor} $\ast$ {\em motor})}}
+\label{convenience_8h_ae4eb2a19056c163bfe83e91db4847e19}
+Get positioning speed 
+
+Definition at line 498 of file convenience.c.\hypertarget{convenience_8h_a83b30f371b69aa1bb4062963128c8404}{
+\index{convenience.h@{convenience.h}!tmcl\_\-get\_\-position@{tmcl\_\-get\_\-position}}
+\index{tmcl\_\-get\_\-position@{tmcl\_\-get\_\-position}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-get\_\-position}]{\setlength{\rightskip}{0pt plus 5cm}int32\_\-t tmcl\_\-get\_\-position ({\bf TMCLMotor} $\ast$ {\em motor})}}
+\label{convenience_8h_a83b30f371b69aa1bb4062963128c8404}
+Get current position of motor 
+
+Definition at line 166 of file convenience.c.\hypertarget{convenience_8h_a8c63f30cf717dbed4e0efd63af435574}{
+\index{convenience.h@{convenience.h}!tmcl\_\-get\_\-refsearch\_\-speed@{tmcl\_\-get\_\-refsearch\_\-speed}}
+\index{tmcl\_\-get\_\-refsearch\_\-speed@{tmcl\_\-get\_\-refsearch\_\-speed}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-get\_\-refsearch\_\-speed}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-get\_\-refsearch\_\-speed ({\bf TMCLMotor} $\ast$ {\em motor})}}
+\label{convenience_8h_a8c63f30cf717dbed4e0efd63af435574}
+Get reference search speed
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item $>$=0: reference search speed in fraction of positioning speed
+\item -\/1: failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 477 of file convenience.c.\hypertarget{convenience_8h_acde409988cd13a2928523516d1a203f9}{
+\index{convenience.h@{convenience.h}!tmcl\_\-move\_\-to\_\-coord@{tmcl\_\-move\_\-to\_\-coord}}
+\index{tmcl\_\-move\_\-to\_\-coord@{tmcl\_\-move\_\-to\_\-coord}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-move\_\-to\_\-coord}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-move\_\-to\_\-coord ({\bf TMCLMotor} $\ast$ {\em motor}, \/  int {\em coordinate})}}
+\label{convenience_8h_acde409988cd13a2928523516d1a203f9}
+Move to previously stored coordinate See TMCL reference for details 
+
+Definition at line 76 of file convenience.c.\hypertarget{convenience_8h_ade9c1b3e4ada816b7bdd76d7fd2e1639}{
+\index{convenience.h@{convenience.h}!tmcl\_\-move\_\-to\_\-pos\_\-abs@{tmcl\_\-move\_\-to\_\-pos\_\-abs}}
+\index{tmcl\_\-move\_\-to\_\-pos\_\-abs@{tmcl\_\-move\_\-to\_\-pos\_\-abs}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-move\_\-to\_\-pos\_\-abs}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-move\_\-to\_\-pos\_\-abs ({\bf TMCLMotor} $\ast$ {\em motor}, \/  int {\em position})}}
+\label{convenience_8h_ade9c1b3e4ada816b7bdd76d7fd2e1639}
+Move motor to absolute position 
+
+Definition at line 26 of file convenience.c.\hypertarget{convenience_8h_af1234e508a14ebfb3c2c6c0582fbb9d5}{
+\index{convenience.h@{convenience.h}!tmcl\_\-move\_\-to\_\-pos\_\-rel@{tmcl\_\-move\_\-to\_\-pos\_\-rel}}
+\index{tmcl\_\-move\_\-to\_\-pos\_\-rel@{tmcl\_\-move\_\-to\_\-pos\_\-rel}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-move\_\-to\_\-pos\_\-rel}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-move\_\-to\_\-pos\_\-rel ({\bf TMCLMotor} $\ast$ {\em motor}, \/  int {\em position})}}
+\label{convenience_8h_af1234e508a14ebfb3c2c6c0582fbb9d5}
+Move motor relative to current position 
+
+Definition at line 63 of file convenience.c.\hypertarget{convenience_8h_a002fe6b01caeb3a1c4c245e15d96d5f0}{
+\index{convenience.h@{convenience.h}!tmcl\_\-refsearch\_\-start@{tmcl\_\-refsearch\_\-start}}
+\index{tmcl\_\-refsearch\_\-start@{tmcl\_\-refsearch\_\-start}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-refsearch\_\-start}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-refsearch\_\-start ({\bf TMCLMotor} $\ast$ {\em motor})}}
+\label{convenience_8h_a002fe6b01caeb3a1c4c245e15d96d5f0}
+Start reference search 
+
+Definition at line 101 of file convenience.c.\hypertarget{convenience_8h_acd7a790f78576279e83008880905834e}{
+\index{convenience.h@{convenience.h}!tmcl\_\-refsearch\_\-status@{tmcl\_\-refsearch\_\-status}}
+\index{tmcl\_\-refsearch\_\-status@{tmcl\_\-refsearch\_\-status}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-refsearch\_\-status}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-refsearch\_\-status ({\bf TMCLMotor} $\ast$ {\em motor})}}
+\label{convenience_8h_acd7a790f78576279e83008880905834e}
+Get status of reference search
+
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 1 when reference search is running
+\item 0 when no reference search is running
+\item -\/1 on error 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 137 of file convenience.c.\hypertarget{convenience_8h_a5bbc946d3102331d43a010db44120149}{
+\index{convenience.h@{convenience.h}!tmcl\_\-refsearch\_\-stop@{tmcl\_\-refsearch\_\-stop}}
+\index{tmcl\_\-refsearch\_\-stop@{tmcl\_\-refsearch\_\-stop}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-refsearch\_\-stop}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-refsearch\_\-stop ({\bf TMCLMotor} $\ast$ {\em motor})}}
+\label{convenience_8h_a5bbc946d3102331d43a010db44120149}
+Stop reference search 
+
+Definition at line 118 of file convenience.c.\hypertarget{convenience_8h_ab347aea7a694742e7f9968cb6663dc85}{
+\index{convenience.h@{convenience.h}!tmcl\_\-rol@{tmcl\_\-rol}}
+\index{tmcl\_\-rol@{tmcl\_\-rol}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-rol}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-rol ({\bf TMCLMotor} $\ast$ {\em motor}, \/  int {\em velocity})}}
+\label{convenience_8h_ab347aea7a694742e7f9968cb6663dc85}
+Rotate motor left 
+
+Definition at line 51 of file convenience.c.\hypertarget{convenience_8h_a5f7be50971f8ee4a23abb0bfc796a3df}{
+\index{convenience.h@{convenience.h}!tmcl\_\-ror@{tmcl\_\-ror}}
+\index{tmcl\_\-ror@{tmcl\_\-ror}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-ror}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-ror ({\bf TMCLMotor} $\ast$ {\em motor}, \/  int {\em velocity})}}
+\label{convenience_8h_a5f7be50971f8ee4a23abb0bfc796a3df}
+Rotate motor right 
+
+Definition at line 39 of file convenience.c.\hypertarget{convenience_8h_a28d15f70ff3338d6b36dd67bc30a0f3d}{
+\index{convenience.h@{convenience.h}!tmcl\_\-set\_\-max\_\-current@{tmcl\_\-set\_\-max\_\-current}}
+\index{tmcl\_\-set\_\-max\_\-current@{tmcl\_\-set\_\-max\_\-current}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-set\_\-max\_\-current}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-set\_\-max\_\-current ({\bf TMCLMotor} $\ast$ {\em motor}, \/  unsigned int {\em percent})}}
+\label{convenience_8h_a28d15f70ff3338d6b36dd67bc30a0f3d}
+Set maximum current
+
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em current}]in percent of full current \end{DoxyParams}
+
+
+Definition at line 231 of file convenience.c.\hypertarget{convenience_8h_a1079e2a8e9a22a8279ace9befcf0c551}{
+\index{convenience.h@{convenience.h}!tmcl\_\-set\_\-max\_\-standby\_\-current@{tmcl\_\-set\_\-max\_\-standby\_\-current}}
+\index{tmcl\_\-set\_\-max\_\-standby\_\-current@{tmcl\_\-set\_\-max\_\-standby\_\-current}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-set\_\-max\_\-standby\_\-current}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-set\_\-max\_\-standby\_\-current ({\bf TMCLMotor} $\ast$ {\em motor}, \/  unsigned int {\em percent})}}
+\label{convenience_8h_a1079e2a8e9a22a8279ace9befcf0c551}
+Set maximum standby current
+
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em maximum}]standby current in percent \end{DoxyParams}
+
+
+Definition at line 257 of file convenience.c.\hypertarget{convenience_8h_a9b8738124f99ca6377b6b278e289d6a5}{
+\index{convenience.h@{convenience.h}!tmcl\_\-set\_\-microsteps@{tmcl\_\-set\_\-microsteps}}
+\index{tmcl\_\-set\_\-microsteps@{tmcl\_\-set\_\-microsteps}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-set\_\-microsteps}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-set\_\-microsteps ({\bf TMCLMotor} $\ast$ {\em motor}, \/  int {\em microsteps})}}
+\label{convenience_8h_a9b8738124f99ca6377b6b278e289d6a5}
+Set microsteps for movement
+
+\begin{DoxyNote}{Note}
+not for TMCM100 model
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em microsteps}]0 (full step mode), 1 (half step mode), 2, 4, 8, 16, 32, 64 microsteps \end{DoxyParams}
+
+
+Definition at line 281 of file convenience.c.\hypertarget{convenience_8h_a2f5d78884d6cc87a6d31abf2932f4d81}{
+\index{convenience.h@{convenience.h}!tmcl\_\-set\_\-no\_\-ref\_\-switch@{tmcl\_\-set\_\-no\_\-ref\_\-switch}}
+\index{tmcl\_\-set\_\-no\_\-ref\_\-switch@{tmcl\_\-set\_\-no\_\-ref\_\-switch}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-set\_\-no\_\-ref\_\-switch}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-set\_\-no\_\-ref\_\-switch ({\bf TMCLMotor} $\ast$ {\em motor}, \/  int {\em number})}}
+\label{convenience_8h_a2f5d78884d6cc87a6d31abf2932f4d81}
+Set number of reference switches
+
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em number}]Number of reference switches (1-\/3)\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0 on success
+\item -\/1 on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 420 of file convenience.c.\hypertarget{convenience_8h_a56398eafa720e79aa9cbd73c309b2757}{
+\index{convenience.h@{convenience.h}!tmcl\_\-set\_\-pos\_\-speed@{tmcl\_\-set\_\-pos\_\-speed}}
+\index{tmcl\_\-set\_\-pos\_\-speed@{tmcl\_\-set\_\-pos\_\-speed}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-set\_\-pos\_\-speed}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-set\_\-pos\_\-speed ({\bf TMCLMotor} $\ast$ {\em motor}, \/  int {\em speed})}}
+\label{convenience_8h_a56398eafa720e79aa9cbd73c309b2757}
+Set positioning speed
+
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em speed}]Positioning speed 0-\/2047\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\begin{DoxyItemize}
+\item 0 on success
+\item -\/1 on failure 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+Definition at line 488 of file convenience.c.\hypertarget{convenience_8h_abbdc689391aa6017a9accd1aa10eb958}{
+\index{convenience.h@{convenience.h}!tmcl\_\-set\_\-refsearch\_\-speed@{tmcl\_\-set\_\-refsearch\_\-speed}}
+\index{tmcl\_\-set\_\-refsearch\_\-speed@{tmcl\_\-set\_\-refsearch\_\-speed}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-set\_\-refsearch\_\-speed}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-set\_\-refsearch\_\-speed ({\bf TMCLMotor} $\ast$ {\em motor}, \/  int {\em fraction})}}
+\label{convenience_8h_abbdc689391aa6017a9accd1aa10eb958}
+Set reference search speed
+
+
+\begin{DoxyParams}{Parameters}
+\item[\mbox{$\leftarrow$} {\em fraction}]Set reference search speed to 1/fraction of positioning speed \end{DoxyParams}
+
+
+Definition at line 453 of file convenience.c.\hypertarget{convenience_8h_ac3dd7b3737010109df8b3bb800890bb7}{
+\index{convenience.h@{convenience.h}!tmcl\_\-stop@{tmcl\_\-stop}}
+\index{tmcl\_\-stop@{tmcl\_\-stop}!convenience.h@{convenience.h}}
+\subsubsection[{tmcl\_\-stop}]{\setlength{\rightskip}{0pt plus 5cm}int tmcl\_\-stop ({\bf TMCLMotor} $\ast$ {\em motor})}}
+\label{convenience_8h_ac3dd7b3737010109df8b3bb800890bb7}
+Stop motor 
+
+Definition at line 89 of file convenience.c.

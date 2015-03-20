@@ -1,0 +1,266 @@
+\contentsline {chapter}{\numberline {1}Trinamic Motion Control Language library}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}NOTE}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Introduction}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Installation}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}\char `\"{}Let the games begin!\char `\"{}}{2}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}First steps}{2}{subsection.1.4.1}
+\contentsline {section}{\numberline {1.5}\char `\"{}Advanced\char `\"{} usage}{3}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Send commands}{3}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Axis parameter}{3}{subsection.1.5.2}
+\contentsline {chapter}{\numberline {2}Todo List}{5}{chapter.2}
+\contentsline {chapter}{\numberline {3}Module Index}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Modules}{7}{section.3.1}
+\contentsline {chapter}{\numberline {4}Data Structure Index}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data Structures}{9}{section.4.1}
+\contentsline {chapter}{\numberline {5}File Index}{11}{chapter.5}
+\contentsline {section}{\numberline {5.1}File List}{11}{section.5.1}
+\contentsline {chapter}{\numberline {6}Module Documentation}{13}{chapter.6}
+\contentsline {section}{\numberline {6.1}Misc defines}{13}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Define Documentation}{13}{subsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.1.1}TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}CAN}{13}{subsubsection.6.1.1.1}
+\contentsline {subsubsection}{\numberline {6.1.1.2}TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}IIC}{13}{subsubsection.6.1.1.2}
+\contentsline {subsubsection}{\numberline {6.1.1.3}TMCL\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE\_\discretionary {-}{}{}RSXXX}{13}{subsubsection.6.1.1.3}
+\contentsline {subsubsection}{\numberline {6.1.1.4}TMCL\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}DGRAM\_\discretionary {-}{}{}SIZE}{13}{subsubsection.6.1.1.4}
+\contentsline {subsubsection}{\numberline {6.1.1.5}TMCL\_\discretionary {-}{}{}VERSION}{14}{subsubsection.6.1.1.5}
+\contentsline {section}{\numberline {6.2}Status Codes.}{15}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Detailed Description}{15}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Define Documentation}{15}{subsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.1}TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}COMMAND\_\discretionary {-}{}{}NA}{15}{subsubsection.6.2.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2.2}TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}EEPROM\_\discretionary {-}{}{}LOCKED}{15}{subsubsection.6.2.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.3}TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}INVALID\_\discretionary {-}{}{}COMMAND}{15}{subsubsection.6.2.2.3}
+\contentsline {subsubsection}{\numberline {6.2.2.4}TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}INVALID\_\discretionary {-}{}{}VALUE}{15}{subsubsection.6.2.2.4}
+\contentsline {subsubsection}{\numberline {6.2.2.5}TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}LOADED\_\discretionary {-}{}{}EEPROM}{15}{subsubsection.6.2.2.5}
+\contentsline {subsubsection}{\numberline {6.2.2.6}TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}SUCCESS}{16}{subsubsection.6.2.2.6}
+\contentsline {subsubsection}{\numberline {6.2.2.7}TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}WRONG\_\discretionary {-}{}{}CHECKSUM}{16}{subsubsection.6.2.2.7}
+\contentsline {subsubsection}{\numberline {6.2.2.8}TMCL\_\discretionary {-}{}{}STATUS\_\discretionary {-}{}{}WRONG\_\discretionary {-}{}{}TYPE}{16}{subsubsection.6.2.2.8}
+\contentsline {section}{\numberline {6.3}TMCL commands.}{17}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Define Documentation}{18}{subsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.1.1}TMCL\_\discretionary {-}{}{}AAP}{18}{subsubsection.6.3.1.1}
+\contentsline {subsubsection}{\numberline {6.3.1.2}TMCL\_\discretionary {-}{}{}AGP}{18}{subsubsection.6.3.1.2}
+\contentsline {subsubsection}{\numberline {6.3.1.3}TMCL\_\discretionary {-}{}{}CALC}{18}{subsubsection.6.3.1.3}
+\contentsline {subsubsection}{\numberline {6.3.1.4}TMCL\_\discretionary {-}{}{}CALCX}{18}{subsubsection.6.3.1.4}
+\contentsline {subsubsection}{\numberline {6.3.1.5}TMCL\_\discretionary {-}{}{}CCO}{18}{subsubsection.6.3.1.5}
+\contentsline {subsubsection}{\numberline {6.3.1.6}TMCL\_\discretionary {-}{}{}CLE}{18}{subsubsection.6.3.1.6}
+\contentsline {subsubsection}{\numberline {6.3.1.7}TMCL\_\discretionary {-}{}{}COMP}{18}{subsubsection.6.3.1.7}
+\contentsline {subsubsection}{\numberline {6.3.1.8}TMCL\_\discretionary {-}{}{}CSUB}{19}{subsubsection.6.3.1.8}
+\contentsline {subsubsection}{\numberline {6.3.1.9}TMCL\_\discretionary {-}{}{}GCO}{19}{subsubsection.6.3.1.9}
+\contentsline {subsubsection}{\numberline {6.3.1.10}TMCL\_\discretionary {-}{}{}GIO}{19}{subsubsection.6.3.1.10}
+\contentsline {subsubsection}{\numberline {6.3.1.11}TMCL\_\discretionary {-}{}{}JA}{19}{subsubsection.6.3.1.11}
+\contentsline {subsubsection}{\numberline {6.3.1.12}TMCL\_\discretionary {-}{}{}JC}{19}{subsubsection.6.3.1.12}
+\contentsline {subsubsection}{\numberline {6.3.1.13}TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}ABS}{19}{subsubsection.6.3.1.13}
+\contentsline {subsubsection}{\numberline {6.3.1.14}TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}COORD}{19}{subsubsection.6.3.1.14}
+\contentsline {subsubsection}{\numberline {6.3.1.15}TMCL\_\discretionary {-}{}{}MVP\_\discretionary {-}{}{}REL}{19}{subsubsection.6.3.1.15}
+\contentsline {subsubsection}{\numberline {6.3.1.16}TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}START}{19}{subsubsection.6.3.1.16}
+\contentsline {subsubsection}{\numberline {6.3.1.17}TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}STATUS}{20}{subsubsection.6.3.1.17}
+\contentsline {subsubsection}{\numberline {6.3.1.18}TMCL\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}STOP}{20}{subsubsection.6.3.1.18}
+\contentsline {subsubsection}{\numberline {6.3.1.19}TMCL\_\discretionary {-}{}{}RSUB}{20}{subsubsection.6.3.1.19}
+\contentsline {subsubsection}{\numberline {6.3.1.20}TMCL\_\discretionary {-}{}{}SAC}{20}{subsubsection.6.3.1.20}
+\contentsline {subsubsection}{\numberline {6.3.1.21}TMCL\_\discretionary {-}{}{}SCO}{20}{subsubsection.6.3.1.21}
+\contentsline {subsubsection}{\numberline {6.3.1.22}TMCL\_\discretionary {-}{}{}SIO}{20}{subsubsection.6.3.1.22}
+\contentsline {subsubsection}{\numberline {6.3.1.23}TMCL\_\discretionary {-}{}{}STOP}{20}{subsubsection.6.3.1.23}
+\contentsline {subsubsection}{\numberline {6.3.1.24}TMCL\_\discretionary {-}{}{}UF0}{20}{subsubsection.6.3.1.24}
+\contentsline {subsubsection}{\numberline {6.3.1.25}TMCL\_\discretionary {-}{}{}UF1}{20}{subsubsection.6.3.1.25}
+\contentsline {subsubsection}{\numberline {6.3.1.26}TMCL\_\discretionary {-}{}{}UF2}{21}{subsubsection.6.3.1.26}
+\contentsline {subsubsection}{\numberline {6.3.1.27}TMCL\_\discretionary {-}{}{}UF3}{21}{subsubsection.6.3.1.27}
+\contentsline {subsubsection}{\numberline {6.3.1.28}TMCL\_\discretionary {-}{}{}UF4}{21}{subsubsection.6.3.1.28}
+\contentsline {subsubsection}{\numberline {6.3.1.29}TMCL\_\discretionary {-}{}{}UF5}{21}{subsubsection.6.3.1.29}
+\contentsline {subsubsection}{\numberline {6.3.1.30}TMCL\_\discretionary {-}{}{}UF6}{21}{subsubsection.6.3.1.30}
+\contentsline {subsubsection}{\numberline {6.3.1.31}TMCL\_\discretionary {-}{}{}UF7}{21}{subsubsection.6.3.1.31}
+\contentsline {subsubsection}{\numberline {6.3.1.32}TMCL\_\discretionary {-}{}{}WAIT}{21}{subsubsection.6.3.1.32}
+\contentsline {section}{\numberline {6.4}Motion commands.}{22}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{22}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Define Documentation}{22}{subsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.2.1}TMCL\_\discretionary {-}{}{}MST}{22}{subsubsection.6.4.2.1}
+\contentsline {subsubsection}{\numberline {6.4.2.2}TMCL\_\discretionary {-}{}{}MVP}{22}{subsubsection.6.4.2.2}
+\contentsline {subsubsection}{\numberline {6.4.2.3}TMCL\_\discretionary {-}{}{}RFS}{22}{subsubsection.6.4.2.3}
+\contentsline {subsubsection}{\numberline {6.4.2.4}TMCL\_\discretionary {-}{}{}ROL}{22}{subsubsection.6.4.2.4}
+\contentsline {subsubsection}{\numberline {6.4.2.5}TMCL\_\discretionary {-}{}{}ROR}{22}{subsubsection.6.4.2.5}
+\contentsline {section}{\numberline {6.5}Parameter commands.}{23}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{23}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Define Documentation}{23}{subsection.6.5.2}
+\contentsline {subsubsection}{\numberline {6.5.2.1}TMCL\_\discretionary {-}{}{}GAP}{23}{subsubsection.6.5.2.1}
+\contentsline {subsubsection}{\numberline {6.5.2.2}TMCL\_\discretionary {-}{}{}GGP}{23}{subsubsection.6.5.2.2}
+\contentsline {subsubsection}{\numberline {6.5.2.3}TMCL\_\discretionary {-}{}{}RSAP}{23}{subsubsection.6.5.2.3}
+\contentsline {subsubsection}{\numberline {6.5.2.4}TMCL\_\discretionary {-}{}{}RSGP}{23}{subsubsection.6.5.2.4}
+\contentsline {subsubsection}{\numberline {6.5.2.5}TMCL\_\discretionary {-}{}{}SAP}{24}{subsubsection.6.5.2.5}
+\contentsline {subsubsection}{\numberline {6.5.2.6}TMCL\_\discretionary {-}{}{}SGP}{24}{subsubsection.6.5.2.6}
+\contentsline {subsubsection}{\numberline {6.5.2.7}TMCL\_\discretionary {-}{}{}STAP}{24}{subsubsection.6.5.2.7}
+\contentsline {subsubsection}{\numberline {6.5.2.8}TMCL\_\discretionary {-}{}{}STGP}{24}{subsubsection.6.5.2.8}
+\contentsline {section}{\numberline {6.6}TMCL Control Functions}{25}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{25}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Define Documentation}{25}{subsection.6.6.2}
+\contentsline {subsubsection}{\numberline {6.6.2.1}TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}ASCII}{25}{subsubsection.6.6.2.1}
+\contentsline {subsubsection}{\numberline {6.6.2.2}TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}DLM\_\discretionary {-}{}{}QUIT}{25}{subsubsection.6.6.2.2}
+\contentsline {subsubsection}{\numberline {6.6.2.3}TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}DLM\_\discretionary {-}{}{}START}{25}{subsubsection.6.6.2.3}
+\contentsline {subsubsection}{\numberline {6.6.2.4}TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}FACTORY}{26}{subsubsection.6.6.2.4}
+\contentsline {subsubsection}{\numberline {6.6.2.5}TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}FW\_\discretionary {-}{}{}VER}{26}{subsubsection.6.6.2.5}
+\contentsline {subsubsection}{\numberline {6.6.2.6}TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}READMEM}{26}{subsubsection.6.6.2.6}
+\contentsline {subsubsection}{\numberline {6.6.2.7}TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}RST}{26}{subsubsection.6.6.2.7}
+\contentsline {subsubsection}{\numberline {6.6.2.8}TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}RUN}{26}{subsubsection.6.6.2.8}
+\contentsline {subsubsection}{\numberline {6.6.2.9}TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STATUS}{26}{subsubsection.6.6.2.9}
+\contentsline {subsubsection}{\numberline {6.6.2.10}TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STEP}{26}{subsubsection.6.6.2.10}
+\contentsline {subsubsection}{\numberline {6.6.2.11}TMCL\_\discretionary {-}{}{}CTL\_\discretionary {-}{}{}STOP}{26}{subsubsection.6.6.2.11}
+\contentsline {section}{\numberline {6.7}TMCL operation type codes.}{27}{section.6.7}
+\contentsline {section}{\numberline {6.8}Axis Parameters}{28}{section.6.8}
+\contentsline {subsection}{\numberline {6.8.1}Detailed Description}{28}{subsection.6.8.1}
+\contentsline {section}{\numberline {6.9}Read-\/Write Parameters}{29}{section.6.9}
+\contentsline {subsection}{\numberline {6.9.1}Detailed Description}{29}{subsection.6.9.1}
+\contentsline {subsection}{\numberline {6.9.2}Define Documentation}{29}{subsection.6.9.2}
+\contentsline {subsubsection}{\numberline {6.9.2.1}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}ABS\_\discretionary {-}{}{}CURRENT}{29}{subsubsection.6.9.2.1}
+\contentsline {subsubsection}{\numberline {6.9.2.2}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}POS}{29}{subsubsection.6.9.2.2}
+\contentsline {subsubsection}{\numberline {6.9.2.3}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}DISABLE\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}L}{29}{subsubsection.6.9.2.3}
+\contentsline {subsubsection}{\numberline {6.9.2.4}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}DISABLE\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}R}{30}{subsubsection.6.9.2.4}
+\contentsline {subsubsection}{\numberline {6.9.2.5}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}ACCEL}{30}{subsubsection.6.9.2.5}
+\contentsline {subsubsection}{\numberline {6.9.2.6}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}HIGH\_\discretionary {-}{}{}ACCEL}{30}{subsubsection.6.9.2.6}
+\contentsline {subsubsection}{\numberline {6.9.2.7}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}LOW\_\discretionary {-}{}{}ACCEL}{30}{subsubsection.6.9.2.7}
+\contentsline {subsubsection}{\numberline {6.9.2.8}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}REST}{30}{subsubsection.6.9.2.8}
+\contentsline {subsubsection}{\numberline {6.9.2.9}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MAX\_\discretionary {-}{}{}POS\_\discretionary {-}{}{}SPEED}{30}{subsubsection.6.9.2.9}
+\contentsline {subsubsection}{\numberline {6.9.2.10}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}MICROSTEPS}{30}{subsubsection.6.9.2.10}
+\contentsline {subsubsection}{\numberline {6.9.2.11}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}MODE}{30}{subsubsection.6.9.2.11}
+\contentsline {subsubsection}{\numberline {6.9.2.12}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}SPEED}{31}{subsubsection.6.9.2.12}
+\contentsline {subsubsection}{\numberline {6.9.2.13}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}RFS\_\discretionary {-}{}{}SW\_\discretionary {-}{}{}SPEED}{31}{subsubsection.6.9.2.13}
+\contentsline {subsubsection}{\numberline {6.9.2.14}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}SR\_\discretionary {-}{}{}PRESC}{31}{subsubsection.6.9.2.14}
+\contentsline {subsubsection}{\numberline {6.9.2.15}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}STBY\_\discretionary {-}{}{}CURRENT}{31}{subsubsection.6.9.2.15}
+\contentsline {subsubsection}{\numberline {6.9.2.16}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}TARGET\_\discretionary {-}{}{}POS}{31}{subsubsection.6.9.2.16}
+\contentsline {subsubsection}{\numberline {6.9.2.17}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}TARGET\_\discretionary {-}{}{}SPEED}{31}{subsubsection.6.9.2.17}
+\contentsline {section}{\numberline {6.10}Read-\/Only Parameters}{32}{section.6.10}
+\contentsline {subsection}{\numberline {6.10.1}Detailed Description}{32}{subsection.6.10.1}
+\contentsline {subsection}{\numberline {6.10.2}Define Documentation}{32}{subsection.6.10.2}
+\contentsline {subsubsection}{\numberline {6.10.2.1}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}CURR\_\discretionary {-}{}{}SPEED}{32}{subsubsection.6.10.2.1}
+\contentsline {subsubsection}{\numberline {6.10.2.2}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}L}{32}{subsubsection.6.10.2.2}
+\contentsline {subsubsection}{\numberline {6.10.2.3}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}LIMIT\_\discretionary {-}{}{}R}{32}{subsubsection.6.10.2.3}
+\contentsline {subsubsection}{\numberline {6.10.2.4}TMCL\_\discretionary {-}{}{}AP\_\discretionary {-}{}{}POS\_\discretionary {-}{}{}REACHED}{32}{subsubsection.6.10.2.4}
+\contentsline {chapter}{\numberline {7}Data Structure Documentation}{33}{chapter.7}
+\contentsline {section}{\numberline {7.1}TMCLCommandStruct Struct Reference}{33}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Detailed Description}{33}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Field Documentation}{33}{subsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.2.1}command}{33}{subsubsection.7.1.2.1}
+\contentsline {subsubsection}{\numberline {7.1.2.2}type}{33}{subsubsection.7.1.2.2}
+\contentsline {subsubsection}{\numberline {7.1.2.3}value}{34}{subsubsection.7.1.2.3}
+\contentsline {section}{\numberline {7.2}TMCLDeviceStruct Struct Reference}{35}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Detailed Description}{35}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Field Documentation}{35}{subsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.1}address}{35}{subsubsection.7.2.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2.2}bank}{35}{subsubsection.7.2.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.3}bus}{35}{subsubsection.7.2.2.3}
+\contentsline {subsubsection}{\numberline {7.2.2.4}model}{35}{subsubsection.7.2.2.4}
+\contentsline {subsubsection}{\numberline {7.2.2.5}num\_\discretionary {-}{}{}refswitches}{36}{subsubsection.7.2.2.5}
+\contentsline {subsubsection}{\numberline {7.2.2.6}parameter}{36}{subsubsection.7.2.2.6}
+\contentsline {section}{\numberline {7.3}TMCLInterfaceStruct Struct Reference}{37}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Detailed Description}{37}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Field Documentation}{37}{subsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.2.1}handle}{37}{subsubsection.7.3.2.1}
+\contentsline {subsubsection}{\numberline {7.3.2.2}timeout\_\discretionary {-}{}{}msec}{37}{subsubsection.7.3.2.2}
+\contentsline {subsubsection}{\numberline {7.3.2.3}timeout\_\discretionary {-}{}{}sec}{37}{subsubsection.7.3.2.3}
+\contentsline {subsubsection}{\numberline {7.3.2.4}timewait\_\discretionary {-}{}{}msec}{38}{subsubsection.7.3.2.4}
+\contentsline {subsubsection}{\numberline {7.3.2.5}timewait\_\discretionary {-}{}{}sec}{38}{subsubsection.7.3.2.5}
+\contentsline {subsubsection}{\numberline {7.3.2.6}tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}void}{38}{subsubsection.7.3.2.6}
+\contentsline {subsubsection}{\numberline {7.3.2.7}tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}void}{38}{subsubsection.7.3.2.7}
+\contentsline {subsubsection}{\numberline {7.3.2.8}tmcl\_\discretionary {-}{}{}read\_\discretionary {-}{}{}void}{38}{subsubsection.7.3.2.8}
+\contentsline {subsubsection}{\numberline {7.3.2.9}tmcl\_\discretionary {-}{}{}write\_\discretionary {-}{}{}void}{38}{subsubsection.7.3.2.9}
+\contentsline {section}{\numberline {7.4}TMCLMotorStruct Struct Reference}{39}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Detailed Description}{39}{subsection.7.4.1}
+\contentsline {section}{\numberline {7.5}TMCLReplyStruct Struct Reference}{40}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Detailed Description}{40}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}Field Documentation}{40}{subsection.7.5.2}
+\contentsline {subsubsection}{\numberline {7.5.2.1}checksum}{40}{subsubsection.7.5.2.1}
+\contentsline {subsubsection}{\numberline {7.5.2.2}command}{40}{subsubsection.7.5.2.2}
+\contentsline {subsubsection}{\numberline {7.5.2.3}module\_\discretionary {-}{}{}address}{40}{subsubsection.7.5.2.3}
+\contentsline {subsubsection}{\numberline {7.5.2.4}reply\_\discretionary {-}{}{}address}{40}{subsubsection.7.5.2.4}
+\contentsline {subsubsection}{\numberline {7.5.2.5}status}{41}{subsubsection.7.5.2.5}
+\contentsline {subsubsection}{\numberline {7.5.2.6}value}{41}{subsubsection.7.5.2.6}
+\contentsline {chapter}{\numberline {8}File Documentation}{43}{chapter.8}
+\contentsline {section}{\numberline {8.1}src/tmcl/convenience.h File Reference}{43}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Detailed Description}{44}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Function Documentation}{44}{subsection.8.1.2}
+\contentsline {subsubsection}{\numberline {8.1.2.1}tmcl\_\discretionary {-}{}{}activate\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}{44}{subsubsection.8.1.2.1}
+\contentsline {subsubsection}{\numberline {8.1.2.2}tmcl\_\discretionary {-}{}{}deactivate\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}{45}{subsubsection.8.1.2.2}
+\contentsline {subsubsection}{\numberline {8.1.2.3}tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}current\_\discretionary {-}{}{}speed}{45}{subsubsection.8.1.2.3}
+\contentsline {subsubsection}{\numberline {8.1.2.4}tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}status}{45}{subsubsection.8.1.2.4}
+\contentsline {subsubsection}{\numberline {8.1.2.5}tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}limit\_\discretionary {-}{}{}switch}{45}{subsubsection.8.1.2.5}
+\contentsline {subsubsection}{\numberline {8.1.2.6}tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}max\_\discretionary {-}{}{}current}{46}{subsubsection.8.1.2.6}
+\contentsline {subsubsection}{\numberline {8.1.2.7}tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}max\_\discretionary {-}{}{}standby\_\discretionary {-}{}{}current}{46}{subsubsection.8.1.2.7}
+\contentsline {subsubsection}{\numberline {8.1.2.8}tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}microsteps}{46}{subsubsection.8.1.2.8}
+\contentsline {subsubsection}{\numberline {8.1.2.9}tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}speed}{46}{subsubsection.8.1.2.9}
+\contentsline {subsubsection}{\numberline {8.1.2.10}tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}position}{46}{subsubsection.8.1.2.10}
+\contentsline {subsubsection}{\numberline {8.1.2.11}tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}speed}{47}{subsubsection.8.1.2.11}
+\contentsline {subsubsection}{\numberline {8.1.2.12}tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}coord}{47}{subsubsection.8.1.2.12}
+\contentsline {subsubsection}{\numberline {8.1.2.13}tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}abs}{47}{subsubsection.8.1.2.13}
+\contentsline {subsubsection}{\numberline {8.1.2.14}tmcl\_\discretionary {-}{}{}move\_\discretionary {-}{}{}to\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}rel}{47}{subsubsection.8.1.2.14}
+\contentsline {subsubsection}{\numberline {8.1.2.15}tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}start}{47}{subsubsection.8.1.2.15}
+\contentsline {subsubsection}{\numberline {8.1.2.16}tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}status}{47}{subsubsection.8.1.2.16}
+\contentsline {subsubsection}{\numberline {8.1.2.17}tmcl\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}stop}{47}{subsubsection.8.1.2.17}
+\contentsline {subsubsection}{\numberline {8.1.2.18}tmcl\_\discretionary {-}{}{}rol}{48}{subsubsection.8.1.2.18}
+\contentsline {subsubsection}{\numberline {8.1.2.19}tmcl\_\discretionary {-}{}{}ror}{48}{subsubsection.8.1.2.19}
+\contentsline {subsubsection}{\numberline {8.1.2.20}tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}max\_\discretionary {-}{}{}current}{48}{subsubsection.8.1.2.20}
+\contentsline {subsubsection}{\numberline {8.1.2.21}tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}max\_\discretionary {-}{}{}standby\_\discretionary {-}{}{}current}{48}{subsubsection.8.1.2.21}
+\contentsline {subsubsection}{\numberline {8.1.2.22}tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}microsteps}{48}{subsubsection.8.1.2.22}
+\contentsline {subsubsection}{\numberline {8.1.2.23}tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}no\_\discretionary {-}{}{}ref\_\discretionary {-}{}{}switch}{48}{subsubsection.8.1.2.23}
+\contentsline {subsubsection}{\numberline {8.1.2.24}tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}pos\_\discretionary {-}{}{}speed}{49}{subsubsection.8.1.2.24}
+\contentsline {subsubsection}{\numberline {8.1.2.25}tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}refsearch\_\discretionary {-}{}{}speed}{49}{subsubsection.8.1.2.25}
+\contentsline {subsubsection}{\numberline {8.1.2.26}tmcl\_\discretionary {-}{}{}stop}{49}{subsubsection.8.1.2.26}
+\contentsline {section}{\numberline {8.2}src/tmcl/interface.h File Reference}{50}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Detailed Description}{51}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Typedef Documentation}{51}{subsection.8.2.2}
+\contentsline {subsubsection}{\numberline {8.2.2.1}tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}funcPtr}{51}{subsubsection.8.2.2.1}
+\contentsline {subsubsection}{\numberline {8.2.2.2}TMCLInterface}{51}{subsubsection.8.2.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Function Documentation}{51}{subsection.8.2.3}
+\contentsline {subsubsection}{\numberline {8.2.3.1}tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}interface}{51}{subsubsection.8.2.3.1}
+\contentsline {subsubsection}{\numberline {8.2.3.2}tmcl\_\discretionary {-}{}{}deinit\_\discretionary {-}{}{}interface}{51}{subsubsection.8.2.3.2}
+\contentsline {subsubsection}{\numberline {8.2.3.3}tmcl\_\discretionary {-}{}{}init\_\discretionary {-}{}{}interface}{51}{subsubsection.8.2.3.3}
+\contentsline {subsubsection}{\numberline {8.2.3.4}tmcl\_\discretionary {-}{}{}interface\_\discretionary {-}{}{}set\_\discretionary {-}{}{}timeout}{52}{subsubsection.8.2.3.4}
+\contentsline {subsubsection}{\numberline {8.2.3.5}tmcl\_\discretionary {-}{}{}interface\_\discretionary {-}{}{}set\_\discretionary {-}{}{}timewait}{52}{subsubsection.8.2.3.5}
+\contentsline {subsubsection}{\numberline {8.2.3.6}tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}interface}{52}{subsubsection.8.2.3.6}
+\contentsline {subsubsection}{\numberline {8.2.3.7}tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}close\_\discretionary {-}{}{}data}{52}{subsubsection.8.2.3.7}
+\contentsline {subsubsection}{\numberline {8.2.3.8}tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}open\_\discretionary {-}{}{}data}{52}{subsubsection.8.2.3.8}
+\contentsline {subsubsection}{\numberline {8.2.3.9}tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}read\_\discretionary {-}{}{}data}{52}{subsubsection.8.2.3.9}
+\contentsline {subsubsection}{\numberline {8.2.3.10}tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}write\_\discretionary {-}{}{}data}{53}{subsubsection.8.2.3.10}
+\contentsline {section}{\numberline {8.3}src/tmcl/motor.h File Reference}{54}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Detailed Description}{55}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Typedef Documentation}{55}{subsection.8.3.2}
+\contentsline {subsubsection}{\numberline {8.3.2.1}TMCLMotor}{55}{subsubsection.8.3.2.1}
+\contentsline {subsection}{\numberline {8.3.3}Function Documentation}{55}{subsection.8.3.3}
+\contentsline {subsubsection}{\numberline {8.3.3.1}tmcl\_\discretionary {-}{}{}deinit\_\discretionary {-}{}{}motor}{55}{subsubsection.8.3.3.1}
+\contentsline {subsubsection}{\numberline {8.3.3.2}tmcl\_\discretionary {-}{}{}get\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}{55}{subsubsection.8.3.3.2}
+\contentsline {subsubsection}{\numberline {8.3.3.3}tmcl\_\discretionary {-}{}{}init\_\discretionary {-}{}{}motor}{55}{subsubsection.8.3.3.3}
+\contentsline {subsubsection}{\numberline {8.3.3.4}tmcl\_\discretionary {-}{}{}send\_\discretionary {-}{}{}command}{56}{subsubsection.8.3.3.4}
+\contentsline {subsubsection}{\numberline {8.3.3.5}tmcl\_\discretionary {-}{}{}set\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}{56}{subsubsection.8.3.3.5}
+\contentsline {subsubsection}{\numberline {8.3.3.6}tmcl\_\discretionary {-}{}{}store\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}{56}{subsubsection.8.3.3.6}
+\contentsline {subsubsection}{\numberline {8.3.3.7}tmcl\_\discretionary {-}{}{}update\_\discretionary {-}{}{}axis\_\discretionary {-}{}{}parameter}{57}{subsubsection.8.3.3.7}
+\contentsline {section}{\numberline {8.4}src/tmcl/rsXXX.h File Reference}{58}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Detailed Description}{58}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Function Documentation}{58}{subsection.8.4.2}
+\contentsline {subsubsection}{\numberline {8.4.2.1}tmcl\_\discretionary {-}{}{}close\_\discretionary {-}{}{}rsXXX}{58}{subsubsection.8.4.2.1}
+\contentsline {subsubsection}{\numberline {8.4.2.2}tmcl\_\discretionary {-}{}{}open\_\discretionary {-}{}{}rsXXX}{59}{subsubsection.8.4.2.2}
+\contentsline {subsubsection}{\numberline {8.4.2.3}tmcl\_\discretionary {-}{}{}poll\_\discretionary {-}{}{}rsXXX}{59}{subsubsection.8.4.2.3}
+\contentsline {subsubsection}{\numberline {8.4.2.4}tmcl\_\discretionary {-}{}{}write\_\discretionary {-}{}{}rsXXX}{59}{subsubsection.8.4.2.4}
+\contentsline {section}{\numberline {8.5}src/tmcl/tmcl.h File Reference}{60}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Detailed Description}{60}{subsection.8.5.1}
+\contentsline {section}{\numberline {8.6}src/tmcl/tmcldefs.c File Reference}{61}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}Detailed Description}{61}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}Function Documentation}{61}{subsection.8.6.2}
+\contentsline {subsubsection}{\numberline {8.6.2.1}tmcl\_\discretionary {-}{}{}checksum}{61}{subsubsection.8.6.2.1}
+\contentsline {subsubsection}{\numberline {8.6.2.2}tmcl\_\discretionary {-}{}{}datagram}{62}{subsubsection.8.6.2.2}
+\contentsline {subsubsection}{\numberline {8.6.2.3}tmcl\_\discretionary {-}{}{}deinit}{62}{subsubsection.8.6.2.3}
+\contentsline {subsubsection}{\numberline {8.6.2.4}tmcl\_\discretionary {-}{}{}dgram2reply}{62}{subsubsection.8.6.2.4}
+\contentsline {subsubsection}{\numberline {8.6.2.5}tmcl\_\discretionary {-}{}{}init}{63}{subsubsection.8.6.2.5}
+\contentsline {subsubsection}{\numberline {8.6.2.6}tmcl\_\discretionary {-}{}{}valid\_\discretionary {-}{}{}checksum}{63}{subsubsection.8.6.2.6}
+\contentsline {section}{\numberline {8.7}src/tmcl/tmcldefs.h File Reference}{64}{section.8.7}
+\contentsline {subsection}{\numberline {8.7.1}Detailed Description}{67}{subsection.8.7.1}
+\contentsline {subsection}{\numberline {8.7.2}Typedef Documentation}{67}{subsection.8.7.2}
+\contentsline {subsubsection}{\numberline {8.7.2.1}TMCLBusType}{67}{subsubsection.8.7.2.1}
+\contentsline {subsubsection}{\numberline {8.7.2.2}TMCLCommand}{67}{subsubsection.8.7.2.2}
+\contentsline {subsubsection}{\numberline {8.7.2.3}TMCLDevice}{67}{subsubsection.8.7.2.3}
+\contentsline {subsubsection}{\numberline {8.7.2.4}TMCLModel}{67}{subsubsection.8.7.2.4}
+\contentsline {subsubsection}{\numberline {8.7.2.5}TMCLParameter}{67}{subsubsection.8.7.2.5}
+\contentsline {subsubsection}{\numberline {8.7.2.6}TMCLReply}{68}{subsubsection.8.7.2.6}
+\contentsline {subsection}{\numberline {8.7.3}Enumeration Type Documentation}{68}{subsection.8.7.3}
+\contentsline {subsubsection}{\numberline {8.7.3.1}tmcl\_\discretionary {-}{}{}busses}{68}{subsubsection.8.7.3.1}
+\contentsline {subsubsection}{\numberline {8.7.3.2}TMCLModelEnum}{68}{subsubsection.8.7.3.2}
+\contentsline {subsection}{\numberline {8.7.4}Function Documentation}{69}{subsection.8.7.4}
+\contentsline {subsubsection}{\numberline {8.7.4.1}tmcl\_\discretionary {-}{}{}checksum}{69}{subsubsection.8.7.4.1}
+\contentsline {subsubsection}{\numberline {8.7.4.2}tmcl\_\discretionary {-}{}{}datagram}{69}{subsubsection.8.7.4.2}
+\contentsline {subsubsection}{\numberline {8.7.4.3}tmcl\_\discretionary {-}{}{}deinit}{69}{subsubsection.8.7.4.3}
+\contentsline {subsubsection}{\numberline {8.7.4.4}tmcl\_\discretionary {-}{}{}dgram2reply}{70}{subsubsection.8.7.4.4}
+\contentsline {subsubsection}{\numberline {8.7.4.5}tmcl\_\discretionary {-}{}{}init}{70}{subsubsection.8.7.4.5}
+\contentsline {subsubsection}{\numberline {8.7.4.6}tmcl\_\discretionary {-}{}{}valid\_\discretionary {-}{}{}checksum}{70}{subsubsection.8.7.4.6}
